@@ -1,0 +1,4303 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  13 MAR 2022 02:41
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**index_html
+(./index_html.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (./index.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2022/02/20 v3.7q configurable book, report, article docu
+ment class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count181
+)
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count182
+\c@@memmarkcntra=\count183
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
+7.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count184
+\memPD=\dimen138
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count185
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count193
+\c@@ppsaveapp=\count194
+\ragrparindent=\dimen139
+\everylistparindent=\dimen140
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks16
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen141
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count195
+\c@poemline=\count196
+\c@modulo@vs=\count197
+\c@memfvsline=\count198
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen142
+\c@verse=\count199
+\c@chrsinstr=\count266
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count267
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box50
+\extrarowheight=\dimen144
+\NC@list=\toks17
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box51
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count268
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count269
+\@cmidlb=\count270
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count271
+\@lastruleclass=\count272
+\@thisrulewidth=\dimen162
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count273
+\@linestogo=\count274
+\@cellstogo=\count275
+\@cellsincolumn=\count276
+\crtok=\toks19
+\@mincolumnwidth=\dimen163
+\c@newflo@tctr=\count277
+\mem@margin@floatbox=\box52
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen164
+\c@@contsubnum=\count278
+\m@mscap@capbox=\box53
+\m@mscap@fbox=\box54
+\sidecapsep=\dimen165
+\sidecapwidth=\dimen166
+\m@m@tempdima=\dimen167
+\m@mscapraise=\dimen168
+\sidecapraise=\dimen169
+\m@mscapmainwidth=\dimen170
+\m@mscaplkern=\dimen171
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen172
+\cftbooknumwidth=\dimen173
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen174
+\c@maxsecnumdepth=\count279
+\bibindent=\dimen175
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen176
+\glossaryrule=\dimen177
+\sideparvshift=\skip162
+\sideins=\insert251
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count280
+\m@m@h=\dimen178
+\m@mipn@skip=\skip171
+\sidefootins=\insert248
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count281
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count282
+\c@pagenoteshadow=\count283
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count284
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count285
+\c@bvlinectr=\count286
+\bvnumlength=\skip184
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+\c@cp@cntr=\count287
+\c@ism@mctr=\count288
+\c@xsm@mctr=\count289
+\c@csm@mctr=\count290
+\c@ksm@mctr=\count291
+\c@xksm@mctr=\count292
+\c@cksm@mctr=\count293
+\c@msm@mctr=\count294
+\c@xmsm@mctr=\count295
+\c@cmsm@mctr=\count296
+\c@bsm@mctr=\count297
+\c@workm@mctr=\count298
+\c@sheetsequence=\count299
+\c@lastsheet=\count300
+\c@lastpage=\count301
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count302
+\c@lofdepth=\count303
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count304
+\c@lotdepth=\count305
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp.sty
+Package: lwarp 2022/02/01 v0.903 Allows LaTeX to directly produce HTML5 output.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ifptex/ifptex.sty
+Package: ifptex 2021/07/01 v2.1 pTeX checker
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count306
+\l__color_backend_stack_int=\count307
+\g__color_backend_stack_int=\count308
+\g__graphics_track_int=\count309
+\l__pdf_internal_box=\box55
+\g__pdf_backend_object_int=\count310
+\g__pdf_backend_annotation_int=\count311
+\g__pdf_backend_link_int=\count312
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "index_html.w18")...executed.
+
+
+(./index_html.w18)
+runsystem(rm -- "index_html.w18")...executed.
+
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+\LWR@templengthone=\skip191
+\LWR@templengthtwo=\skip192
+\LWR@templengththree=\skip193
+\c@LWR@tempcountone=\count313
+\c@LWR@texboxdepth=\count314
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+Package lwarp Info: Using option 'warpHTML' on input line 1175.
+Package lwarp Info: Using option 'mathjax' on input line 1175.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment') Lwarp: Including comment 'warpall'
+Lwarp: Including comment 'warpHTML' Lwarp: Excluding comment 'warpprint'
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+Lwarp: Including comment 'warpMathJax') Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut Lwarp: Excluding comment 'warpsvg')
+Lwarp: Excluding comment 'LWRcreatelwarpmk' Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count315
+\l__fontspec_language_int=\count316
+\l__fontspec_strnum_int=\count317
+\l__fontspec_tmp_int=\count318
+\l__fontspec_tmpa_int=\count319
+\l__fontspec_tmpb_int=\count320
+\l__fontspec_tmpc_int=\count321
+\l__fontspec_em_int=\count322
+\l__fontspec_emdef_int=\count323
+\l__fontspec_strong_int=\count324
+\l__fontspec_strongdef_int=\count325
+\l__fontspec_tmpa_dim=\dimen183
+\l__fontspec_tmpb_dim=\dimen184
+\l__fontspec_tmpc_dim=\dimen185
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))))
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count326
+\Gm@cntv=\count327
+\c@Gm@tempcnt=\count328
+\Gm@bindingoffset=\dimen186
+\Gm@wd@mp=\dimen187
+\Gm@odd@mp=\dimen188
+\Gm@even@mp=\dimen189
+\Gm@layoutwidth=\dimen190
+\Gm@layoutheight=\dimen191
+\Gm@layouthoffset=\dimen192
+\Gm@layoutvoffset=\dimen193
+\Gm@dimlist=\toks25
+))
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count329
+\calc@Bcount=\count330
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip194
+\calc@Bskip=\skip195
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count331
+\calc@Cskip=\skip196
+)) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+))
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count332
+\decimalpart=\count333
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks26
+))
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+(/usr/local/texlive/2021/texmf-dist/tex/latex/printlen/printlen.sty
+Package: printlen 2009/09/03 v1.1a print lengths with units
+))
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut
+\LWR@quickfile=\write5
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\LWR@lateximagesfile=\write6
+)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\LWR@copyoutfile=\write7
+\LWR@copyinfile=\read3
+)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Excluding 'warpprint' comment. Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Lwarp: Excluding comment 'LWRwriteconf'
+Excluding 'warpprint' comment. Excluding 'LWRwriteconf' comment.
+Excluding 'LWRwriteconf' comment. Excluding 'LWRwriteconf' comment.
+Excluding 'LWRwriteconf' comment. Excluding 'LWRwriteconf' comment.
+Excluding 'LWRwriteconf' comment. Excluding 'LWRwriteconf' comment.
+Excluding 'LWRwriteconf' comment. Excluding 'LWRwriteconf' comment.
+Excluding 'LWRwriteconf' comment. Excluding 'LWRwriteconf' comment.
+Excluding 'LWRwriteconf' comment. Excluding 'LWRcreatelwarpmk' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\c@LWR@HTMLpagenum=\count334
+\c@LWR@htmlseqfilenumber=\count335
+\c@LWR@htmlfilenumber=\count336
+) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\c@LWR@spandepth=\count337
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut
+\c@FootnoteDepth=\count338
+\c@footnoteReset=\count339
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\LWR@footnotebox=\box56
+\LWR@mpfootnotes=\box57
+)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+\c@LWR@currentautosecpage=\count340
+\c@LWR@currentautosecfloatpage=\count341
+\c@LWR@previousautopagelabel=\count342
+
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut
+\c@FileDepth=\count343
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut) Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+
+Straight input of comment_mathjax.cut. (./comment_mathjax.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\c@LWR@prevFileDepth=\count344
+)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut
+\HTMLvleftskip=\skip197
+\HTMLleftmargini=\skip198
+)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut
+\VerbatimHTMLWidth=\skip199
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\c@LWR@hlines=\count345
+\c@LWR@hdashedlines=\count346
+\c@LWR@tabulardepth=\count347
+\c@LWR@tabularpardepth=\count348
+\c@LWR@tablecolspecwidth=\count349
+\c@LWR@tablecolspecindex=\count350
+\c@LWR@tableLaTeXcolindex=\count351
+\c@LWR@tabletotalLaTeXcols=\count352
+\c@LWR@tabletotalLaTeXcolsnext=\count353
+\c@LWR@cellcolordepth=\count354
+\c@LWR@tablemulticolswidth=\count355
+\c@LWR@tablemulticolspos=\count356
+\c@LWR@mcolvertbarsl=\count357
+\c@LWR@mcolvertbarsr=\count358
+\c@LWR@mcolvertbarsldash=\count359
+\c@LWR@mcolvertbarsrdash=\count360
+\c@LWR@midrulecounter=\count361
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\rownum=\count362
+\LWR@heavyrulewidth=\skip256
+\LWR@lightrulewidth=\skip257
+\LWR@cmidrulewidth=\skip258
+\LWR@thiscmidrulewidth=\skip259
+\c@LWR@lastmulticolumn=\count363
+\c@LWR@tabhtmlcolindex=\count364
+\c@LWR@tabhtmlcolend=\count365
+\c@LWR@tabhtmlcoltotal=\count366
+)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\c@LWR@thisautoid=\count367
+\c@LWR@thisautoidWP=\count368
+\c@LWR@nextautoid=\count369
+\c@LWR@nextautopage=\count370
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+))
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut
+\c@SideTOCDepth=\count371
+)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\c@LWR@autoindex=\count372
+\c@LWR@autoglossary=\count373
+)
+Excluding 'warpprint' comment. Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\c@LWR@externalfilecnt=\count374
+\LWR@singledollarwidth=\skip260
+\LWR@singledollarheight=\skip261
+\LWR@singledollardepth=\skip262
+\LWR@singledollarbox=\box58
+\c@LWR@nextequation=\count375
+) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\c@LWR@lateximagenumber=\count376
+\c@LWR@lateximagedepth=\count377
+\c@LWR@LIpage=\count378
+)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+\c@LWR@startingequation=\count379
+)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Excluding 'warpprint' comment. Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\LWR@minipagewidth=\skip263
+\LWR@minipageheight=\skip264
+\c@LWR@virtualpagedepth=\count380
+) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\c@LWR@minipage@depth=\count381
+\c@LWR@mpfootnote@store=\count382
+\LWR@atleastonept=\skip265
+) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut
+\LWR@fminipagebox=\box59
+)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+
+Straight input of comment_all.cut. (./comment_all.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\c@LWR@textcurrentfontdepth=\count383
+) Excluding 'warpprint' comment.
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut
+\LWR@tempwidth=\skip266
+\LWR@tempheight=\skip267
+\LWR@tempraise=\skip268
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpall' comment.
+\openout4 = `comment_all.cut'.
+
+ Straight input of comment_all.cut.
+(./comment_all.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-array.sty
+Package lwarp Info: Using package `array',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 23.
+Package: lwarp-array 2018/12/30
+))
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-textcomp.sty
+Package lwarp Info: Using package `textcomp',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 20.
+Package: lwarp-textcomp 2017/04/05
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Excluding 'warpprint' comment. Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-patch-memoir.sty
+Package: lwarp-patch-memoir 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-abstract.sty
+Package lwarp Info: Using package `abstract',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 19.
+Package: lwarp-abstract 2009/06/08
+
+
+LaTeX Warning: You have requested, on input line 19, version
+               `2009/06/08' of package abstract,
+               but only version
+               `2008/07/23'
+               is available.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-booktabs.sty
+Package lwarp Info: Using package `booktabs',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 27.
+Package: lwarp-booktabs 2019/10/08
+
+
+LaTeX Warning: You have requested, on input line 27, version
+               `2019/10/08' of package booktabs,
+               but only version
+               `2016/05/16'
+               is available.
+
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-changepage.sty
+Package lwarp Info: Replacing package `changepage' with the lwarp version,
+(lwarp)             and discarding options, on input line 20.
+Package: lwarp-changepage 2009/10/20
+LaTeX Info: Redefining \checkoddpage on input line 23.
+LaTeX Info: Redefining \changetext on input line 24.
+LaTeX Info: Redefining \changepage on input line 25.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-crop.sty
+Package lwarp Info: Replacing package `crop' with the lwarp version,
+(lwarp)             and discarding options, on input line 18.
+Package: lwarp-crop 2003/05/20
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-enumerate.sty
+Package lwarp Info: Using package `enumerate',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 19.
+Package: lwarp-enumerate 2015/07/23
+
+
+LaTeX Warning: You have requested, on input line 19, version
+               `2015/07/23' of package enumerate,
+               but only version
+               `2008/07/23'
+               is available.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-epigraph.sty
+Package lwarp Info: Using package `epigraph',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 21.
+Package: lwarp-epigraph 2020/01/02
+
+
+LaTeX Warning: You have requested, on input line 21, version
+               `2020/01/02' of package epigraph,
+               but only version
+               `2008/07/23'
+               is available.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-fancyvrb.sty
+Package lwarp Info: Using package `fancyvrb',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 20.
+Package: lwarp-fancyvrb 2008/02/07
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count384
+\FV@InFile=\read4
+\FV@TabBox=\box60
+\c@FancyVerbLine=\count385
+\FV@StepNumber=\count386
+\FV@OutFile=\write8
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-footmisc.sty
+Package lwarp Info: Replacing package `footmisc' with the lwarp version,
+(lwarp)             and discarding options, on input line 18.
+Package: lwarp-footmisc 2011/06/06
+\footnotemargin=\dimen196
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-framed.sty
+Package lwarp Info: Using package `framed',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 19.
+Package: lwarp-framed 2011/10/22
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip269
+\fb@frw=\dimen197
+\fb@frh=\dimen198
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-hanging.sty
+Package lwarp Info: Replacing package `hanging' with the lwarp version,
+(lwarp)             and discarding options, on input line 18.
+Package: lwarp-hanging 2009/09/02
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-makeidx.sty
+Package lwarp Info: Using package `makeidx',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-makeidx 2014/09/29
+
+
+LaTeX Warning: You have requested, on input line 18, version
+               `2014/09/29' of package makeidx,
+               but only version
+               `2008/07/23'
+               is available.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-moreverb.sty
+Package lwarp Info: Using package `moreverb',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-moreverb 2008/06/03
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+\tab@position=\count387
+\tab@size=\count388
+\listing@line=\count389
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-mparhack.sty
+Package lwarp Info: Replacing package `mparhack' with the lwarp version,
+(lwarp)             and discarding options, on input line 18.
+Package: lwarp-mparhack 2005/04/17
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-needspace.sty
+Package lwarp Info: Replacing package `needspace' with the lwarp version,
+(lwarp)             and discarding options, on input line 20.
+Package: lwarp-needspace 2010/09/12
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-nextpage.sty
+Package lwarp Info: Replacing package `nextpage' with the lwarp version,
+(lwarp)             and discarding options, on input line 20.
+Package: lwarp-nextpage 2009/09/03
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-pagenote.sty
+Package lwarp Info: Using package `pagenote',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 21.
+Package: lwarp-pagenote 2009/09/03
+
+
+LaTeX Warning: You have requested, on input line 21, version
+               `2009/09/03' of package pagenote,
+               but only version
+               `2008/07/23'
+               is available.
+
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-parskip.sty
+Package lwarp Info: Replacing package `parskip' with the lwarp version,
+(lwarp)             and discarding options, on input line 20.
+Package: lwarp-parskip 2001/04/09
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-setspace.sty
+Package lwarp Info: Replacing package `setspace' with the lwarp version,
+(lwarp)             and discarding options, on input line 22.
+Package: lwarp-setspace 2011/12/19
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-showidx.sty)
+\index_html@idxfile=\write9
+\openout9 = `index_html.idx'.
+
+
+Writing index file index_html.idx 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-titling.sty
+Package lwarp Info: Using package `titling',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 21.
+Package: lwarp-titling 2009/09/04
+
+
+LaTeX Warning: You have requested, on input line 21, version
+               `2009/09/04' of package titling,
+               but only version
+               `2008/07/23'
+               is available.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-tocloft.sty
+Package lwarp Info: Replacing package `tocloft' with the lwarp version,
+(lwarp)             and discarding options, on input line 21.
+Package: lwarp-tocloft 2017/08/31
+\cftbeforetoctitleskip=\skip270
+\cftaftertoctitleskip=\skip271
+\cftbeforeloftitleskip=\skip272
+\cftafterloftitleskip=\skip273
+\cftbeforelottitleskip=\skip274
+\cftafterlottitleskip=\skip275
+\cftbeforechapskip=\skip276
+\cftchapindent=\skip277
+\cftchapnumwidth=\skip278
+\cftbeforesecskip=\skip279
+\cftsecindent=\skip280
+\cftsecnumwidth=\skip281
+\cftbeforesubsecskip=\skip282
+\cftsubsecindent=\skip283
+\cftsubsecnumwidth=\skip284
+\cftbeforesubsubsecskip=\skip285
+\cftsubsubsecindent=\skip286
+\cftsubsubsecnumwidth=\skip287
+\cftbeforeparaskip=\skip288
+\cftparaindent=\skip289
+\cftparanumwidth=\skip290
+\cftbeforesubparaskip=\skip291
+\cftsubparaindent=\skip292
+\cftsubparanumwidth=\skip293
+\cftbeforefigskip=\skip294
+\cftfigindent=\skip295
+\cftfignumwidth=\skip296
+\cftbeforesubfigskip=\skip297
+\cftsubfigindent=\skip298
+\cftsubfignumwidth=\skip299
+\cftbeforetabskip=\skip300
+\cfttabindent=\skip301
+\cfttabnumwidth=\skip302
+\cftbeforesubtabskip=\skip303
+\cftsubtabindent=\skip304
+\cftsubtabnumwidth=\skip305
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-verse.sty
+Package lwarp Info: Using package `verse',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-verse 2009/09/04
+
+
+LaTeX Warning: You have requested, on input line 18, version
+               `2009/09/04' of package verse,
+               but only version
+               `2008/07/23'
+               is available.
+
+)
+LaTeX Info: Redefining \cftpagenumbersoff on input line 649.
+LaTeX Info: Redefining \cftpagenumberson on input line 650.
+\midpoemtitleskip=\skip306
+\c@LWR@currenttitle=\count390
+\abovelegendskip=\skip307
+\belowlegendskip=\skip308
+\c@tableofcontents=\count391
+\cftbeforetableofcontentsskip=\skip309
+\cfttableofcontentsindent=\skip310
+\cfttableofcontentsnumwidth=\skip311
+\c@listoffigures=\count392
+\cftbeforelistoffiguresskip=\skip312
+\cftlistoffiguresindent=\skip313
+\cftlistoffiguresnumwidth=\skip314
+\c@listoftables=\count393
+\cftbeforelistoftablesskip=\skip315
+\cftlistoftablesindent=\skip316
+\cftlistoftablesnumwidth=\skip317
+) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut)
+Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+ Straight input of comment_html.cut.
+(./comment_html.cut) Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-wrapfig2.sty
+Package lwarp Info: Replacing package `wrapfig2' with the lwarp version,
+(lwarp)             and discarding options, on input line 21.
+Package: lwarp-wrapfig2 2021-12-21
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-wrapfig.sty
+Package lwarp Info: Replacing package `wrapfig' with the lwarp version,
+(lwarp)             and discarding options, on input line 21.
+Package: lwarp-wrapfig 2003/01/31
+\wrapoverhang=\skip318
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty
+Package: kantlipsum 2019/07/23 v0.8 Generate text in Kantian style
+\l__kgl_start_int=\count394
+\l__kgl_end_int=\count395
+
+Package kantlipsum Info: The package provides paragraphs 1 to 164. Values
+(kantlipsum)             outside this range will be ignored.
+
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-imakeidx.sty
+Package lwarp Info: Using package `imakeidx',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-imakeidx 2016/10/15
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count396
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-multicol.sty
+Package lwarp Info: Replacing package `multicol' with the lwarp version,
+(lwarp)             and discarding options, on input line 21.
+Package: lwarp-multicol 2018/12/27
+\premulticols=\skip319
+\postmulticols=\skip320
+\multicolsep=\skip321
+\multicolbaselineskip=\skip322
+\multicoltolerance=\skip323
+\multicolpretolerance=\skip324
+\c@columnbadness=\count397
+\c@finalcolumnbadness=\count398
+\c@collectmore=\count399
+\c@unbalance=\count400
+\multicolovershoot=\skip325
+\multicolundershoot=\skip326
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-hyperref.sty
+Package lwarp Info: Using the lwarp HTML version of package `hyperref',
+(lwarp)             and discarding options except backref, pagebackref.
+(lwarp)             (Not using \ProvidesPackage, so that other packages
+(lwarp)             do not attempt to patch lwarp's version of `hyperref'.)
+(lwarp)              on input line 25.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fundus-calligra/calligra.sty
+Package: calligra 2012/04/10 v1.9 LaTeX package calligra
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-tikz.sty
+Package lwarp Info: Using package `tikz',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 19.
+Package: lwarp-tikz 2015/08/07
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-graphicx.sty
+Package lwarp Info: Using package `graphicx',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 20.
+Package: lwarp-graphicx 2020/09/09
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-graphics.sty
+Package lwarp Info: Using package `graphics',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 20.
+Package: lwarp-graphics 2020/08/30
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\LWR@igwidth=\skip327
+\LWR@igheight=\skip328
+\LWR@imagesizebox=\box62
+)
+\Gin@req@height=\dimen257
+\Gin@req@width=\dimen258
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen259
+\pgf@y=\dimen260
+\pgf@xa=\dimen261
+\pgf@ya=\dimen262
+\pgf@xb=\dimen263
+\pgf@yb=\dimen264
+\pgf@xc=\dimen265
+\pgf@yc=\dimen266
+\pgf@xd=\dimen267
+\pgf@yd=\dimen268
+\w@pgf@writea=\write10
+\r@pgf@reada=\read5
+\c@pgf@counta=\count401
+\c@pgf@countb=\count402
+\c@pgf@countc=\count403
+\c@pgf@countd=\count404
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count405
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count406
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count407
+\pgfsyssoftpath@bigbuffer@items=\count408
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-xcolor.sty
+Package lwarp Info: Using package `xcolor',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 20.
+Package: lwarp-xcolor 2016/05/11
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen269
+\pgfmath@count=\count409
+\pgfmath@box=\box63
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count410
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen270
+\pgf@picmaxx=\dimen271
+\pgf@picminy=\dimen272
+\pgf@picmaxy=\dimen273
+\pgf@pathminx=\dimen274
+\pgf@pathmaxx=\dimen275
+\pgf@pathminy=\dimen276
+\pgf@pathmaxy=\dimen277
+\pgf@xx=\dimen278
+\pgf@xy=\dimen279
+\pgf@yx=\dimen280
+\pgf@yy=\dimen281
+\pgf@zx=\dimen282
+\pgf@zy=\dimen283
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen284
+\pgf@path@lasty=\dimen285
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen286
+\pgf@shorten@start@additional=\dimen287
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count411
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen288
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen289
+\pgf@pt@y=\dimen290
+\pgf@pt@temp=\dimen291
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen292
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen293
+\pgf@sys@shading@range@num=\count412
+\pgf@shadingcount=\count413
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box67
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box68
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count414
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count415
+\tikznumberofchildren=\count416
+\tikznumberofcurrentchild=\count417
+\tikz@fig@count=\count418
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count419
+\pgfmatrixcurrentcolumn=\count420
+\pgf@matrix@numberofcolumns=\count421
+)
+\tikz@expandcount=\count422
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-url.sty
+Package lwarp Info: Using package `url',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 21.
+Package: lwarp-url 2013/09/16
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-amsmath.sty
+Package lwarp Info: Using package `amsmath',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-amsmath 2017/09/02
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip329
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen307
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen308
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count423
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count424
+\leftroot@=\count425
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count426
+\DOTSCASE@=\count427
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+\big@size=\dimen309
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count428
+\c@MaxMatrixCols=\count429
+\dotsspace@=\muskip17
+\c@parentequation=\count430
+\dspbrk@lvl=\count431
+\tag@help=\toks42
+\row@=\count432
+\column@=\count433
+\maxfields@=\count434
+\andhelp@=\toks43
+\eqnshift@=\dimen310
+\alignsep@=\dimen311
+\tagshift@=\dimen312
+\tagwidth@=\dimen313
+\totwidth@=\dimen314
+\lineht@=\dimen315
+\@envbody=\toks44
+\multlinegap=\skip330
+\multlinetaggap=\skip331
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+\c@LWR@amsmathdepth=\count435
+\c@LWR@maxfields@=\count436
+
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-amsthm.sty
+Package lwarp Info: Using package `amsthm',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 35.
+Package: lwarp-amsthm 2017/10/31
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks46
+\thm@bodyfont=\toks47
+\thm@headfont=\toks48
+\thm@notefont=\toks49
+\thm@headpunct=\toks50
+\thm@preskip=\skip332
+\thm@postskip=\skip333
+\thm@headsep=\skip334
+\dth@everypar=\toks51
+)
+LaTeX Info: Redefining \qed on input line 178.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/manfnt/manfnt.sty
+Package: manfnt 1999/07/010.2LaTeX2e manfnt package
+\dbend@height=\skip335
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box75
+\sift@deathcycles=\count437
+\@vwid@loff=\dimen316
+\@vwid@roff=\dimen317
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadings.code.tex
+File: tikzlibraryshadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryshading
+s.code.tex
+File: pgflibraryshadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen318
+\pgfdecoratedremainingdistance=\dimen319
+\pgfdecoratedinputsegmentcompleteddistance=\dimen320
+\pgfdecoratedinputsegmentremainingdistance=\dimen321
+\pgf@decorate@distancetomove=\dimen322
+\pgf@decorate@repeatstate=\count438
+\pgfdecorationsegmentamplitude=\dimen323
+\pgfdecorationsegmentlength=\dimen324
+)
+\tikz@lib@dec@box=\box76
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.footprints.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.footprints.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.text.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box77
+)
+\tikz@lib@dec@te@box=\box78
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen325
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen326
+\pgfarrowlength=\dimen327
+\pgfarrowwidth=\dimen328
+\pgfarrowlinewidth=\dimen329
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+Requested font "[LinLibertine_R.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;" at 12.00003
+pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Requested font "[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;" at 12.000
+03pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RBI.otf
+
+Package fontspec Info: Font family 'LinLibertine(0)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures={No
+Common,TeX},Numbers
+(fontspec)             = {Monospaced,Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
+lt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
+lt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
+flt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
+flt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 308.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;-liga;+tnum;+
+lnum;mapping=tex-text;" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinBiolinum_R.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Requested font "[LinBiolinum_R.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;" at 12.00003p
+t
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;" at 12.00003
+pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;" at 12.00003
+pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RI.otf
+Requested font "[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RBO.otf
+
+Package fontspec Info: Font family 'LinBiolinum(0)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures={No
+Common,TeX},Numbers
+(fontspec)             = {Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
+t;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
+t;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
+lt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
+lt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
+lt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
+lt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
+flt;-liga;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
+flt;-liga;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LinLibertine(1)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced,Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
+lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
+lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+Requested font "[LinLibertine_RZ.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RZ.otf
+Requested font "[LinLibertine_RZ.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RZ.otf
+Requested font "[LinLibertine_RZ.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RZ.otf
+Requested font "[LinLibertine_RZI.otf]/OT:script=latn;language=dflt;" at 12.000
+03pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RZI.otf
+
+Package fontspec Info: Font family 'LinLibertine(2)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             { Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_RZ,ItalicFont = *_RZI,BoldFont = *_RB,BoldItalicFont
+(fontspec)             = *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LinLibertine(3)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced,OldStyle},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
+lt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
+lt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
+flt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
+flt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
+flt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
+dflt;+tnum;+onum;+smcp;mapping=tex-text;"
+
+Requested font "[LinLibertine_DR.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_DR.otf
+Requested font "[LinLibertine_DR.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_DR.otf
+Requested font "[LinLibertine_DR.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_DR.otf
+
+Package fontspec Info: Font family 'LinLibertine(4)' created for font
+(fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
+(fontspec)             = .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced,Lining},UprightFont = *_DR,ItalicFont =
+(fontspec)             *_RI,BoldFont = *_RB,BoldItalicFont = *_RBI].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_DR.otf]/OT:script=latn;language=dflt;+
+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
++tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
++tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LinBiolinum(1)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced, Lining},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
+t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
+lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
+lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
+lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
+lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
+flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LinBiolinum(2)' created for font
+(fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Numbers =
+(fontspec)             {Monospaced, OldStyle},Scale = 1,UprightFont =
+(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
+(fontspec)             *_RBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
+t;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
+t;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
+lt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
+lt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
+lt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
+lt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
+flt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
+flt;+tnum;+onum;+smcp;mapping=tex-text;"
+
+Requested font "[LinLibertine_M.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+Requested font "[LinLibertine_M.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'LinLibertine_M' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 12.00003
+pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'LinLibertine_M' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_MB.otf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'LinLibertine_MB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "[LinLibertine_MO.otf]/OT:script=latn;language=dflt;" at 12.0000
+3pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_MO.otf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'LinLibertine_MO' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "[LinLibertine_MBO.otf]/OT:script=latn;language=dflt;" at 12.000
+03pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_MBO.otf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'LinLibertine_MBO' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Info: Font family 'LinLibertine(5)' created for font
+(fontspec)             'LinLibertine' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,Ligatures=NoCommon,Scale =
+(fontspec)             1,UprightFont = *_M,ItalicFont = *_MO,BoldFont =
+(fontspec)             *_MB,BoldItalicFont = *_MBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_M.otf]/OT:script=latn;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MB.otf]/OT:script=latn;language=d
+flt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MO.otf]/OT:script=latn;language=d
+flt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]/OT:script=latn;language=
+dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: Font family 'LinLibertine(6)' created for font
+(fontspec)             'LinLibertine' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,Scale = 1,UprightFont =
+(fontspec)             *_M,ItalicFont = *_MO,BoldFont = *_MB,BoldItalicFont =
+(fontspec)             *_MBO].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_M.otf]/OT:script=latn;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MB.otf]/OT:script=latn;language=d
+flt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MO.otf]/OT:script=latn;language=d
+flt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]/OT:script=latn;language=
+dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+Requested font "[LinBiolinum_K.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_K.otf
+Requested font "[LinBiolinum_K.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_K.otf
+Requested font "[LinBiolinum_K.otf]/OT:script=latn;language=dflt;" at 12.00003p
+t
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_K.otf
+
+Package fontspec Info: Font family 'LinBiolinum_K(0)' created for font
+(fontspec)             'LinBiolinum_K' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCaps
+Font={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LinBiolinum_K.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+Requested font "[LinLibertine_I.otf]/OT" at 11.99997pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_I.otf
+Requested font "[LinLibertine_I.otf]/OT" at 12.00003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_I.otf
+Requested font "[LinLibertine_I.otf]/OT:script=latn;language=dflt;" at 12.00003
+pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_I.otf
+
+Package fontspec Info: Font family 'LinLibertine_I(0)' created for font
+(fontspec)             'LinLibertine_I' with options [Extension =
+(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCaps
+Font={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LinLibertine_I.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+LaTeX Info: Redefining \oldstylenums on input line 474.
+LaTeX Info: Redefining \liningnums on input line 475.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LKey.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ifsym/ifsym.sty
+Package: ifsym 2000/04/18 I.Kloeckl
+\c@ifsymcnt=\count439
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count440
+\multidocount=\count441
+\multido@stuff=\toks52
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/mflogo/mflogo.sty
+Package: mflogo 1999/03/10 v2.0 LaTeX package for Metafont and MetaPost logos
+LaTeX Info: Redefining \logofamily on input line 25.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/contour/contour.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-color.sty
+Package lwarp Info: Replacing package `color' with the lwarp version,
+(lwarp)             and discarding options, on input line 18.
+Package: lwarp-color 2016/07/10
+)
+\con@length=\skip336
+
+Loading configuration file `contour.cfg'.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/contour/contour.cfg
+File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
+)
+contour: Using driver file `dvips.cnt'.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/contour/dvips.cnt
+File: dvips.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-pdfrender.sty
+Package lwarp Info: Using package `pdfrender',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-pdfrender 2019/12/29
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/oberdiek/pdfrender.sty
+Package: pdfrender 2019/12/29 v1.6 Access to some PDF graphics parameters (HO)
+
+
+Package pdfrender Warning: Missing pdfTeX in PDF mode on input line 234.
+
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pst-text/pst-text.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-pstricks.sty
+Package lwarp Info: Using package `pstricks',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-pstricks 2018/01/06
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2021/08/23 v0.71 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count442
+\pstFP@xia=\count443
+\pstFP@xib=\count444
+\pstFP@xfa=\count445
+\pstFP@xfb=\count446
+\pstFP@rega=\count447
+\pstFP@regb=\count448
+\pstFP@regs=\count449
+\pstFP@times=\count450
+)
+\psLoopIndex=\count451
+
+`PSTricks' v3.13  <2022/01/09> (tvz,hv)
+\pst@dima=\dimen330
+\pst@dimb=\dimen331
+\pst@dimc=\dimen332
+\pst@dimd=\dimen333
+\pst@dimg=\dimen334
+\pst@dimh=\dimen335
+\pst@dimm=\dimen336
+\pst@dimn=\dimen337
+\pst@dimo=\dimen338
+\pst@dimp=\dimen339
+\pst@hbox=\box79
+\pst@ibox=\box80
+\pst@boxg=\box81
+\pst@cnta=\count452
+\pst@cntb=\count453
+\pst@cntc=\count454
+\pst@cntd=\count455
+\pst@cntg=\count456
+\pst@cnth=\count457
+\pst@cntm=\count458
+\pst@cntn=\count459
+\pst@cnto=\count460
+\pst@cntp=\count461
+\@zero=\count462
+\pst@toks=\toks53
+--- We are running latex or xelatex ---
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
+\psunit=\dimen340
+\psxunit=\dimen341
+\psyunit=\dimen342
+\pst@C@@rType=\count463
+\pslinewidth=\dimen343
+\psk@startLW=\dimen344
+\psk@endLW=\dimen345
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
+\pshooklength=\dimen346
+\pshookwidth=\dimen347
+)
+\pst@customdefs=\toks54
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+\pslinearc=\dimen348
+\pst@symbolStep=\dimen349
+\pst@symbolWidth=\dimen350
+\pst@symbolLinewidth=\dimen351
+\everypsbox=\toks55
+\psframesep=\dimen352
+\pslabelsep=\dimen353
+\sh@wgridXunit=\dimen354
+\sh@wgridYunit=\dimen355
+\pst@shift=\dimen356
+\ps@imagectr=\count464
+
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+Using PSTricks configuration for LaTeX+dvipdfmx
+)))
+File: pstricks.tex 2022/01/09 v3.13 `PSTricks' (tvz,hv)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+
+>>> Loading XeTeX special macros
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pstricks-xetex.def)))
+Package: pst-text 2018/12/28 package wrapper for pst-text.tex (hv)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pst-text/pst-text.tex
+ v1.01, 2018/12/22(tvz,hv))
+File: pst-text.tex 2018/12/22 1.01 `pst-text' (tvz)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pst-light3d/pst-light3d.sty
+Package: pst-light3d 2004/08/28 package wrapper for pst-light3d.tex (hv)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pst-light3d/pst-light3d.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/pst-xkey.tex)
+`Pst-Light3d' v0.12, 2006/11/25 (DG/PK))
+File: pst-light3d.tex 2018/12/22 v1.01 `PST-light3d' (hv)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks56
+\t@pgfplots@tokb=\toks57
+\t@pgfplots@tokc=\toks58
+\pgfplots@tmpa=\dimen357
+\c@pgfplots@coordindex=\count465
+\c@pgfplots@scanlineindex=\count466
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count467
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count468
+\t@pgfplotstable@a=\toks59
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count469
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-xetex.def
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count470
+))))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.contourlua.code.tex)
+\pgfplots@numplots=\count471
+\pgfplots@xmin@reg=\dimen358
+\pgfplots@xmax@reg=\dimen359
+\pgfplots@ymin@reg=\dimen360
+\pgfplots@ymax@reg=\dimen361
+\pgfplots@zmin@reg=\dimen362
+\pgfplots@zmax@reg=\dimen363
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2022/02/25 4.051b tkz-euclide.sty
+Package: tkz-euclide  2022/02/25 4.051b for pure Euclidean Geometry 
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.markings.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.shapes.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.shapes.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryintersections.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
+ctions.code.tex
+\pgf@intersect@solutions=\count472
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+Package: xfp 2022-01-12 L3 Floating point unit
+)
+\tkzRadius=\dimen364
+\tkzLength=\dimen365
+\tkz@radi=\dimen366
+\tkz@ax=\dimen367
+\tkz@ay=\dimen368
+\tkz@bx=\dimen369
+\tkz@by=\dimen370
+\tkz@cx=\dimen371
+\tkz@cy=\dimen372
+\tkz@dx=\dimen373
+\tkz@dy=\dimen374
+\tkz@cntmk=\count473
+
+Local configuration file tkz-euclide.cfg found and used
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
+2022/02/25 4.051b tkz-euclide.cfg
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
+2022/02/25 4.051b tkz-tools-eu-base.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilitie
+s.tex
+2022/02/25 4.051b tkz-tools-eu-utilities.tex
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
+2022/02/25 4.051b tkz-obj-eu-BB.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
+2022/02/25 4.051b tkz-obj-eu-grids.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
+2022/02/25 4.051b tkz-lib-eu-marks.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
+2022/02/25 4.051b tkz-tools-eu-text.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
+2022/02/25 4.051b tkz-lib-eu-shape.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.te
+x
+2022/02/25 4.051b tkz-obj-eu-axesmin
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.t
+ex
+2022/02/25 4.051b tkz-tools-eu-colors
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2022/02/25 4.051b tkz-obj-eu-points.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
+2022/02/25 4.051b tkz-tools-eu-math.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersec
+tions.tex
+2022/01/22 4.04 tkz-tools-intersections.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.t
+ex
+2022/02/25 4.051b tkz-tools-angles.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-compass.te
+x
+2022/02/25 4.051b tkz-obj-eu-compass.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.te
+x
+2022/02/25 4.051b tkz-obj-eu-circles.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by
+.tex
+2022/02/25 4.051b tkz-obj-eu-circles.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-angle
+s.tex
+2022/02/25 4.051b tkz-tool-eu-angles.tex
+\tkz@arcsize=\dimen375
+\tkz@fillsize=\dimen376
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-circl
+es.tex
+2022/02/25 4.051b tkz-obj-eu-draw-circles.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-lines
+.tex
+2022/02/25 4.051b tkz-obj-eu-draw-lines.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-polyg
+ons.tex
+2022/02/25 4.051b tkz-obj-eu-polygons.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-trian
+gles.tex
+2022/02/25 4.051b tkz-obj-eu-draw-triangles.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+2022/02/25 4.051b tkz-obj-eu-lines.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.
+tex
+2022/02/25 4.051b tkz-tools-el-points-by.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd
+.tex
+2022/02/25 4.051b tkz-obj-el-points-rnd.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc
+.tex
+2022/02/25 4.051b tkz-obj-el-points.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-wit
+h.tex
+2022/02/25 4.051b tkz-obj-el-points-with.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.t
+ex
+2022/02/25 4.051b tkz-obj-eu-polygons.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-protractor
+.tex
+2022/02/25 4.051b tkz-obj-eu-protractor.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-sectors.te
+x
+2022/02/25 4.051b tkz-obj-eu-sectors.tex
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-show.tex
+2022/02/25 4.051b tkz-obj-eu-show.tex
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.
+tex
+2022/02/25 4.051b tkz-obj-eu-triangles.tex
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
+Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
+. Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.fillbetween.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
+fillbetween.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
+decorations.softclip.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryf
+illbetween.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.decorations.softclip.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.polar.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-listings.sty
+Package lwarp Info: Using package `listings',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 20.
+Package: lwarp-listings 2018/09/02
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count474
+\lst@gtempboxa=\box82
+\lst@token=\toks60
+\lst@length=\count475
+\lst@currlwidth=\dimen377
+\lst@column=\count476
+\lst@pos=\count477
+\lst@lostspace=\dimen378
+\lst@width=\dimen379
+\lst@newlines=\count478
+\lst@lineno=\count479
+\lst@maxwidth=\dimen380
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count480
+\lst@skipnumbers=\count481
+\lst@framebox=\box83
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+)
+Requested font "Avant Garde" at 11.99997pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+Requested font "Avant Garde/OT" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Avant Garde' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "Avant Garde/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+Requested font "Avant Garde/BI/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/avant_garde_bold.ttf
+Requested font "Avant Garde/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+Requested font "Avant Garde/B/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/avant_garde_bold.ttf
+Requested font "Avant Garde/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+Requested font "Avant Garde/I/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+
+Package fontspec Info: Could not resolve font "Avant Garde/I" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Avant Garde/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+Requested font "Avant Garde/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Avant Garde' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "Avant Garde/B/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/avant_garde_bold.ttf
+Requested font "Avant Garde/B/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/avant_garde_bold.ttf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Avant Garde/B' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "Avant Garde/BI/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/avant_garde_bold.ttf
+Requested font "Avant Garde/BI/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/avant_garde_bold.ttf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Avant Garde/BI' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Info: Font family 'AvantGarde(0)' created for font 'Avant
+(fontspec)             Garde' with options [Ligatures={NoCommon,TeX}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Avant
+(fontspec)             Garde/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Avant
+(fontspec)             Garde/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Avant
+(fontspec)             Garde/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+Requested font "Avant Garde/OT:language=dflt;mapping=tex-text;" at 12.0pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+Requested font "Avant Garde/OT:language=dflt;mapping=tex-text;" at 1.42271pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box84
+\pgfnodeparttwobox=\box85
+\pgfnodepartthreebox=\box86
+\pgfnodepartfourbox=\box87
+\pgfnodeparttwentybox=\box88
+\pgfnodepartnineteenbox=\box89
+\pgfnodeparteighteenbox=\box90
+\pgfnodepartseventeenbox=\box91
+\pgfnodepartsixteenbox=\box92
+\pgfnodepartfifteenbox=\box93
+\pgfnodepartfourteenbox=\box94
+\pgfnodepartthirteenbox=\box95
+\pgfnodeparttwelvebox=\box96
+\pgfnodepartelevenbox=\box97
+\pgfnodeparttenbox=\box98
+\pgfnodepartninebox=\box99
+\pgfnodeparteightbox=\box100
+\pgfnodepartsevenbox=\box101
+\pgfnodepartsixbox=\box102
+\pgfnodepartfivebox=\box103
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.gates.logic.US.code.tex
+File: tikzlibraryshapes.gates.logic.US.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/p
+gflibraryshapes.gates.logic.US.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/p
+gflibraryshapes.gates.logic.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.gates.logic.IEC.code.tex
+File: tikzlibraryshapes.gates.logic.IEC.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/p
+gflibraryshapes.gates.logic.IEC.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.logic.US.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.logic.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.code.tex
+\tikz@lib@circ@count=\count482
+\tikzcircuitssizeunit=\dimen381
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.logic.IEC.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.logic.CDH.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.ee.IEC.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/circuits/tikzlibrarycircuits.ee.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/p
+gflibraryshapes.gates.ee.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/p
+gflibraryshapes.gates.ee.IEC.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/datavisualization/tikzlibrarydatavisualization.code.tex
+File: tikzlibrarydatavisualization.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledatavisual
+ization.code.tex
+File: pgfmoduledatavisualization.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.te
+x
+\pgfoo@objectcount=\count483
+\pgfoothis@count=\count484
+\pgfoo@toks=\toks61
+)
+\pgf@lib@dv@cache@count=\count485
+\pgf@lib@dv@cache@count=\count486
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box104
+\pgf@layerboxsaved@background=\box105
+)
+\tikzdvvisualizercounter=\count487
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/datavisualization/tikzlibrarydatavisualization.formats.functions.code.tex
+File: tikzlibrarydatavisualization.formats.functions.code.tex 2021/05/15 v3.1.9
+a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/datavisualization
+/pgflibrarydatavisualization.formats.functions.code.tex
+File: pgflibrarydatavisualization.formats.functions.code.tex 2021/05/15 v3.1.9a
+ (3.1.9a)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryer.code.tex
+File: tikzlibraryer.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypetri.code.tex
+File: tikzlibrarypetri.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalendar.code.tex
+File: tikzlibrarycalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
+tex
+File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+\pgfcalendarcurrentjulian=\count488
+\pgf@cal@easter@Y=\count489
+\pgf@cal@easter@G=\count490
+\pgf@cal@easter@C=\count491
+\pgf@cal@easter@X=\count492
+\pgf@cal@easter@Z=\count493
+\pgf@cal@easter@D=\count494
+\pgf@cal@easter@E=\count495
+\pgf@cal@easter@N=\count496
+\pgf@cal@easter@M=\count497
+\pgf@cal@easter@julianday=\count498
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfolding.code.tex
+File: tikzlibraryfolding.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\tikz@lib@fold@length=\dimen382
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryspy.code.tex
+File: tikzlibraryspy.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\tikz@lib@spybox=\box106
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryturtle.code.tex
+File: tikzlibraryturtle.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryscopes.code.tex
+File: tikzlibraryscopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.fractals.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.fractals.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.
+code.tex  v1.02, 2012/12/09
+\pgfbs@fading@count=\count499
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarylindenmayersystems.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarylindenm
+ayersystems.code.tex
+\pgflsystemstep=\dimen383
+\c@pgf@lsystem@iteration=\count500
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfixedpointarithmetic.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfixedpo
+intarithmetic.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfpu.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysvg.path.code.tex
+File: tikzlibrarysvg.path.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.pat
+h.code.tex
+File: pgflibrarysvg.path.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.cod
+e.tex
+File: pgfmoduleparser.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfparserdef@arg@count=\count501
+)
+\pgf@lib@svg@last@x=\dimen384
+\pgf@lib@svg@last@y=\dimen385
+\pgf@lib@svg@last@c@x=\dimen386
+\pgf@lib@svg@last@c@y=\dimen387
+\pgf@lib@svg@count=\count502
+\pgf@lib@svg@max@num=\count503
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzl
+ibraryexternal.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzexternalshared.code.tex))
+Requested font "Nakula/OT" at 1.42268pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+Requested font "Nakula/OT" at 1.42274pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+Requested font "Sahadeva/OT:script=deva;language=dflt;" at 1.42273pt
+ -> /usr/share/fonts/truetype/Sahadeva/sahadeva.ttf
+Requested font "Sahadeva/I/OT:script=deva;language=dflt;" at 1.42273pt
+ -> /usr/share/fonts/truetype/Sahadeva/sahadeva.ttf
+
+Package fontspec Info: Could not resolve font "Sahadeva/I" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Nakula/OT:script=deva;language=dflt;" at 1.42273pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+Requested font "Nakula/BI/OT:script=deva;language=dflt;" at 1.42273pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+
+Package fontspec Info: Could not resolve font "Nakula/BI" (it probably doesn't
+(fontspec)             exist).
+
+Requested font "Nakula/I/OT:script=deva;language=dflt;" at 1.42273pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+
+Package fontspec Info: Could not resolve font "Nakula/I" (it probably doesn't
+(fontspec)             exist).
+
+Requested font "Nakula/OT:script=deva;language=dflt;" at 1.42274pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+Requested font "Sahadeva/OT:script=deva;language=dflt;" at 1.42274pt
+ -> /usr/share/fonts/truetype/Sahadeva/sahadeva.ttf
+
+Package fontspec Info: Font family 'Nakula(0)' created for font 'Nakula' with
+(fontspec)             options [Script=Devanagari,BoldFont={Sahadeva}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Nakula/OT:script=deva;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Sahadeva/OT:script=deva;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/euscript.sty
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-cleveref.sty
+Package lwarp Info: Using package `cleveref',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-cleveref 2018/03/27
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+LaTeX Info: Redefining \Cref on input line 925.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+Package cleveref Info: `listings' support loaded on input line 3131.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+30.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7836.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+52.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7852.
+))
+\dlf@normtxtw=\skip337
+\feline@chapter=\box107
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-mleftright.sty
+Package lwarp Info: Using package `mleftright',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-mleftright 2019/12/03
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/mleftright/mleftright.sty
+Package: mleftright 2019/12/03 v1.2 Math left/right delim. as open/close (HO)
+)
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-physics.sty
+Package lwarp Info: Using package `physics',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 19.
+Package: lwarp-physics 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+)
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut
+
+Package lwarp, physics Info: The MathJax v3 extension will be used.
+
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-algorithmicx.sty
+Package lwarp Info: Using package `algorithmicx',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-algorithmicx 2005/04/27
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count504
+\c@ALG@rem=\count505
+\c@ALG@nested=\count506
+\ALG@tlm=\skip338
+\ALG@thistlm=\skip339
+\c@ALG@Lnr=\count507
+\c@ALG@blocknr=\count508
+\c@ALG@storecount=\count509
+\c@ALG@tmpcounter=\count510
+\ALG@tmplength=\skip340
+))
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-enumitem.sty
+Package lwarp Info: Using package `enumitem',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 18.
+Package: lwarp-enumitem 2018/11/30
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip341
+\enit@outerparindent=\dimen388
+\enit@toks=\toks62
+\enit@inbox=\box108
+\enit@count@id=\count511
+\enitdp@description=\count512
+))
+\LWR@userspaperwidth=\skip342
+\LWR@userspaperheight=\skip343
+\LWR@usersmarginparwidth=\skip344
+\LWR@userstextwidth=\skip345
+\LWR@userstextheight=\skip346
+
+
+LaTeX Warning: Unused global option(s):
+    [makeidx].
+
+(./index_html.aux)
+\openout1 = `index_html.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 435.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+35.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 435.
+LaTeX Font Info:    ... okay on input line 435.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-geometry.sty
+Package lwarp Info: Replacing package `geometry' with the lwarp version,
+(lwarp)             and discarding options, on input line 20.
+Package: lwarp-geometry 2018/04/16
+)
+\LWR@colorminipagebox=\box109
+
+
+Package lwarp Warning: Lwarp provides emulation for MathJax when used
+(lwarp)                with the booktabs package.
+(lwarp)                \cmidrule is not displayed.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: heightrounded 
+* h-part:(L,W,R)=(144.54pt, 867.24pt, 433.62pt)
+* v-part:(T,H,B)=(72.26999pt, 13586.76001pt, 72.26999pt)
+* \paperwidth=1445.4pt
+* \paperheight=13731.29999pt
+* \textwidth=1011.77557pt
+* \textheight=10985.0819pt
+* \oddsidemargin=72.27pt
+* \evensidemargin=72.27pt
+* \topmargin=-34.3738pt
+* \headheight=14.5pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 435.
+
+\c@lstlisting=\count513
+Package lwarp Info: Removing background hook on input line 435.
+Requested font "Avant Garde/OT:language=dflt;mapping=tex-text;" at 10.0pt
+ -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
+\openout6 = `index-images.txt'.
+
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 435.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 435.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 9.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+File: "lwarp_mathjax.txt"  (verbatim)
+---
+Package lwarp:
+Processing MathJax customizations for the first HTML page.
+Later HTML pages will take the same amount of time.
+If this takes too long, see the Lwarp manual regarding customizing MathJax.
+Done.
+---
+Requested font "DejaVu Serif" at 9.99997pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/OT" at 10.00003pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/BI/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /home/babaji/.local/share/fonts/DejaVuSerif-BoldItalic.ttf
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;" at 10.00002pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
+Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
+Requested font "DejaVu Serif/BI/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /home/babaji/.local/share/fonts/DejaVuSerif-BoldItalic.ttf
+Requested font "DejaVu Serif/BI/OT:script=latn;language=dflt;" at 10.00003pt
+ -> /home/babaji/.local/share/fonts/DejaVuSerif-BoldItalic.ttf
+
+Package fontspec Info: Font family 'DejaVuSerif(0)' created for font 'DejaVu
+(fontspec)             Serif' with options [Ligatures={NoCommon,TeX}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"DejaVu
+(fontspec)             Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"DejaVu
+(fontspec)             Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"DejaVu
+(fontspec)             Serif/I/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"DejaVu
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;-liga;mapping=tex-
+text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 10.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+[1
+
+] [2]
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 12.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+\c@density=\count514
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 12.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 30.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+Requested font "Sahadeva/OT:script=deva;language=dflt;" at 30.0pt
+ -> /usr/share/fonts/truetype/Sahadeva/sahadeva.ttf
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 30.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "Nakula/OT:script=deva;language=dflt;" at 30.0pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 17.28003pt on input line 1.
+Requested font "callig15" at 17.28003pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 29.86565pt on input line 1.
+Requested font "callig15" at 29.86565pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+Requested font "Nakula/OT:script=deva;language=dflt;" at 20.74pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+
+
+LaTeX Font Warning: Font shape `T1/calligra/b/n' undefined
+(Font)              using `T1/calligra/m/n' instead on input line 497.
+
+LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
+(Font)              scaled to size 43.20007pt on input line 510.
+Requested font "callig15" at 43.20007pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+34.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "rm-lmr10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+Requested font "rm-lmr7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
+Requested font "rm-lmr5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+34.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "lmmi10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
+Requested font "lmmi7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
+Requested font "lmmi5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+534.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "lmsy10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
+Requested font "lmsy5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+534.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 534.
+Requested font "lmex10" scaled 1000
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 534.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 534.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 534
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+Requested font "msam10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
+tfm
+Requested font "msam5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.
+tfm
+LaTeX Font Info:    Trying to load font information for U+msb on input line 534
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Requested font "msbm10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.
+tfm
+Requested font "msbm5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
+tfm
+ [3]
+\openout7 = `index_html.sidetoc'.
+
+ [4]
+(./index_html.toc)
+\tf@toc=\write11
+\openout11 = `index_html.toc'.
+
+ [5]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [6] (./index_html.sidetoc) [7] [8]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [9]
+(./index_html.sidetoc) [10]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [11] (./index_html.sidetoc) (./codingla/ch1.tex
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 10.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 10.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
+Requested font "DejaVu Serif/BI/OT:script=latn;language=dflt;-liga;mapping=tex-
+text;" at 10.0pt
+ -> /home/babaji/.local/share/fonts/DejaVuSerif-BoldItalic.ttf
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 12.
+Requested font "[LinLibertine_MO.otf]/OT:script=latn;language=dflt;" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_MO.otf
+LaTeX Font Info:    Trying to load font information for U+eus on input line 15.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
+)
+Requested font "eusm10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
+m
+Requested font "eusm5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm5.tf
+m
+ [12] [13]
+[14] Excluding 'comment' comment.) [15]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [16] (./index_html.sidetoc) [17]
+File: "lwarp_mathjax.txt"  (verbatim)
+
+[18] (./index_html.sidetoc) [19]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [20] (./index_html.sidetoc) [21]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [22]
+(./index_html.sidetoc) [23]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [24] (./index_html.sidetoc) [25]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [26]
+(./index_html.sidetoc) [27]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [28] (./index_html.sidetoc) [29]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [30]
+(./index_html.sidetoc) [31]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [32] (./index_html.sidetoc) [33]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [34]
+(./index_html.sidetoc) [35]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [36] (./index_html.sidetoc) [37]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [38]
+(./index_html.sidetoc) [39]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [40] (./index_html.sidetoc) [41]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [42]
+(./index_html.sidetoc) [43]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [44] (./index_html.sidetoc) [45]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [46]
+(./index_html.sidetoc) [47]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [48] (./index_html.sidetoc) [49]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [50]
+(./index_html.sidetoc) (./solvingdpp/dpp.tex Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut [51] [52])
+Excluding 'warpprint' comment. [53]
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 14.40002pt on input line 27.
+Requested font "callig15" at 14.40002pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+ [54] [55] [56]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 49.
+
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/sc' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 49.
+
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 7.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 5.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+[57] [58] [59] [60]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 145.
+
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 10.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+[61]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
+
+[62] [63] [64] [65]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 214.
+
+Requested font "rm-lmbx10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
+Requested font "rm-lmbx7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm
+Requested font "rm-lmbx5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
+[66] [67]
+Requested font "rm-lmr12" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
+Requested font "rm-lmr8" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
+Requested font "rm-lmr6" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
+Requested font "lmmi12" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi8" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi8.tfm
+Requested font "lmmi6" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi6.tfm
+Requested font "lmsy10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy8" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy8.tfm
+Requested font "lmsy6" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 229.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 229.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 229.
+Requested font "rm-lmbx12" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
+Requested font "rm-lmbx8" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
+Requested font "rm-lmbx6" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
+Requested font "msam10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam7" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
+tfm
+Requested font "msbm10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm7" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.
+tfm
+Requested font "eusm10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm10" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm7" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
+m
+ [68] [69] [70] [71] [72] [73]
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 9.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+ [74] [75] [76]
+Excluding 'comment' comment. [77] [78] [79]) [80]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [81] (./index_html.sidetoc)
+[82]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [83] (./index_html.sidetoc) [84]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [85] (./index_html.sidetoc) [86]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [87]
+(./index_html.sidetoc) [88]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [89] (./index_html.sidetoc) [90]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [91]
+(./index_html.sidetoc) [92]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [93] (./index_html.sidetoc) [94]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [95]
+(./index_html.sidetoc) [96]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [97] (./index_html.sidetoc) [98]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [99]
+(./index_html.sidetoc) [100]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [101] (./index_html.sidetoc) [102]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [103]
+(./index_html.sidetoc) [104]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [105] (./index_html.sidetoc)
+
+Package lwarp Warning: SideTOCDepth is less than FileDepth,
+(lwarp)                so some website pages may be inaccessible.
+
+[106] (./index_html.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) ) 
+Here is how much of TeX's memory you used:
+ 68856 strings out of 476180
+ 1690156 string characters out of 5809555
+ 2425593 words of memory out of 5000000
+ 87639 multiletter control sequences out of 15000+600000
+ 524520 words of font info for 154 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 153i,15n,166p,1117b,1685s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on index_html.pdf (106 pages).
