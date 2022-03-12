@@ -1,0 +1,634 @@
+% spine = 0.0025 * 60 = 0.15
+% Minimum Cover Width: Bleed + Back Cover Trim Size + Spine Width + Front Cover Trim Size + Bleed =  0.125" + 5" + 0.15" + 5" + .125" = 10.4''
+% Minimum Cover Height: Bleed + Book Height Trim Size + Bleed = 0.125" + 8" + .125" = 8.25"
+\documentclass[makeidx, 12pt, oneside, onecolumn, openright, final, svgnames, dvipsnames, extrafontsizes]{memoir}
+
+\usepackage[mathjax]{lwarp}
+
+\usepackage{wrapfig2}
+\usepackage{kantlipsum}
+
+\title{Ancient Science Publishers}
+\setcounter{tocdepth}{2} % Include subsections in the \TOC.
+\setcounter{secnumdepth}{2} % Number down to subsections.
+\setcounter{FileDepth}{2}
+\booltrue{CombineHigherDepths}
+\HTMLPageTop{\LinkPrevious}
+\HTMLPageBottom{\LinkNext}
+%\HTMLPageBottom{\LinkHome}
+
+%\HTMLTitle{Ancient Science Publishers}
+
+
+
+\CSSFilename{lwarp_sagebrush.css}
+
+\usepackage[makeindex]{imakeidx} % hyper link index
+\usepackage[colorlinks=true, linkcolor=ruddybrown, linktoc=all]{hyperref}% hyper link ToC
+
+\PassOptionsToPackage{cmyk}{xcolor}
+\usepackage{comment, calligra}
+%\usepackage[paperheight=8.25in,paperwidth=10.4in,margin=0in]{geometry}
+%\usepackage{pdfpages}
+\usepackage{tikz, comment}
+\usepackage{calligra, url, comment, amsmath, amsthm, etoolbox, amssymb, manfnt}
+\usepackage{varwidth} % hyphenate texts in TikZ Node (back cover)
+\usetikzlibrary{fadings, shadings, shadows, decorations, decorations.footprints, decorations.text, calc, positioning, mindmap,arrows, patterns, arrows.meta}
+\usepackage{libertine}
+\usepackage{fontspec}
+\usepackage[weather]{ifsym}
+%\usepackage{marvosym}
+\usepackage{multido}
+\usepackage{hologo, mflogo}
+\usepackage[outline]{contour}
+\usepackage{pdfrender}
+\usepackage{pst-text}
+\usepackage{pst-light3d}
+\usepackage{pgfplots}
+\pgfplotsset{width=5cm}
+\usepackage{tikz-3dplot}
+\usepackage{tkz-euclide}
+\usepackage{tfrupee}
+\usepgfplotslibrary{fillbetween}
+\usepgfplotslibrary{polar}
+
+%\usepackage{algorithm}
+\usepackage{listings}
+
+\setmainfont{Avant Garde}
+\fontsize{0.05cm}{0.1cm}\selectfont
+
+\usetikzlibrary{
+  arrows,
+  calc,
+  fit,
+  patterns,
+  plotmarks,
+  shapes.geometric,
+  shapes.misc,
+  shapes.symbols,
+  shapes.arrows,
+  shapes.callouts,
+  shapes.multipart,
+  shapes.gates.logic.US,
+  shapes.gates.logic.IEC,
+  circuits.logic.US,
+  circuits.logic.IEC,
+  circuits.logic.CDH,
+  circuits.ee.IEC,
+  datavisualization,
+  datavisualization.formats.functions,
+  er,
+  automata,
+  backgrounds,
+  chains,
+  topaths,
+  trees,
+  petri,
+  mindmap,
+  matrix,
+  calendar,
+  folding,
+  fadings,
+  shadings,
+  spy,
+  through,
+  turtle,
+  positioning,
+  scopes,
+  decorations.fractals,
+  decorations.shapes,
+  decorations.text,
+  decorations.pathmorphing,
+  decorations.pathreplacing,
+  decorations.footprints,
+  decorations.markings,
+  shadows,
+  shadows.blur,
+  lindenmayersystems,
+  intersections,
+  fixedpointarithmetic,
+  fpu,
+  svg.path,
+  external,
+}
+
+
+\newcommand*{\RaisedText}[1]{%
+  \begingroup
+    \leavevmode
+    \rlap{\kern-1pt\raise.5pt\hbox{\color{White}#1}}%
+    \rlap{\kern1pt\raise-.5pt\hbox{\color{black}#1}}%
+    \hbox{#1}%
+  \endgroup
+}
+
+\newcommand*{\RaisedTextNew}[1]{%
+  \begingroup
+    \leavevmode
+    \rlap{\kern-.1pt\raise.1pt\hbox{%
+      \pdfrender{
+        TextRenderingMode=Stroke,
+        LineWidth=.2pt,
+        StrokeColor=white,
+      }#1%
+    }}%
+    \rlap{\kern.1pt\raise-.1pt\hbox{%
+      \pdfrender{
+        TextRenderingMode=Stroke,
+        LineWidth=.2pt,
+        StrokeColor=black,
+      }#1%
+    }}%
+    \rlap{%
+      \pdfrender{
+        TextRenderingMode=Stroke,
+        LineWidth=.2pt,
+      }#1%
+    }%
+    \hbox{#1}%
+  \endgroup
+}
+
+\newfontfamily\hindifont[Script=Devanagari, BoldFont={Sahadeva}]{Nakula}
+\newenvironment{hindi}{\hindifont}{\par}
+\DeclareTextFontCommand{\texthindi}{\hindifont}
+
+\tikzset{
+  ld/.style={level distance=#1},lw/.style={line width=#1},
+  level 1/.style={ld=4.5mm, trunk, lw=1ex ,sibling angle=60},
+  level 2/.style={ld=3.5mm, trunk!80!leaf a,lw=.8ex,sibling angle=56},
+  level 3/.style={ld=2.75mm,trunk!60!leaf a,lw=.6ex,sibling angle=52},
+  level 4/.style={ld=2mm, trunk!40!leaf a,lw=.4ex,sibling angle=48},
+  level 5/.style={ld=1mm, trunk!20!leaf a,lw=.3ex,sibling angle=44},
+  level 6/.style={ld=1.75mm,leaf a, lw=.2ex,sibling angle=40},
+}
+\pgfarrowsdeclare{leaf}{leaf}{
+  \pgfarrowsleftextend{-2pt} \pgfarrowsrightextend{1pt}
+}{
+  \pgfpathmoveto{\pgfpoint{-2pt}{0pt}}
+  \pgfpatharc{150}{30}{1.8pt}
+  \pgfpatharc{-30}{-150}{1.8pt}
+  \pgfusepathqfill
+}
+
+\makeatletter
+\def\agobble#1\nil#2{}
+\def\mytextcolor@a#1 #2\nil#3{%
+  \mytextcolor@b#1\nil{#3}
+  \if\relax\detokenize{#2}\relax\expandafter\agobble\fi
+  \mytextcolor@a#2\nil{#3}%
+}
+\def\mytextcolor@b#1#2\nil#3{%
+  \textcolor{-#3}{\textbf{#1}}\textcolor{#3}{#2}\\
+}
+\def\mytextcolor#1#2{%
+  \if\relax\detokenize{#2}\relax\expandafter\agobble\fi
+  \mytextcolor@a#2 \nil{#1}%
+}
+
+\newcommand{\logo}[8]{%
+  \colorlet{border}{#1}
+  \colorlet{trunk}{#2}
+  \colorlet{leaf a}{#3}
+  \colorlet{leaf b}{#4}
+%  \rotatebox{#8}{%
+%    \begin{tikzpicture}[font=\scriptsize\scshape]
+      \begin{scope}[scale=0.5, shift={(#8)}]
+      \coordinate (root) [grow cyclic,rotate=90]
+        child {
+          child [line cap=round] foreach \a in {0,1} {
+            child foreach \b in {0,1} {
+              child foreach \c in {0,1} {
+                child foreach \d in {0,1} {
+                child foreach \leafcolor in {leaf a,leaf b}
+                  { edge from parent [color=\leafcolor,-#5] }
+                }
+              }
+            }
+          }
+          edge from parent [shorten >=-1pt,serif cm-,line cap=butt]
+        };
+      \node [scale=1,align=center,below,transform shape] at (0pt,-.5ex){%
+        \mytextcolor{#6}{#7}\\
+      };
+    \end{scope}
+%    \end{tikzpicture}
+%  }
+}
+\makeatother
+
+
+\tikzset{
+    shade border west to east/.style args={#1 to #2}{
+        preaction={draw, very thick, path fading=east, #1},
+        preaction={draw, very thick, path fading=west, #2}
+    },
+    shade fill west to east/.style args={#1 to #2}{
+        left color=#1,
+        right color=#2
+    }
+}
+
+\def\nodeshadowed[#1]#2;{\node[scale=0.45,above,#1]{#2};\node[scale=0.45,
+        above,#1,yscale=-1,scope fading=south,opacity=0.0,yslant=0.0]{#2};}
+        
+
+
+%\definecolor{celestialblue}{rgb}{0.29, 0.59, 0.82}
+\definecolor{celestialblue}{cmyk}{0.649, 0.274, 0.0, 0.164}
+
+\definecolor{vividviolet}{rgb}{0.62, 0.0, 1.0}
+\definecolor{satinsheengold}{rgb}{0.8, 0.63, 0.21}
+\definecolor{darkorchid}{rgb}{0.6, 0.2, 0.8}
+\definecolor{modebeige}{rgb}{0.59, 0.44, 0.09}
+
+\newcommand{\hlt}[1]{\textcolor{vividviolet}{\emph{#1}}}% prints text in burntorange
+\newcommand{\hlm}[1]{{\textcolor{modebeige}{#1}}}% prints math in Sepia
+\newcommand{\hlbt}[1]{\textbf{\textcolor{Olive}{#1}}}% prints bold text in burntorange
+%\newcommand{\hlmb}[1]{{\color{modebeige}{#1}}}% prints math in Sepia
+
+
+% Inserts a blank page
+\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
+
+\usepackage[mathcal]{euscript}
+\newcommand{\conceptequiv}{\triangleq}
+\CustomizeMathJax{\newcommand{\conceptequiv}{\triangleq}}
+%\newcommand{\concepte}{\triangleq}
+%\renewcommand{\models}{\looparrowright}
+\renewcommand{\models}{\vDash}
+\newcommand{\CC}{\mathcal{C}}
+\CustomizeMathJax{\newcommand{\CC}{\mathcal{C}}}
+\newcommand{\refines}{\looparrowright}
+\CustomizeMathJax{\newcommand{\refines}{\looparrowright}}
+\newcommand{\weakens}{\looparrowleft}
+\CustomizeMathJax{\newcommand{\weakens}{\looparrowleft}}
+\newcommand{\concept}[1]{\textcolor{Green}{#1}}
+
+\newcommand\textproblem[1]{{\begin{center}\small \bfseries #1\end{center}}}
+
+
+% no space ccenter
+\newenvironment{nscenter}
+ {\parskip=0pt\par\nopagebreak\centering}
+ {\par\noindent\ignorespacesafterend}
+ 
+
+\colorlet{LineColor}{White} 
+\colorlet{FillColor}{Olive}%{DarkCyan}
+%\colorlet{MyColor}{DarkOrange} 
+%\colorlet{MyColor}{YellowOrange} 
+\colorlet{MyColor}{Black}
+
+\colorlet{TitleColor}{BurntOrange}
+\colorlet{SubTitleColor}{Sepia}
+\colorlet{DrawingTextColor}{Sepia}
+
+\colorlet{AuthorTextColor}{Sepia}
+\colorlet{BackTextColor}{Gray}
+\colorlet{SpineTextColor}{Gray}
+
+\colorlet{TriangleColor}{BurntOrange}
+\colorlet{TriangleLineColor}{Sepia}
+\colorlet{TriangleVertexColor}{Sepia}
+
+\newcommand{\itemcolor}[1]{% Update list item colour
+  \renewcommand{\makelabel}[1]{\color{#1}\hfil ##1}}
+  
+\newcommand\shadetext[2][]{%
+  \setbox0=\hbox{{\special{pdf:literal 7 Tr }#2}}%
+  \tikz[baseline=0]\path [#1] \pgfextra{\rlap{\copy0}} (0,-\dp0) rectangle (\wd0,\ht0);%
+}
+
+\newcommand{\aum}{\texthindi{ ॐ }}
+\newcommand{\Repeat}{\multido{\i=1+1}}
+
+%\tikzfading[name=fade out,inner color=transparent!0,outer color=transparent!100]
+
+
+
+\colorlet{EagleBodyColor}{White}
+\colorlet{EagleHeadColor}{BurntOrange}
+\colorlet{EagleEyeColor}{White}
+
+\makeatletter
+\tikzset{nomorepostaction/.code={\let\tikz@postactions\pgfutil@empty}}
+\makeatother
+
+\usepackage[capitalize,nameinlink]{cleveref}
+
+\crefformat{chapter}{#2Dialogue~#1#3} % change cref to print Dialogue instead of Chapter
+
+\newcommand\pr[1]{{\scshape\color{Black}\cref{#1}{ }(\cpageref{#1})}}
+\newcommand\ar[1]{{\scshape\color{Black}\cref{#1}{ }(\cpageref{#1})}}
+\newcommand\chref[1]{{\scshape\color{Black}\cref{#1}{ }(\cpageref{#1})}}
+
+\newcommand\thmref[1]{{[\emph{\cref{#1}{ }(\cpageref{#1})}]}}
+\newcommand\corref[1]{{[\emph{\cref{#1}{ }(\cpageref{#1})}]}}
+\newcommand\exref[1]{{[\emph{\cref{#1}{ }(\cpageref{#1})}]}}
+
+\definecolor{nicered}{rgb}{.647,.129,.149}
+\definecolor{sanddune}{rgb}{0.59, 0.44, 0.09}
+\definecolor{russet}{rgb}{0.5, 0.27, 0.11}
+\makeatletter
+\newlength\dlf@normtxtw
+%\newcommand{\chapname}{Dialogue}
+\setlength\dlf@normtxtw{\textwidth}
+\def\myhelvetfont{\def\sfdefault{mdput}}
+\newsavebox{\feline@chapter}
+\newcommand\feline@chapter@marker[1][4cm]{%
+  \sbox\feline@chapter{%
+    \resizebox{!}{#1}{\fboxsep=1pt%
+      \colorbox{sanddune}{\color{white}\bfseries\sffamily\thechapter}%
+    }}%
+  \rotatebox{90}{%
+    \resizebox{%
+      \heightof{\usebox{\feline@chapter}}+\depthof{\usebox{\feline@chapter}}}%
+    {!}{\scshape\@chapapp}}\quad%
+  \raisebox{\depthof{\usebox{\feline@chapter}}}{\usebox{\feline@chapter}}% 
+}
+\newcommand\feline@chm[1][4cm]{%
+  \sbox\feline@chapter{\feline@chapter@marker[#1]}%
+  \makebox[0pt][l]{% aka \rlap
+    \makebox[0.0cm][r]{\usebox\feline@chapter}%
+  }}
+\makechapterstyle{daleif1}{
+  \renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft\so}
+  \renewcommand\chaptitlefont{\normalfont\huge\bfseries\scshape\color{Purple}}
+  \renewcommand\chapternamenum{}
+  \renewcommand{\chaptername}{Dialogue}
+  %\renewcommand\printchaptername{\bfseries\color{DarkOrchid}}
+  \renewcommand\printchaptername{\bfseries\color{russet}}
+  \renewcommand\printchapternum{\null\hfill\feline@chm[2.5cm]\par}
+  \renewcommand\afterchapternum{\par\vskip\midchapskip}
+  \renewcommand\printchaptertitle[1]{\chaptitlefont\raggedleft ##1\par}
+}
+\makeatother
+
+\setsecheadstyle{\normalfont\Large\bfseries\scshape\color{DarkOrchid}}
+
+
+\chapterstyle{daleif1}
+%\pagestyle{empty}
+
+% Multi-page equations : mathmode by amsmath
+\allowdisplaybreaks
+
+\newenvironment{rcases}
+  {\left.\begin{aligned}}
+  {\end{aligned}\right\rbrace}
+  
+ \definecolor{ruddybrown}{rgb}{0.73, 0.4, 0.16} 
+ 
+ \definecolor{xanadu}{rgb}{0.45, 0.53, 0.47}
+
+\newtheoremstyle{problemstyle}  % <name>
+        {0.2\baselineskip}                                               % <space above>
+        {0.3\baselineskip}                                               % <space below>
+        {\color{xanadu}}                               % <body font>
+        {}                                                  % <indent amount}
+        {\bfseries\color{xanadu}}                 % <theorem head font>
+        {.}         % <punctuation after theorem head>
+        {.5em}                                          % <space after theorem head>
+        {}                                                  % <theorem head spec (can be left empty, meaning `normal')>
+\theoremstyle{problemstyle}
+
+  
+  
+\newtheorem*{pro}{\textbf{\S {} Problem}}%[chapter] 
+
+\newenvironment{p}    % this is the environment name for the input
+  {\renewcommand{\qedsymbol}{$\lozenge$}%
+   \pushQED{\qed}\begin{pro}}
+  {\popQED\end{pro}}
+  
+\definecolor{zinnwalditebrown}{rgb}{0.17, 0.09, 0.03}
+
+\newenvironment{s}
+  {\renewcommand{\qedsymbol}{\tiny$\blacksquare$}
+  \vspace{-\baselineskip}\setmainfont{DejaVu Serif}\selectfont\begin{proof}[\emph{\textbf{\scshape\color{Black} \S \S \; Solution}}]}
+  {\end{proof}} 
+  
+  
+
+\DeclareMathOperator*{\Max}{Max}
+\CustomizeMathJax{\DeclareMathOperator*{\Max}{Max}}
+\DeclareMathOperator*{\Min}{Min}
+\CustomizeMathJax{\DeclareMathOperator*{\Min}{Min}}
+
+\usepackage{mleftright}
+\usepackage[italicdiff]{physics} %careful: \div does not produce division symbol, it produces differential operator. Use \divisionsymbol for producing the division symbol.
+  
+
+\usepackage{algpseudocode}
+\newcommand{\bigO}{\mathcal{O}}
+\CustomizeMathJax{\newcommand{\bigO}{\mathcal{O}}}
+
+\usepackage{enumitem}
+
+
+
+
+
+\makeatletter
+\begin{document}
+\pagestyle{empty}
+
+\setmainfont{DejaVu Serif}
+%\fontsize{0.5cm}{0cm}\selectfont
+
+\pgfkeyssetvalue{/cfr/soul base dimension}{10pt}
+
+\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+
+
+%\begin{scope}[scale=1.9, xshift=3.95in,yshift=-1.75in,color=TriangleLineColor]
+%\begin{scope}[xshift=3.95in, color=TriangleLineColor]
+\begin{scope}[scale=1, shift={(current page.center)}]
+
+   
+     \begin{scope}[scale=3.5, rotate=180, yshift=-0.77in]
+        \tkzDefPoint(0,1){J} \tkzDefPoint(0,0){O}
+        \foreach \i in {0,-1,-2,...,-180}{
+        \tkzDefPoint({2.1*cos(\i*3.14159/180)},{1+2.1*sin(\i*3.14159/180)}){P}
+        \tkzDrawLine[color=TriangleColor, thick](J,P)}
+    \end{scope}
+
+     \begin{scope}[scale=1, yshift=4.8in]
+ \newcounter{density}
+ \setcounter{density}{90}
+\tkzDefPoint(0,0){G1}
+    \tkzDefPoint(-120:5){G2}
+    \tkzDefPoint(-60:5){G3}   
+    
+        \tkzLabelPoint[above,color=TriangleVertexColor](G1){\color{Red} \bfseries \HUGE \texthindi{ॐ}}
+    \tkzLabelPoint[left,color=TriangleVertexColor](G2){\color{Red} \HUGE \texthindi{ॐ}}
+    \tkzLabelPoint[right,color=TriangleVertexColor](G3){\color{Red} \HUGE \texthindi{ॐ}}
+    
+    \tkzDrawPoints[color=TriangleColor](G1,G2,G3)
+    
+    \tkzDrawPolygon(G1,G2,G3)      
+        
+    \path[coordinate, fill=TriangleColor, draw=TriangleLineColor] (0,0)   coordinate(G1)
+                -- (-120:5) coordinate(G2)
+                -- (-60:5) coordinate(G3);
+    
+    \tkzLabelSegment[above,sloped,midway](G2,G1) {\calligra \LARGE  \color{Sepia} \texthindi{प्राचीन}}
+    \tkzLabelSegment[above,sloped,midway](G1,G3) {\calligra \LARGE \color{Sepia}  \texthindi{विज्ञान}}
+    \tkzLabelSegment[below,sloped,midway](G2,G3) {\calligra \LARGE \color{Sepia}  \texthindi{मण्डल}}
+    
+    \foreach \x in {1,...,10}
+    {%
+    \pgfmathsetcounter{density}{\thedensity-10}
+    \setcounter{density}{\thedensity}
+    \path[coordinate, color=TriangleColor] coordinate(X) at (G1){};
+    \path[coordinate, ball color=TriangleColor, draw=TriangleLineColor] (G1) -- (G2) coordinate[pos=.15](G1)
+                        -- (G3) coordinate[pos=.15](G2)
+                        -- (X) coordinate[pos=.15](G3);
+    \draw[->,ball color=TriangleColor, draw=TriangleLineColor, fill=TriangleColor!\thedensity]  (G1)--(G2)--(G3)--cycle;
+    }     
+     
+\node[scale=2.1, at={(0in, -2.5in)}]
+    {\bfseries \textcolor{TriangleColor}{\RaisedText{Ancient Science Publishers}}};
+    
+\node[scale=1.9, at={(0in, -3.2in)}]
+    {\bfseries \textcolor{Sepia}{\calligra {Decode The Myth}}};
+
+
+\node[scale=1.0, at={(0in, -4.8in)}]
+{\HUGE \bfseries \color{TriangleColor}{\RaisedText{\texthindi{अन्तर्चक्षुः}}}};
+
+\node[scale=0.8, at={(0in, -5.4in)}]
+{\HUGE  \color{TriangleColor}{\RaisedText{\texthindi{भगवान् महर्षि हिरण्यगर्भ}}}};
+
+\node[scale=1.0, at={(0in, -6.2in)}]
+{\HUGE \bfseries \color{TriangleColor}{\RaisedText{Beacons of Light}}};
+
+\node[scale=0.8, at={(0in, -6.8in)}]
+{\HUGE \bfseries \textcolor{TriangleColor}{\calligra\RaisedText{Edsger Wybe Dijkstra}}};
+
+\node[scale=0.8, at={(0in, -7.4in)}]
+{\HUGE \bfseries \textcolor{TriangleColor}{\calligra\RaisedText{Richard Phillips Feynman}}};
+
+\node[scale=0.8, at={(0in, -8in)}]
+{\HUGE \bfseries \textcolor{TriangleColor}{\calligra\RaisedText{Leonhard Euler}}};
+
+
+\node[scale=1.0, at={(0in, -9.4in)}]
+{\HUGE \bfseries \color{TriangleColor}{\RaisedText{Artifacts}}};
+
+\node[scale=0.8, at={(0in, -10in)}]
+{\HUGE \bfseries \textcolor{TriangleColor}{\calligra\RaisedText{Monographs}}};
+\end{scope} 
+\end{scope}
+
+
+%\node[scale=1.0, at={(0in, -1.3in)}]
+%{\HUGE \bfseries \textcolor{TriangleColor}{\calligra\RaisedText{Richard Phillips Feynman}}};
+
+%\node[scale=1.0, at={(0in, -3.1in)}]
+%{\HUGE \bfseries \textcolor{TriangleColor}{\calligra\RaisedText{Leonhard Euler}}};
+
+\end{tikzpicture}
+\end{center}
+
+\frontmatter
+
+\renewcommand{\contentsname}{Monographs}
+
+\pagenumbering{gobble}
+\tableofcontents*
+
+
+\mainmatter
+
+\setlength{\headwidth}{\textwidth}
+\setlength{\headwidth}{\textwidth}
+
+\renewcommand{\chaptername}{Monograph}
+
+\part{\textcolor{red}{Computer Science}}
+
+\chapter{Discipline of Competitive Programming : A Hacker’s Perspective}
+$x^2$ $\triangleq$
+
+\chapter{Elements of Coding : Science of Deriving Correct Programs}
+
+\chapter{Elements of Coding Linear Algebra : The Nucleus of Artificial Intelligence}
+\input{codingla/ch1}
+
+\chapter{Elements of Software Design Patterns}
+
+\chapter{Elements of Coding AI}
+
+\chapter{Elements of Coding DL (Deep Learning)}
+
+\chapter{Elements of Coding ML : Internals of Machine Learning Library MLPack}
+
+\chapter{Conceptual BitCoin : Blockchain Coding}
+
+\chapter{Conceptual Data Science Interviews}
+
+\chapter{Conceptual Dependency Injection : Unwiring Simplified in C++}
+
+\chapter{Conceptual Dynamic Programming : Optimal Coding Simplified}
+
+\chapter{Conceptual Programming Interviews}
+
+\chapter{Conceptual Machine Learning}
+
+\chapter{Conceptual Programming of STL Algorithms}
+
+\chapter{Conceptual Solutions to (CLRS) Introduction to Algorithms}
+
+\chapter{Conceptual Programming of Algorithms Using Dijkstra’s Approach}
+
+\chapter{Conceptual Solutions to Pattern Recognition and Machine Learning}
+
+\chapter{Science of Deriving Beautiful Programs}
+
+\chapter{Modern C++ Ranges : A Revolution in STL}
+
+\chapter{Elements of C++20}
+
+\chapter{Solving Problems using Dynamic Programming : A Hacker’s Perspective}
+
+\input{solvingdpp/dpp}
+%\begin{warpHTML}
+%\href{solvingdpp/dpp.html}{solvingdpp/dpp.html}
+%\end{warpHTML}
+%\includegraphics{solvingdpp//cover}
+
+\chapter{Hacking TensorFlow Internals : An Insider’s Commentary on A Learning System}
+
+\chapter{Advanced C++ FAQs Vol 1 \& 2}
+
+\chapter{C++14 FAQs}
+
+\chapter{The Boost C++ Libraries: Generic Programming}
+
+\chapter{Generic Algorithms and Data Structures using C++11}
+
+\chapter{C++11 Standard Library: Usage and Implementation}
+
+\chapter{Foundation of Algorithms in C++11}
+
+\chapter{C++11 Algorithms : Using and Extending C++11, Boost and Beyond}
+
+\chapter{Cracking Programming Interviews : 500 Questions with Solutions}
+
+\chapter{Top 20 Coding Interview Problems Asked in Google with Solutions}
+
+\chapter{Top 10 Coding Interview Problems Asked in Google with Solutions}
+
+
+
+\part{Physics}
+PHY
+
+\part{Mathematics}
+MATH
+
+\end{document}
