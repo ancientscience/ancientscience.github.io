@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  13 MAR 2022 02:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  14 MAR 2022 02:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4094,99 +4094,153 @@ m
  [12] [13]
 [14] Excluding 'comment' comment.) [15]
 File: "lwarp_mathjax.txt"  (verbatim)
- [16] (./index_html.sidetoc) [17]
-File: "lwarp_mathjax.txt"  (verbatim)
-
-[18] (./index_html.sidetoc) [19]
-File: "lwarp_mathjax.txt"  (verbatim)
- [20] (./index_html.sidetoc) [21]
-File: "lwarp_mathjax.txt"  (verbatim)
- [22]
-(./index_html.sidetoc) [23]
-File: "lwarp_mathjax.txt"  (verbatim)
- [24] (./index_html.sidetoc) [25]
-File: "lwarp_mathjax.txt"  (verbatim)
- [26]
-(./index_html.sidetoc) [27]
-File: "lwarp_mathjax.txt"  (verbatim)
- [28] (./index_html.sidetoc) [29]
-File: "lwarp_mathjax.txt"  (verbatim)
- [30]
-(./index_html.sidetoc) [31]
-File: "lwarp_mathjax.txt"  (verbatim)
- [32] (./index_html.sidetoc) [33]
-File: "lwarp_mathjax.txt"  (verbatim)
- [34]
-(./index_html.sidetoc) [35]
-File: "lwarp_mathjax.txt"  (verbatim)
- [36] (./index_html.sidetoc) [37]
-File: "lwarp_mathjax.txt"  (verbatim)
- [38]
-(./index_html.sidetoc) [39]
-File: "lwarp_mathjax.txt"  (verbatim)
- [40] (./index_html.sidetoc) [41]
-File: "lwarp_mathjax.txt"  (verbatim)
- [42]
-(./index_html.sidetoc) [43]
-File: "lwarp_mathjax.txt"  (verbatim)
- [44] (./index_html.sidetoc) [45]
-File: "lwarp_mathjax.txt"  (verbatim)
- [46]
-(./index_html.sidetoc) [47]
-File: "lwarp_mathjax.txt"  (verbatim)
- [48] (./index_html.sidetoc) [49]
-File: "lwarp_mathjax.txt"  (verbatim)
- [50]
-(./index_html.sidetoc) (./solvingdpp/dpp.tex Including 'warpHTML' comment.
-\openout4 = `comment_html.cut'.
+ [16] (./index_html.sidetoc)
+(./designpatterns/dp.tex [17]
+Requested font "Cooper Black" at 11.99997pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/OT" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
 
 
-Straight input of comment_html.cut. (./comment_html.cut [51] [52])
-Excluding 'warpprint' comment. [53]
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 14.40002pt on input line 27.
-Requested font "callig15" at 14.40002pt
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "Cooper Black/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/BI/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Could not resolve font "Cooper Black/BI" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Cooper Black/B/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Could not resolve font "Cooper Black/B" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Cooper Black/I/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Could not resolve font "Cooper Black/I" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Cooper Black/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Info: Font family 'CooperBlack(0)' created for font 'Cooper
+(fontspec)             Black' with options [Ligatures={NoCommon,TeX}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Cooper
+(fontspec)             Black/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 12.0pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 56.9055pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+LaTeX Font Warning: Font shape `TU/CooperBlack(0)/b/n' undefined
+(Font)              using `TU/CooperBlack(0)/m/n' instead on input line 6.
+
+LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
+(Font)              scaled to size 81.94406pt on input line 6.
+Requested font "callig15" at 81.94406pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
- [54] [55] [56]
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 49.
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
 
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/sc' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 49.
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
 
-Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
-t;" at 7.0pt
- -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
-Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
-t;" at 5.0pt
- -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
-[57] [58] [59] [60]
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 145.
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
 
-Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
-ext;" at 10.0pt
- -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
-[61]
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
-(Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
 
-[62] [63] [64] [65]
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 214.
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
 
-Requested font "rm-lmbx10" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
-Requested font "rm-lmbx7" at 7.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm
-Requested font "rm-lmbx5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
-[66] [67]
+
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'Cooper Black' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 28.45274pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+LaTeX Font Info:    Calculating math sizes for size <28.45274> on input line 39
+.
+Requested font "rm-lmr17" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
+Requested font "rm-lmr17" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
+Requested font "rm-lmr12" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
+Requested font "lmmi12" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi12" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi12" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmsy10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <28.45274> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <19.91682> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.22636> on input line 39.
+Requested font "msam10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msbm10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "eusm10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
 Requested font "rm-lmr12" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 Requested font "rm-lmr8" at 8.0pt
@@ -4206,17 +4260,11 @@ Requested font "lmsy8" at 8.0pt
 Requested font "lmsy6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 229.
+(Font)              <12> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 229.
+(Font)              <8> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 229.
-Requested font "rm-lmbx12" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
-Requested font "rm-lmbx8" at 8.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
-Requested font "rm-lmbx6" at 6.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
+(Font)              <6> on input line 49.
 Requested font "msam10" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
 .tfm
@@ -4244,60 +4292,158 @@ fm
 Requested font "eusm7" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
 m
- [68] [69] [70] [71] [72] [73]
+[18]) [19]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [20] (./index_html.sidetoc) [21]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [22] (./index_html.sidetoc)
+[23]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [24] (./index_html.sidetoc) [25]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [26] (./index_html.sidetoc) [27]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [28]
+(./index_html.sidetoc) [29]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [30] (./index_html.sidetoc) [31]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [32]
+(./index_html.sidetoc) [33]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [34] (./index_html.sidetoc) [35]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [36]
+(./index_html.sidetoc) [37]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [38] (./index_html.sidetoc) [39]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [40]
+(./index_html.sidetoc) [41]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [42] (./index_html.sidetoc) [43]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [44]
+(./index_html.sidetoc) [45]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [46] (./index_html.sidetoc) [47]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [48]
+(./index_html.sidetoc) [49]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [50] (./index_html.sidetoc) [51]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [52]
+(./index_html.sidetoc) (./solvingdpp/dpp.tex Including 'warpHTML' comment.
+\openout4 = `comment_html.cut'.
+
+
+Straight input of comment_html.cut. (./comment_html.cut [53] [54])
+Excluding 'warpprint' comment. [55]
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 14.40002pt on input line 27.
+Requested font "callig15" at 14.40002pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+ [56] [57] [58]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 49.
+
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/sc' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 49.
+
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 7.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 5.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+[59] [60] [61] [62]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 145.
+
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 10.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+[63]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
+
+[64] [65] [66] [67]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 214.
+
+Requested font "rm-lmbx10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
+Requested font "rm-lmbx7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm
+Requested font "rm-lmbx5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
+[68] [69]
+Requested font "rm-lmbx12" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
+Requested font "rm-lmbx8" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
+Requested font "rm-lmbx6" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
+ [70] [71] [72] [73] [74] [75]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
 t;" at 9.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
- [74] [75] [76]
-Excluding 'comment' comment. [77] [78] [79]) [80]
+ [76] [77] [78]
+Excluding 'comment' comment. [79] [80] [81]) [82]
 File: "lwarp_mathjax.txt"  (verbatim)
- [81] (./index_html.sidetoc)
-[82]
-File: "lwarp_mathjax.txt"  (verbatim)
- [83] (./index_html.sidetoc) [84]
+ [83] (./index_html.sidetoc)
+[84]
 File: "lwarp_mathjax.txt"  (verbatim)
  [85] (./index_html.sidetoc) [86]
 File: "lwarp_mathjax.txt"  (verbatim)
- [87]
-(./index_html.sidetoc) [88]
+ [87] (./index_html.sidetoc) [88]
 File: "lwarp_mathjax.txt"  (verbatim)
- [89] (./index_html.sidetoc) [90]
+ [89]
+(./index_html.sidetoc) [90]
 File: "lwarp_mathjax.txt"  (verbatim)
- [91]
-(./index_html.sidetoc) [92]
+ [91] (./index_html.sidetoc) [92]
 File: "lwarp_mathjax.txt"  (verbatim)
- [93] (./index_html.sidetoc) [94]
+ [93]
+(./index_html.sidetoc) [94]
 File: "lwarp_mathjax.txt"  (verbatim)
- [95]
-(./index_html.sidetoc) [96]
+ [95] (./index_html.sidetoc) [96]
 File: "lwarp_mathjax.txt"  (verbatim)
- [97] (./index_html.sidetoc) [98]
+ [97]
+(./index_html.sidetoc) [98]
 File: "lwarp_mathjax.txt"  (verbatim)
- [99]
-(./index_html.sidetoc) [100]
+ [99] (./index_html.sidetoc) [100]
 File: "lwarp_mathjax.txt"  (verbatim)
- [101] (./index_html.sidetoc) [102]
+ [101]
+(./index_html.sidetoc) [102]
 File: "lwarp_mathjax.txt"  (verbatim)
- [103]
-(./index_html.sidetoc) [104]
+ [103] (./index_html.sidetoc) [104]
 File: "lwarp_mathjax.txt"  (verbatim)
- [105] (./index_html.sidetoc)
+ [105]
+(./index_html.sidetoc) [106]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [107] (./index_html.sidetoc)
 
 Package lwarp Warning: SideTOCDepth is less than FileDepth,
 (lwarp)                so some website pages may be inaccessible.
 
-[106] (./index_html.aux)
+[108] (./index_html.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 68856 strings out of 476180
- 1690156 string characters out of 5809555
- 2425593 words of memory out of 5000000
- 87639 multiletter control sequences out of 15000+600000
- 524520 words of font info for 154 fonts, out of 8000000 for 9000
+ 68987 strings out of 476180
+ 1693095 string characters out of 5809555
+ 2425663 words of memory out of 5000000
+ 87754 multiletter control sequences out of 15000+600000
+ 537691 words of font info for 180 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 153i,15n,166p,1117b,1685s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 153i,15n,166p,4853b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index_html.pdf (106 pages).
+Output written on index_html.pdf (108 pages).

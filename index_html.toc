@@ -3,33 +3,33 @@
 \contentsline {chapter}{\numberline {2}{\ignorespaces Elements of Coding : Science of Deriving Correct Programs\relax }}{10}{}%
 \contentsline {chapter}{\numberline {3}{\ignorespaces Elements of Coding Linear Algebra : The Nucleus of Artificial Intelligence\relax }}{12}{}%
 \contentsline {chapter}{\numberline {4}{\ignorespaces Elements of Software Design Patterns\relax }}{17}{}%
-\contentsline {chapter}{\numberline {5}{\ignorespaces Elements of Coding AI\relax }}{19}{}%
-\contentsline {chapter}{\numberline {6}{\ignorespaces Elements of Coding DL (Deep Learning)\relax }}{21}{}%
-\contentsline {chapter}{\numberline {7}{\ignorespaces Elements of Coding ML : Internals of Machine Learning Library MLPack\relax }}{23}{}%
-\contentsline {chapter}{\numberline {8}{\ignorespaces Conceptual BitCoin : Blockchain Coding\relax }}{25}{}%
-\contentsline {chapter}{\numberline {9}{\ignorespaces Conceptual Data Science Interviews\relax }}{27}{}%
-\contentsline {chapter}{\numberline {10}{\ignorespaces Conceptual Dependency Injection : Unwiring Simplified in C++\relax }}{29}{}%
-\contentsline {chapter}{\numberline {11}{\ignorespaces Conceptual Dynamic Programming : Optimal Coding Simplified\relax }}{31}{}%
-\contentsline {chapter}{\numberline {12}{\ignorespaces Conceptual Programming Interviews\relax }}{33}{}%
-\contentsline {chapter}{\numberline {13}{\ignorespaces Conceptual Machine Learning\relax }}{35}{}%
-\contentsline {chapter}{\numberline {14}{\ignorespaces Conceptual Programming of STL Algorithms\relax }}{37}{}%
-\contentsline {chapter}{\numberline {15}{\ignorespaces Conceptual Solutions to (CLRS) Introduction to Algorithms\relax }}{39}{}%
-\contentsline {chapter}{\numberline {16}{\ignorespaces Conceptual Programming of Algorithms Using Dijkstra’s Approach\relax }}{41}{}%
-\contentsline {chapter}{\numberline {17}{\ignorespaces Conceptual Solutions to Pattern Recognition and Machine Learning\relax }}{43}{}%
-\contentsline {chapter}{\numberline {18}{\ignorespaces Science of Deriving Beautiful Programs\relax }}{45}{}%
-\contentsline {chapter}{\numberline {19}{\ignorespaces Modern C++ Ranges : A Revolution in STL\relax }}{47}{}%
-\contentsline {chapter}{\numberline {20}{\ignorespaces Elements of C++20\relax }}{49}{}%
-\contentsline {chapter}{\numberline {21}{\ignorespaces Solving Problems using Dynamic Programming : A Hacker’s Perspective\relax }}{51}{}%
-\contentsline {chapter}{\numberline {22}{\ignorespaces Hacking TensorFlow Internals : An Insider’s Commentary on A Learning System\relax }}{82}{}%
-\contentsline {chapter}{\numberline {23}{\ignorespaces Advanced C++ FAQs Vol 1 \& 2\relax }}{84}{}%
-\contentsline {chapter}{\numberline {24}{\ignorespaces C++14 FAQs\relax }}{86}{}%
-\contentsline {chapter}{\numberline {25}{\ignorespaces The Boost C++ Libraries: Generic Programming\relax }}{88}{}%
-\contentsline {chapter}{\numberline {26}{\ignorespaces Generic Algorithms and Data Structures using C++11\relax }}{90}{}%
-\contentsline {chapter}{\numberline {27}{\ignorespaces C++11 Standard Library: Usage and Implementation\relax }}{92}{}%
-\contentsline {chapter}{\numberline {28}{\ignorespaces Foundation of Algorithms in C++11\relax }}{94}{}%
-\contentsline {chapter}{\numberline {29}{\ignorespaces C++11 Algorithms : Using and Extending C++11, Boost and Beyond\relax }}{96}{}%
-\contentsline {chapter}{\numberline {30}{\ignorespaces Cracking Programming Interviews : 500 Questions with Solutions\relax }}{98}{}%
-\contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{100}{}%
-\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{102}{}%
-\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{104}{}%
-\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{106}{}%
+\contentsline {chapter}{\numberline {5}{\ignorespaces Elements of Coding AI\relax }}{21}{}%
+\contentsline {chapter}{\numberline {6}{\ignorespaces Elements of Coding DL (Deep Learning)\relax }}{23}{}%
+\contentsline {chapter}{\numberline {7}{\ignorespaces Elements of Coding ML : Internals of Machine Learning Library MLPack\relax }}{25}{}%
+\contentsline {chapter}{\numberline {8}{\ignorespaces Conceptual BitCoin : Blockchain Coding\relax }}{27}{}%
+\contentsline {chapter}{\numberline {9}{\ignorespaces Conceptual Data Science Interviews\relax }}{29}{}%
+\contentsline {chapter}{\numberline {10}{\ignorespaces Conceptual Dependency Injection : Unwiring Simplified in C++\relax }}{31}{}%
+\contentsline {chapter}{\numberline {11}{\ignorespaces Conceptual Dynamic Programming : Optimal Coding Simplified\relax }}{33}{}%
+\contentsline {chapter}{\numberline {12}{\ignorespaces Conceptual Programming Interviews\relax }}{35}{}%
+\contentsline {chapter}{\numberline {13}{\ignorespaces Conceptual Machine Learning\relax }}{37}{}%
+\contentsline {chapter}{\numberline {14}{\ignorespaces Conceptual Programming of STL Algorithms\relax }}{39}{}%
+\contentsline {chapter}{\numberline {15}{\ignorespaces Conceptual Solutions to (CLRS) Introduction to Algorithms\relax }}{41}{}%
+\contentsline {chapter}{\numberline {16}{\ignorespaces Conceptual Programming of Algorithms Using Dijkstra’s Approach\relax }}{43}{}%
+\contentsline {chapter}{\numberline {17}{\ignorespaces Conceptual Solutions to Pattern Recognition and Machine Learning\relax }}{45}{}%
+\contentsline {chapter}{\numberline {18}{\ignorespaces Science of Deriving Beautiful Programs\relax }}{47}{}%
+\contentsline {chapter}{\numberline {19}{\ignorespaces Modern C++ Ranges : A Revolution in STL\relax }}{49}{}%
+\contentsline {chapter}{\numberline {20}{\ignorespaces Elements of C++20\relax }}{51}{}%
+\contentsline {chapter}{\numberline {21}{\ignorespaces Solving Problems using Dynamic Programming : A Hacker’s Perspective\relax }}{53}{}%
+\contentsline {chapter}{\numberline {22}{\ignorespaces Hacking TensorFlow Internals : An Insider’s Commentary on A Learning System\relax }}{84}{}%
+\contentsline {chapter}{\numberline {23}{\ignorespaces Advanced C++ FAQs Vol 1 \& 2\relax }}{86}{}%
+\contentsline {chapter}{\numberline {24}{\ignorespaces C++14 FAQs\relax }}{88}{}%
+\contentsline {chapter}{\numberline {25}{\ignorespaces The Boost C++ Libraries: Generic Programming\relax }}{90}{}%
+\contentsline {chapter}{\numberline {26}{\ignorespaces Generic Algorithms and Data Structures using C++11\relax }}{92}{}%
+\contentsline {chapter}{\numberline {27}{\ignorespaces C++11 Standard Library: Usage and Implementation\relax }}{94}{}%
+\contentsline {chapter}{\numberline {28}{\ignorespaces Foundation of Algorithms in C++11\relax }}{96}{}%
+\contentsline {chapter}{\numberline {29}{\ignorespaces C++11 Algorithms : Using and Extending C++11, Boost and Beyond\relax }}{98}{}%
+\contentsline {chapter}{\numberline {30}{\ignorespaces Cracking Programming Interviews : 500 Questions with Solutions\relax }}{100}{}%
+\contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{102}{}%
+\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{104}{}%
+\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{106}{}%
+\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{108}{}%

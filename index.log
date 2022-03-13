@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  13 MAR 2022 02:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  14 MAR 2022 02:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3598,7 +3598,113 @@ Overfull \hbox (70.60461pt too wide) in paragraph at lines 45--46
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-Excluding 'comment' comment.) [5] [6
+Excluding 'comment' comment.) [5] (./designpatterns/dp.tex
+Requested font "Cooper Black" at 11.99997pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/OT" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/BI/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Could not resolve font "Cooper Black/BI" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Cooper Black/B/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Could not resolve font "Cooper Black/B" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Cooper Black/I/OT:language=dflt;" at 12.00002pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Could not resolve font "Cooper Black/I" (it probably
+(fontspec)             doesn't exist).
+
+Requested font "Cooper Black/OT:language=dflt;" at 12.00003pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+Package fontspec Info: Font family 'CooperBlack(0)' created for font 'Cooper
+(fontspec)             Black' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Cooper
+(fontspec)             Black/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 12.0pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 56.9055pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+
+
+LaTeX Font Warning: Font shape `TU/CooperBlack(0)/b/n' undefined
+(Font)              using `TU/CooperBlack(0)/m/n' instead on input line 6.
+
+LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
+(Font)              scaled to size 81.94406pt on input line 6.
+Requested font "callig15" at 81.94406pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 28.45274pt
+ -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
+LaTeX Font Info:    Calculating math sizes for size <28.45274> on input line 39
+.
+Requested font "rm-lmr17" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
+Requested font "rm-lmr17" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
+Requested font "rm-lmr12" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
+Requested font "lmmi12" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi12" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi12" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmsy10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <28.45274> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <19.91682> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.22636> on input line 39.
+Requested font "msam10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msbm10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "eusm10" at 28.45274pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm10" at 19.91682pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+Requested font "eusm10" at 14.22636pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+) [6
 
 ] [7
 
@@ -3616,8 +3722,7 @@ Excluding 'comment' comment.) [5] [6
 
 ] [14
 
-]
-[15
+] [15
 
 ] [16
 
@@ -3629,23 +3734,24 @@ Excluding 'comment' comment.) [5] [6
 
 ] [20
 
-] [21
+]
+[21
 
 ] [22
 
-] (./solvingdpp/dpp.tex
-Excluding 'warpHTML' comment.
+] (./solvingdpp/dpp.tex Excluding 'warpHTML' comment.
 Requested font "rm-lmbx12" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 Requested font "rm-lmbx8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 Requested font "rm-lmbx6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
- Including 'warpprint' comment.
+
+Including 'warpprint' comment.
 \openout4 = `comment_print.cut'.
 
-
-Straight input of comment_print.cut. (./comment_print.cut
+ Straight input of comment_print.cut.
+(./comment_print.cut
 File: solvingdpp/cover/dpp-cover.pdf Graphic file (type pdf)
 <use solvingdpp/cover/dpp-cover.pdf>
 ) [23
@@ -3832,12 +3938,12 @@ Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 8D8F515871043C06C2CB31E033EFD8E7;10128.
  ) 
 Here is how much of TeX's memory you used:
- 69207 strings out of 476180
- 1645512 string characters out of 5809555
- 2404039 words of memory out of 5000000
- 88346 multiletter control sequences out of 15000+600000
- 522435 words of font info for 159 fonts, out of 8000000 for 9000
+ 69337 strings out of 476180
+ 1648422 string characters out of 5809555
+ 2404086 words of memory out of 5000000
+ 88460 multiletter control sequences out of 15000+600000
+ 535606 words of font info for 185 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,13n,112p,775b,1847s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,13n,112p,4833b,1847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on index.pdf (55 pages).
