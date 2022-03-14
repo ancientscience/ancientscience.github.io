@@ -3,7 +3,18 @@
 % Minimum Cover Height: Bleed + Book Height Trim Size + Bleed = 0.125" + 8" + .125" = 8.25"
 \documentclass[makeidx, 12pt, oneside, onecolumn, openright, final, svgnames, dvipsnames, extrafontsizes]{memoir}
 
+
 \usepackage[mathjax]{lwarp}
+
+\usepackage{pifont, dingbat}
+
+
+\newcommand*\circnode[1]{\tikz[baseline=(char.base)]{%
+            \node[shape=circle,fill=Olive!20,draw,inner sep=1.0pt] (char) {#1};}}
+
+%\usepackage{smartdiagram}
+%\usesmartdiagramlibrary{additions}
+
 
 \usepackage{wrapfig2}
 \usepackage{kantlipsum}
@@ -36,7 +47,7 @@
 \usetikzlibrary{fadings, shadings, shadows, decorations, decorations.footprints, decorations.text, calc, positioning, mindmap,arrows, patterns, arrows.meta}
 \usepackage{libertine}
 \usepackage{fontspec}
-\usepackage[weather]{ifsym}
+%\usepackage[weather, misc]{ifsym}
 %\usepackage{marvosym}
 \usepackage{multido}
 \usepackage{hologo, mflogo}
@@ -54,6 +65,7 @@
 
 %\usepackage{algorithm}
 \usepackage{listings}
+
 
 \setmainfont{Avant Garde}
 \fontsize{0.05cm}{0.1cm}\selectfont
@@ -243,7 +255,8 @@
 \definecolor{darkorchid}{rgb}{0.6, 0.2, 0.8}
 \definecolor{modebeige}{rgb}{0.59, 0.44, 0.09}
 
-\newcommand{\hlt}[1]{\textcolor{vividviolet}{\emph{#1}}}% prints text in burntorange
+\newcommand{\hl}[1]{\textcolor{vividviolet}{#1}}% prints text in burntorange
+\newcommand{\hlt}[1]{\textcolor{vividviolet}{\emph{#1}}}% prints italicized text in burntorange
 \newcommand{\hlm}[1]{{\textcolor{modebeige}{#1}}}% prints math in Sepia
 \newcommand{\hlbt}[1]{\textbf{\textcolor{Olive}{#1}}}% prints bold text in burntorange
 %\newcommand{\hlmb}[1]{{\color{modebeige}{#1}}}% prints math in Sepia
@@ -301,7 +314,7 @@
   \tikz[baseline=0]\path [#1] \pgfextra{\rlap{\copy0}} (0,-\dp0) rectangle (\wd0,\ht0);%
 }
 
-\newcommand{\aum}{\texthindi{ ॐ }}
+\newcommand{\aum}{\texthindi{ॐ}}
 \newcommand{\Repeat}{\multido{\i=1+1}}
 
 %\tikzfading[name=fade out,inner color=transparent!0,outer color=transparent!100]
@@ -427,6 +440,16 @@
 
 \usepackage{enumitem}
 
+\definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
+%\definecolor{armygreen}{rgb}{0.29, 0.33, 0.13}
+\definecolor{auburn}{rgb}{0.43, 0.21, 0.1}
+
+\newenvironment{defn}
+  {\renewcommand{\qedsymbol}{{\color{auburn}\tiny$\blacksquare$}}\vspace{-0.4\baselineskip}\begin{proof}[\emph{\textbf{\scshape\color{auburn} \underline{Definition}}}]\color{applegreen}}
+  {\end{proof}}
+  
+\usepackage{epigraph}
+
 
 
 
@@ -496,6 +519,11 @@
 \node[scale=1.9, at={(0in, -3.2in)}]
     {\bfseries \textcolor{Sepia}{\calligra {Decode The Myth}}};
 
+%\node[text=Yellow,scale=0.9] at(0in, -4.2) {
+%\begin{varwidth}{6cm}
+% \Letter \, \texttt{ancientsciencepublishers@gmail.com}\\
+%\Telefon \, \texttt{+91 9353015055}
+%\end{varwidth}
 
 \node[scale=1.0, at={(0in, -4.8in)}]
 {\HUGE \bfseries \color{TriangleColor}{\RaisedText{\texthindi{अन्तर्चक्षुः}}}};
@@ -535,6 +563,11 @@
 \end{center}
 
 \frontmatter
+
+\begin{center}
+\Large \href{mailto:ancientsciencepublishers@gmail.com}{\nolinkurl{ancientsciencepublishers@gmail.com}}
+\end{center}
+
 
 \renewcommand{\contentsname}{Monographs}
 

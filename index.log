@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  14 MAR 2022 02:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  14 MAR 2022 23:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1006,6 +1006,23 @@ File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
 Excluding 'warpHTML' comment. Excluding 'warpHTML' comment.
 Excluding 'warpHTML' comment. Excluding 'warpHTML' comment.
 Excluding 'warpHTML' comment.)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/dingbat/dingbat.sty
+Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig2/wrapfig2.sty
 Package: wrapfig2 2022-02-16 v.6.0.0 Wrap text around figures, tables, framed t
 ext blocks
@@ -2326,18 +2343,14 @@ LaTeX Info: Redefining \liningnums on input line 475.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/libertine/LKey.tex))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ifsym/ifsym.sty
-Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count405
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/multido/multido.sty
 Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/multido/multido.tex
  v1.42, 2010/05/14 <tvz>
-\multido@count=\count406
-\multidocount=\count407
+\multido@count=\count405
+\multidocount=\count406
 \multido@stuff=\toks56
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
@@ -2378,17 +2391,17 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pstricks.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv)
-\pstFP@xs=\count408
-\pstFP@xia=\count409
-\pstFP@xib=\count410
-\pstFP@xfa=\count411
-\pstFP@xfb=\count412
-\pstFP@rega=\count413
-\pstFP@regb=\count414
-\pstFP@regs=\count415
-\pstFP@times=\count416
+\pstFP@xs=\count407
+\pstFP@xia=\count408
+\pstFP@xib=\count409
+\pstFP@xfa=\count410
+\pstFP@xfb=\count411
+\pstFP@rega=\count412
+\pstFP@regb=\count413
+\pstFP@regs=\count414
+\pstFP@times=\count415
 )
-\psLoopIndex=\count417
+\psLoopIndex=\count416
 
 `PSTricks' v3.13  <2022/01/09> (tvz,hv)
 \pst@dima=\dimen353
@@ -2404,17 +2417,17 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \pst@hbox=\box124
 \pst@ibox=\box125
 \pst@boxg=\box126
-\pst@cnta=\count418
-\pst@cntb=\count419
-\pst@cntc=\count420
-\pst@cntd=\count421
-\pst@cntg=\count422
-\pst@cnth=\count423
-\pst@cntm=\count424
-\pst@cntn=\count425
-\pst@cnto=\count426
-\pst@cntp=\count427
-\@zero=\count428
+\pst@cnta=\count417
+\pst@cntb=\count418
+\pst@cntc=\count419
+\pst@cntd=\count420
+\pst@cntg=\count421
+\pst@cnth=\count422
+\pst@cntm=\count423
+\pst@cntn=\count424
+\pst@cnto=\count425
+\pst@cntp=\count426
+\@zero=\count427
 \pst@toks=\toks57
 --- We are running latex or xelatex ---
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
@@ -2423,7 +2436,7 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \psunit=\dimen363
 \psxunit=\dimen364
 \psyunit=\dimen365
-\pst@C@@rType=\count429
+\pst@C@@rType=\count428
 \pslinewidth=\dimen366
 \psk@startLW=\dimen367
 \psk@endLW=\dimen368
@@ -2445,7 +2458,7 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \sh@wgridXunit=\dimen377
 \sh@wgridYunit=\dimen378
 \pst@shift=\dimen379
-\ps@imagectr=\count430
+\ps@imagectr=\count429
 
 (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
@@ -2481,8 +2494,8 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks61
 \t@pgfplots@tokc=\toks62
 \pgfplots@tmpa=\dimen380
-\c@pgfplots@coordindex=\count431
-\c@pgfplots@scanlineindex=\count432
+\c@pgfplots@coordindex=\count430
+\c@pgfplots@scanlineindex=\count431
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -2500,13 +2513,13 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count433
+\c@pgfplotsarray@tmp=\count432
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count434
+\c@pgfplotstable@counta=\count433
 \t@pgfplotstable@a=\toks63
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
@@ -2519,13 +2532,13 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count435
+\c@pgfplotslibrarysurf@no=\count434
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-xetex.def
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-dvipdfmx.def
-\c@pgfplotslibrarysurf@streamlen=\count436
+\c@pgfplotslibrarysurf@streamlen=\count435
 ))))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
 code.tex
@@ -2561,7 +2574,7 @@ s/tikzlibrarydecorations.pathreplacing.code.tex
 brarydecorations.pathreplacing.code.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
 ts.contourlua.code.tex)
-\pgfplots@numplots=\count437
+\pgfplots@numplots=\count436
 \pgfplots@xmin@reg=\dimen381
 \pgfplots@xmax@reg=\dimen382
 \pgfplots@ymin@reg=\dimen383
@@ -2605,7 +2618,7 @@ brarydecorations.shapes.code.tex))
 s/tikzlibraryintersections.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
 ctions.code.tex
-\pgf@intersect@solutions=\count438
+\pgf@intersect@solutions=\count437
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryquotes.code.tex
@@ -2630,7 +2643,7 @@ File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tkz@cy=\dimen395
 \tkz@dx=\dimen396
 \tkz@dy=\dimen397
-\tkz@cntmk=\count439
+\tkz@cntmk=\count438
 
 Local configuration file tkz-euclide.cfg found and used
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
@@ -2767,23 +2780,23 @@ ts.decorations.softclip.code.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
 ts.polar.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count440
+\lst@mode=\count439
 \lst@gtempboxa=\box127
 \lst@token=\toks64
-\lst@length=\count441
+\lst@length=\count440
 \lst@currlwidth=\dimen400
-\lst@column=\count442
-\lst@pos=\count443
+\lst@column=\count441
+\lst@pos=\count442
 \lst@lostspace=\dimen401
 \lst@width=\dimen402
-\lst@newlines=\count444
-\lst@lineno=\count445
+\lst@newlines=\count443
+\lst@lineno=\count444
 \lst@maxwidth=\dimen403
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count446
-\lst@skipnumbers=\count447
+\c@lstnumber=\count445
+\lst@skipnumbers=\count446
 \lst@framebox=\box128
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
@@ -2924,7 +2937,7 @@ s/circuits/tikzlibrarycircuits.logic.US.code.tex
 s/circuits/tikzlibrarycircuits.logic.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/circuits/tikzlibrarycircuits.code.tex
-\tikz@lib@circ@count=\count448
+\tikz@lib@circ@count=\count447
 \tikzcircuitssizeunit=\dimen404
 )))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -2949,12 +2962,12 @@ File: pgfmoduledatavisualization.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.te
 x
-\pgfoo@objectcount=\count449
-\pgfoothis@count=\count450
+\pgfoo@objectcount=\count448
+\pgfoothis@count=\count449
 \pgfoo@toks=\toks65
 )
+\pgf@lib@dv@cache@count=\count450
 \pgf@lib@dv@cache@count=\count451
-\pgf@lib@dv@cache@count=\count452
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
@@ -2962,7 +2975,7 @@ File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@layerbox@background=\box149
 \pgf@layerboxsaved@background=\box150
 )
-\tikzdvvisualizercounter=\count453
+\tikzdvvisualizercounter=\count452
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/datavisualization/tikzlibrarydatavisualization.formats.functions.code.tex
@@ -3003,17 +3016,17 @@ File: tikzlibrarycalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 tex
 File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-\pgfcalendarcurrentjulian=\count454
-\pgf@cal@easter@Y=\count455
-\pgf@cal@easter@G=\count456
-\pgf@cal@easter@C=\count457
-\pgf@cal@easter@X=\count458
-\pgf@cal@easter@Z=\count459
-\pgf@cal@easter@D=\count460
-\pgf@cal@easter@E=\count461
-\pgf@cal@easter@N=\count462
-\pgf@cal@easter@M=\count463
-\pgf@cal@easter@julianday=\count464
+\pgfcalendarcurrentjulian=\count453
+\pgf@cal@easter@Y=\count454
+\pgf@cal@easter@G=\count455
+\pgf@cal@easter@C=\count456
+\pgf@cal@easter@X=\count457
+\pgf@cal@easter@Z=\count458
+\pgf@cal@easter@D=\count459
+\pgf@cal@easter@E=\count460
+\pgf@cal@easter@N=\count461
+\pgf@cal@easter@M=\count462
+\pgf@cal@easter@julianday=\count463
 )))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryfolding.code.tex
@@ -3043,14 +3056,14 @@ s/tikzlibrarydecorations.fractals.code.tex
 brarydecorations.fractals.code.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.
 code.tex  v1.02, 2012/12/09
-\pgfbs@fading@count=\count465
+\pgfbs@fading@count=\count464
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarylindenmayersystems.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarylindenm
 ayersystems.code.tex
 \pgflsystemstep=\dimen406
-\c@pgf@lsystem@iteration=\count466
+\c@pgf@lsystem@iteration=\count465
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryfixedpointarithmetic.code.tex
@@ -3069,14 +3082,14 @@ File: pgflibrarysvg.path.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.cod
 e.tex
 File: pgfmoduleparser.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfparserdef@arg@count=\count467
+\pgfparserdef@arg@count=\count466
 )
 \pgf@lib@svg@last@x=\dimen407
 \pgf@lib@svg@last@y=\dimen408
 \pgf@lib@svg@last@c@x=\dimen409
 \pgf@lib@svg@last@c@y=\dimen410
-\pgf@lib@svg@count=\count468
-\pgf@lib@svg@max@num=\count469
+\pgf@lib@svg@count=\count467
+\pgf@lib@svg@max@num=\count468
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzl
 ibraryexternal.code.tex
@@ -3173,15 +3186,15 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count470
-\c@ALG@rem=\count471
-\c@ALG@nested=\count472
+\c@ALG@line=\count469
+\c@ALG@rem=\count470
+\c@ALG@nested=\count471
 \ALG@tlm=\skip269
 \ALG@thistlm=\skip270
-\c@ALG@Lnr=\count473
-\c@ALG@blocknr=\count474
-\c@ALG@storecount=\count475
-\c@ALG@tmpcounter=\count476
+\c@ALG@Lnr=\count472
+\c@ALG@blocknr=\count473
+\c@ALG@storecount=\count474
+\c@ALG@tmpcounter=\count475
 \ALG@tmplength=\skip271
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -3191,8 +3204,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen411
 \enit@toks=\toks66
 \enit@inbox=\box153
-\enit@count@id=\count477
-\enitdp@description=\count478
+\enit@count@id=\count476
+\enitdp@description=\count477
 )
 
 LaTeX Warning: Unused global option(s):
@@ -3201,37 +3214,37 @@ LaTeX Warning: Unused global option(s):
 (./index.aux)
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 435.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 458.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-35.
+58.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 435.
-LaTeX Font Info:    ... okay on input line 435.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 458.
+LaTeX Font Info:    ... okay on input line 458.
 \openout5 = `lwarpmk.conf'.
 
 \openout5 = `index.lwarpmkconf'.
 
 \LWR@colorminipagebox=\box154
-Package hyperref Info: Link coloring ON on input line 435.
+Package hyperref Info: Link coloring ON on input line 458.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -3243,14 +3256,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count479
+\c@section@level=\count478
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 435.
-LaTeX Info: Redefining \ref on input line 435.
-LaTeX Info: Redefining \pageref on input line 435.
-LaTeX Info: Redefining \nameref on input line 435.
+LaTeX Info: Redefining \nameref on input line 458.
+LaTeX Info: Redefining \ref on input line 458.
+LaTeX Info: Redefining \pageref on input line 458.
+LaTeX Info: Redefining \nameref on input line 458.
 (./index.out) (./index.out)
 \@outlinefile=\write7
 \openout7 = `index.out'.
@@ -3260,9 +3273,9 @@ LaTeX Info: Redefining \nameref on input line 435.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 435.
+ on input line 458.
 
-\c@lstlisting=\count480
+\c@lstlisting=\count479
 Requested font "DejaVu Serif" at 11.99997pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
 Requested font "DejaVu Serif/OT" at 12.00003pt
@@ -3313,7 +3326,7 @@ Package fontspec Info: Font family 'DejaVuSerif(0)' created for font 'DejaVu
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  12.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
-\c@density=\count481
+\c@density=\count480
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 12.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
@@ -3328,26 +3341,113 @@ Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
 Requested font "Nakula/OT:script=deva;language=dflt;" at 36.0pt
  -> /usr/share/fonts/truetype/Nakula/nakula.ttf
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 17.28003pt on input line 478.
+(Font)              scaled to size 17.28003pt on input line 501.
 Requested font "callig15" at 17.28003pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 29.86565pt on input line 478.
+(Font)              scaled to size 29.86565pt on input line 501.
 Requested font "callig15" at 29.86565pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 Requested font "Nakula/OT:script=deva;language=dflt;" at 20.74pt
  -> /usr/share/fonts/truetype/Nakula/nakula.ttf
 
 LaTeX Font Warning: Font shape `T1/calligra/b/n' undefined
-(Font)              using `T1/calligra/m/n' instead on input line 497.
+(Font)              using `T1/calligra/m/n' instead on input line 520.
 
 LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
-(Font)              scaled to size 51.84009pt on input line 510.
+(Font)              scaled to size 51.84009pt on input line 538.
 Requested font "callig15" at 51.84009pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 [1
 
 ]
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
+ 17.28pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 568.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 17.28pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+68.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "rm-lmr17" at 17.28pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
+Requested font "rm-lmr12" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
+Requested font "rm-lmr10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+68.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "lmmi12" at 17.28pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi12" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
+Requested font "lmmi10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+568.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "lmsy10" at 17.28pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+Requested font "lmsy10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+568.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 568.
+Requested font "lmex10" scaled 1000
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 568.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 568.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 568
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+Requested font "msam10" at 17.28pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+LaTeX Font Info:    Trying to load font information for U+msb on input line 568
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Requested font "msbm10" at 17.28pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  24.88pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
@@ -3357,7 +3457,7 @@ at 24.88pt
 
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/sc' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 542.
+(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 575.
 
 (./index.toc
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
@@ -3366,119 +3466,56 @@ Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 14.4pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Requested font "rm-lmr12" at 14.4pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
-Requested font "rm-lmr10" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 Requested font "rm-lmr7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Requested font "lmmi12" at 14.4pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
-Requested font "lmmi10" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
 Requested font "lmmi7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-1.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Requested font "lmsy10" at 14.4pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
-Requested font "lmsy10" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 Requested font "lmsy7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-1.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 1.
-Requested font "lmex10" scaled 1000
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
 Requested font "msam10" at 14.4pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
-.tfm
-Requested font "msam10" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
 .tfm
 Requested font "msam7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
 tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 Requested font "msbm10" at 14.4pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
-.tfm
-Requested font "msbm10" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
 .tfm
 Requested font "msbm7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.
 tfm
-Requested font "rm-lmr12" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 Requested font "rm-lmr8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
 Requested font "rm-lmr6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
-Requested font "lmmi12" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 Requested font "lmmi8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi8.tfm
 Requested font "lmmi6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi6.tfm
-Requested font "lmsy10" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 Requested font "lmsy8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy8.tfm
 Requested font "lmsy6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 2.
-Requested font "msam10" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
-.tfm
 Requested font "msam10" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
 .tfm
 Requested font "msam7" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
 tfm
-Requested font "msbm10" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
-.tfm
 Requested font "msbm10" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
 .tfm
@@ -3546,7 +3583,7 @@ at 30.0pt
 
 ]
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 554.
+(Font)              scaled to size 12.0pt on input line 587.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
@@ -3643,15 +3680,15 @@ Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 56.9055pt
 
 
 LaTeX Font Warning: Font shape `TU/CooperBlack(0)/b/n' undefined
-(Font)              using `TU/CooperBlack(0)/m/n' instead on input line 6.
+(Font)              using `TU/CooperBlack(0)/m/n' instead on input line 7.
 
 LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
-(Font)              scaled to size 81.94406pt on input line 6.
+(Font)              scaled to size 81.94406pt on input line 7.
 Requested font "callig15" at 81.94406pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 Requested font "Cooper Black/OT:language=dflt;mapping=tex-text;" at 28.45274pt
  -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
-LaTeX Font Info:    Calculating math sizes for size <28.45274> on input line 39
+LaTeX Font Info:    Calculating math sizes for size <28.45274> on input line 40
 .
 Requested font "rm-lmr17" at 28.45274pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
@@ -3672,11 +3709,11 @@ Requested font "lmsy10" at 19.91682pt
 Requested font "lmsy10" at 14.22636pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <28.45274> on input line 39.
+(Font)              <28.45274> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <19.91682> on input line 39.
+(Font)              <19.91682> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.22636> on input line 39.
+(Font)              <14.22636> on input line 40.
 Requested font "msam10" at 28.45274pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
 .tfm
@@ -3704,21 +3741,152 @@ fm
 Requested font "eusm10" at 14.22636pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
 fm
-) [6
 
-] [7
+Overfull \hbox (120.09961pt too wide) in paragraph at lines 105--106
+[]$[]$ 
+ []
 
-] [8
 
-] [9
+Underfull \hbox (badness 6173) in paragraph at lines 108--110
+[]\TU/DejaVuSerif(0)/m/n/12 A pattern is a
+ []
 
-] [10
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
+ 8.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "rm-lmr5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
+Requested font "lmmi5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
+Requested font "lmsy5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 115.
+Requested font "msam5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.
+tfm
+Requested font "msbm5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
+tfm
+Requested font "eusm5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm5.tf
+m
+File: designpatterns/patterns-triad.pdf Graphic file (type pdf)
+<use designpatterns/patterns-triad.pdf>
+[6
 
-] [11
+]
+Underfull \hbox (badness 1082) in paragraph at lines 137--138
+\TU/DejaVuSerif(0)/m/n/12 the rule which tells us
+ []
 
-] [12
 
-] [13
+Overfull \hbox (8.89606pt too wide) in paragraph at lines 139--140
+[]\TU/DejaVuSerif(0)/m/n/12 Identification of what-why-
+ []
+
+
+Overfull \hbox (1.63629pt too wide) in paragraph at lines 140--141
+[]\TU/DejaVuSerif(0)/m/n/12 It starts with defining fea-
+ []
+
+
+Overfull \hbox (2.9902pt too wide) in paragraph at lines 141--142
+\TU/DejaVuSerif(0)/m/n/12 lem, i.e. the field of forces
+ []
+
+
+Overfull \hbox (16.13239pt too wide) in paragraph at lines 143--144
+[]\TU/DejaVuSerif(0)/m/n/12 It can complement and com-
+ []
+
+
+Overfull \hbox (2.88434pt too wide) in paragraph at lines 143--144
+\TU/DejaVuSerif(0)/m/n/12 pound another pattern(s). 
+ []
+
+[7]
+Overfull \hbox (0.19489pt too wide) in paragraph at lines 145--146
+[]\TU/DejaVuSerif(0)/m/n/12 It is a micro-architecture. 
+ []
+
+
+Overfull \hbox (1.7359pt too wide) in paragraph at lines 146--147
+[]\TU/DejaVuSerif(0)/m/n/12 It promotes design-reuse. 
+ []
+
+
+Overfull \hbox (0.60504pt too wide) in paragraph at lines 147--148
+\TU/DejaVuSerif(0)/m/n/12 texts is defined where the
+ []
+
+
+Overfull \hbox (6.7398pt too wide) in paragraph at lines 147--148
+\TU/DejaVuSerif(0)/m/n/12 stated problem occurs and
+ []
+
+
+Overfull \hbox (9.56403pt too wide) in paragraph at lines 148--149
+\TU/DejaVuSerif(0)/m/n/12 problem which occurs over
+ []
+
+
+Overfull \hbox (9.12457pt too wide) in paragraph at lines 148--149
+\TU/DejaVuSerif(0)/m/n/12 tem and then describes the
+ []
+
+
+Overfull \hbox (3.8277pt too wide) in paragraph at lines 148--149
+\TU/DejaVuSerif(0)/m/n/12 core of the solution to that
+ []
+
+
+Overfull \hbox (7.02106pt too wide) in paragraph at lines 148--149
+\TU/DejaVuSerif(0)/m/n/12 problem in such a way that
+ []
+
+
+Overfull \hbox (1.34332pt too wide) in paragraph at lines 148--149
+\TU/DejaVuSerif(0)/m/n/12 out ever doing it the same
+ []
+
+[8]
+File: designpatterns/patterns-form.pdf Graphic file (type pdf)
+<use designpatterns/patterns-form.pdf>
+ [9]
+Requested font "Nakula/OT:script=deva;language=dflt;" at 12.0pt
+ -> /usr/share/fonts/truetype/Nakula/nakula.ttf
+ [10]
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
+ 10.95pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;mapping=tex-text;" 
+at 10.95pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
+Requested font "rm-lmr10" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+Requested font "lmmi10" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
+Requested font "lmsy10" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 297.
+Requested font "msam10" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msbm10" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "eusm10" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
+fm
+ [11]
+Overfull \hbox (1.08801pt too wide) in paragraph at lines 302--303
+[] []\TU/DejaVuSerif(0)/b/sc/12 Optionally null object references, where the re
+-
+ []
+
+) [12] [13
 
 ] [14
 
@@ -3734,10 +3902,22 @@ fm
 
 ] [20
 
-]
-[21
+] [21
 
 ] [22
+
+] [23
+
+] [24
+
+] [25
+
+]
+[26
+
+] [27
+
+] [28
 
 ] (./solvingdpp/dpp.tex Excluding 'warpHTML' comment.
 Requested font "rm-lmbx12" at 12.0pt
@@ -3754,7 +3934,7 @@ Including 'warpprint' comment.
 (./comment_print.cut
 File: solvingdpp/cover/dpp-cover.pdf Graphic file (type pdf)
 <use solvingdpp/cover/dpp-cover.pdf>
-) [23
+) [29
 
 ]
 Overfull \hbox (4.48438pt too wide) in paragraph at lines 22--23
@@ -3762,45 +3942,22 @@ Overfull \hbox (4.48438pt too wide) in paragraph at lines 22--23
 ly lively
  []
 
-[24]
-Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
- 8.0pt
- -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+[30]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  6.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
- [25] [26]
-Requested font "rm-lmr5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
-Requested font "lmmi5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
-Requested font "lmsy5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 129.
+ [31] [32]
 Requested font "rm-lmbx5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
-Requested font "msam5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.
-tfm
-Requested font "msbm5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
-tfm
-Requested font "eusm5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm5.tf
-m
 
 Overfull \hbox (1.39818pt too wide) in paragraph at lines 137--138
 []$[]$ 
  []
 
-Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
- 17.28pt
- -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 17.28pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
-[27]
+[33]
 Overfull \hbox (3.18295pt too wide) in paragraph at lines 172--173
  [] 
  []
@@ -3812,7 +3969,7 @@ Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
 (Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
 
-[28] [29]
+[34] [35]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  9.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
@@ -3826,7 +3983,7 @@ Overfull \hbox (99.4049pt too wide) in paragraph at lines 326--327
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[30]
+[36]
 Overfull \hbox (27.40417pt too wide) in paragraph at lines 339--340
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -3846,7 +4003,7 @@ Overfull \hbox (214.60608pt too wide) in paragraph at lines 343--344
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[31] Excluding 'comment' comment. [32]
+[37] Excluding 'comment' comment. [38]
 Overfull \hbox (3.78766pt too wide) in paragraph at lines 416--417
 []\TU/DejaVuSerif(0)/m/sc/12 Maximum sum non-contiguous subsequence : compute s
 um 
@@ -3870,7 +4027,7 @@ Overfull \hbox (6.49469pt too wide) in paragraph at lines 424--425
 rod-
  []
 
-[33]
+[39]
 Overfull \hbox (13.98297pt too wide) in paragraph at lines 451--452
 []\TU/DejaVuSerif(0)/m/sc/12 Constrained Kriya Grid Paths to Heaven : Optimal P
 ranayams 
@@ -3888,25 +4045,13 @@ Overfull \hbox (13.98297pt too wide) in paragraph at lines 453--454
 ranayams
  []
 
-[34]
+[40]
 Overfull \hbox (8.33453pt too wide) in paragraph at lines 504--505
 []\TU/DejaVuSerif(0)/m/sc/12 Maximum Length of Palindromic Kriya Subsequence : 
 Space
  []
 
-[35]) [36] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
-
-] [42
-
-] [43
+[41]) [42] [43
 
 ] [44
 
@@ -3918,15 +4063,27 @@ Space
 
 ] [48
 
-] [49]
-[50
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55]
+[56
 
 ]
 
 Package lwarp Warning: SideTOCDepth is less than FileDepth,
 (lwarp)                so some website pages may be inaccessible.
 
-[51]
+[57]
 \tf@toc=\write8
 \openout8 = `index.toc'.
 
@@ -3938,12 +4095,12 @@ Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 8D8F515871043C06C2CB31E033EFD8E7;10128.
  ) 
 Here is how much of TeX's memory you used:
- 69337 strings out of 476180
- 1648422 string characters out of 5809555
- 2404086 words of memory out of 5000000
- 88460 multiletter control sequences out of 15000+600000
- 535606 words of font info for 185 fonts, out of 8000000 for 9000
+ 69320 strings out of 476180
+ 1649837 string characters out of 5809555
+ 2404662 words of memory out of 5000000
+ 88426 multiletter control sequences out of 15000+600000
+ 544630 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,13n,112p,4833b,1847s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,17n,112p,4834b,1848s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index.pdf (55 pages).
+Output written on index.pdf (61 pages).
