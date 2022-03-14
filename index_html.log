@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  15 MAR 2022 01:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  15 MAR 2022 01:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4084,10 +4084,10 @@ File: "lwarp_mathjax.txt"  (verbatim)
  [7] (./index_html.sidetoc) [8] (./dcp/dcp.tex
 [9]) [10]
 File: "lwarp_mathjax.txt"  (verbatim)
- [11] (./index_html.sidetoc) [12]
+ [11] (./index_html.sidetoc) (./science-dcp/s-dcp.tex [12]) [13]
 File: "lwarp_mathjax.txt"  (verbatim)
- [13] (./index_html.sidetoc)
-(./codingla/ch1.tex
+
+[14] (./index_html.sidetoc) (./codingla/ch1.tex
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
 ext;" at 10.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
@@ -4117,11 +4117,11 @@ m
 Requested font "eusm5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm5.tf
 m
- [14] [15]
-[16] Excluding 'comment' comment.) [17]
+ [15] [16]
+[17] Excluding 'comment' comment.) [18]
 File: "lwarp_mathjax.txt"  (verbatim)
- [18] (./index_html.sidetoc)
-(./designpatterns/dp.tex [19] [20]
+ [19] (./index_html.sidetoc)
+(./designpatterns/dp.tex [20] [21]
 Requested font "Cooper Black" at 11.99997pt
  -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
 Requested font "Cooper Black/OT" at 12.00003pt
@@ -4318,7 +4318,7 @@ fm
 Requested font "eusm7" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
 m
-[21] [22]
+[22] [23]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 107.
@@ -4333,66 +4333,66 @@ t;" at 7.0pt
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
 t;" at 5.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
-[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
-[38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
-[53] [54] [55] [56] [57] [58] [59]
+[24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[54] [55] [56] [57] [58] [59] [60]
 Requested font "Nakula/OT:script=deva;language=dflt;" at 10.0pt
  -> /usr/share/fonts/truetype/Nakula/nakula.ttf
- [60] [61] [62] [63] [64] [65] [66] [67]
-[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82])
-[83]
+ [61] [62] [63] [64] [65] [66] [67] [68]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83])
+[84]
 File: "lwarp_mathjax.txt"  (verbatim)
- [84] (./index_html.sidetoc) [85]
+ [85] (./index_html.sidetoc) [86]
 File: "lwarp_mathjax.txt"  (verbatim)
- [86] (./index_html.sidetoc) [87]
+ [87] (./index_html.sidetoc) [88]
 File: "lwarp_mathjax.txt"  (verbatim)
- [88]
-(./index_html.sidetoc) [89]
+ [89]
+(./index_html.sidetoc) [90]
 File: "lwarp_mathjax.txt"  (verbatim)
- [90] (./index_html.sidetoc) [91]
+ [91] (./index_html.sidetoc) [92]
 File: "lwarp_mathjax.txt"  (verbatim)
- [92]
-(./index_html.sidetoc) [93]
+ [93]
+(./index_html.sidetoc) [94]
 File: "lwarp_mathjax.txt"  (verbatim)
- [94] (./index_html.sidetoc) [95]
+ [95] (./index_html.sidetoc) [96]
 File: "lwarp_mathjax.txt"  (verbatim)
- [96]
-(./index_html.sidetoc) [97]
+ [97]
+(./index_html.sidetoc) [98]
 File: "lwarp_mathjax.txt"  (verbatim)
- [98] (./index_html.sidetoc) [99]
+ [99] (./index_html.sidetoc) [100]
 File: "lwarp_mathjax.txt"  (verbatim)
- [100]
-(./index_html.sidetoc) [101]
+ [101]
+(./index_html.sidetoc) [102]
 File: "lwarp_mathjax.txt"  (verbatim)
- [102] (./index_html.sidetoc) [103]
+ [103] (./index_html.sidetoc) [104]
 File: "lwarp_mathjax.txt"  (verbatim)
- [104]
-(./index_html.sidetoc) [105]
+ [105]
+(./index_html.sidetoc) [106]
 File: "lwarp_mathjax.txt"  (verbatim)
- [106] (./index_html.sidetoc) [107]
+ [107] (./index_html.sidetoc) [108]
 File: "lwarp_mathjax.txt"  (verbatim)
- [108]
-(./index_html.sidetoc) [109]
+ [109]
+(./index_html.sidetoc) [110]
 File: "lwarp_mathjax.txt"  (verbatim)
- [110] (./index_html.sidetoc) [111]
+ [111] (./index_html.sidetoc) [112]
 File: "lwarp_mathjax.txt"  (verbatim)
- [112]
-(./index_html.sidetoc) [113]
+ [113]
+(./index_html.sidetoc) [114]
 File: "lwarp_mathjax.txt"  (verbatim)
- [114] (./index_html.sidetoc) [115]
+ [115] (./index_html.sidetoc) [116]
 File: "lwarp_mathjax.txt"  (verbatim)
- [116]
+ [117]
 (./index_html.sidetoc) (./solvingdpp/dpp.tex Including 'warpHTML' comment.
 \openout4 = `comment_html.cut'.
 
 
-Straight input of comment_html.cut. (./comment_html.cut [117] [118])
-Excluding 'warpprint' comment. [119]
+Straight input of comment_html.cut. (./comment_html.cut [118] [119])
+Excluding 'warpprint' comment. [120]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 14.40002pt on input line 27.
 Requested font "callig15" at 14.40002pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
- [120] [121] [122]
+ [121] [122] [123]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 49.
@@ -4400,17 +4400,17 @@ LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
 ext;" at 10.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
-[123] [124] [125] [126]
+[124] [125] [126] [127]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 145.
 
-[127]
+[128]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
 (Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
 
-[128] [129] [130] [131]
+[129] [130] [131] [132]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 214.
@@ -4421,68 +4421,68 @@ Requested font "rm-lmbx7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm
 Requested font "rm-lmbx5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
-[132] [133]
+[133] [134]
 Requested font "rm-lmbx12" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 Requested font "rm-lmbx8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 Requested font "rm-lmbx6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
- [134] [135] [136] [137] [138] [139]
+ [135] [136] [137] [138] [139] [140]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
 t;" at 9.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
- [140] [141] [142]
-Excluding 'comment' comment. [143] [144] [145]) [146]
+ [141] [142] [143]
+Excluding 'comment' comment. [144] [145] [146]) [147]
 File: "lwarp_mathjax.txt"  (verbatim)
- [147]
-(./index_html.sidetoc) [148]
+ [148]
+(./index_html.sidetoc) [149]
 File: "lwarp_mathjax.txt"  (verbatim)
- [149] (./index_html.sidetoc) [150]
+ [150] (./index_html.sidetoc) [151]
 File: "lwarp_mathjax.txt"  (verbatim)
- [151]
-(./index_html.sidetoc) [152]
+ [152]
+(./index_html.sidetoc) [153]
 File: "lwarp_mathjax.txt"  (verbatim)
- [153] (./index_html.sidetoc) [154]
+ [154] (./index_html.sidetoc) [155]
 File: "lwarp_mathjax.txt"  (verbatim)
- [155]
-(./index_html.sidetoc) [156]
+ [156]
+(./index_html.sidetoc) [157]
 File: "lwarp_mathjax.txt"  (verbatim)
- [157] (./index_html.sidetoc) [158]
+ [158] (./index_html.sidetoc) [159]
 File: "lwarp_mathjax.txt"  (verbatim)
- [159]
-(./index_html.sidetoc) [160]
+ [160]
+(./index_html.sidetoc) [161]
 File: "lwarp_mathjax.txt"  (verbatim)
- [161] (./index_html.sidetoc) [162]
+ [162] (./index_html.sidetoc) [163]
 File: "lwarp_mathjax.txt"  (verbatim)
- [163]
-(./index_html.sidetoc) [164]
+ [164]
+(./index_html.sidetoc) [165]
 File: "lwarp_mathjax.txt"  (verbatim)
- [165] (./index_html.sidetoc) [166]
+ [166] (./index_html.sidetoc) [167]
 File: "lwarp_mathjax.txt"  (verbatim)
- [167]
-(./index_html.sidetoc) [168]
+ [168]
+(./index_html.sidetoc) [169]
 File: "lwarp_mathjax.txt"  (verbatim)
- [169] (./index_html.sidetoc) [170]
+ [170] (./index_html.sidetoc) [171]
 File: "lwarp_mathjax.txt"  (verbatim)
- [171]
+ [172]
 (./index_html.sidetoc)
 
 Package lwarp Warning: SideTOCDepth is less than FileDepth,
 (lwarp)                so some website pages may be inaccessible.
 
-[172] (./index_html.aux)
+[173] (./index_html.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 69057 strings out of 476180
- 1696791 string characters out of 5809555
- 2427990 words of memory out of 5000000
- 87801 multiletter control sequences out of 15000+600000
+ 69069 strings out of 476180
+ 1697075 string characters out of 5809555
+ 2427999 words of memory out of 5000000
+ 87809 multiletter control sequences out of 15000+600000
  538389 words of font info for 183 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  153i,15n,166p,4854b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index_html.pdf (172 pages).
+Output written on index_html.pdf (173 pages).

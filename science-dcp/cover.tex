@@ -1,0 +1,344 @@
+% spine = 0.0025 * 236 = 0.59
+% Minimum Cover Width: Bleed + Back Cover Trim Size + Spine Width + Front Cover Trim Size + Bleed =  0.125" + 7" + 0.6" + 7" + .125" = 14.85''
+% Minimum Cover Height: Bleed + Book Height Trim Size + Bleed = 0.125" + 9" + .125" = 9.25"
+\documentclass[12pt, dvipsnames]{article}
+\PassOptionsToPackage{cmyk}{xcolor}
+\usepackage{comment, calligra}
+\usepackage{pifont, dingbat, enumitem}
+\usepackage[paperheight=9.25in,paperwidth=7.45in,margin=0in]{geometry}
+%\usepackage{pdfpages}
+\usepackage{tikz, comment}
+\usepackage{varwidth} % hyphenate texts in TikZ Node (back cover)
+\usetikzlibrary{fadings, shadings, shadows, decorations, decorations.footprints, decorations.text, calc, positioning, mindmap,arrows, patterns, arrows.meta}
+\usepackage{libertine}
+\usepackage{fontspec}
+\usepackage[weather]{ifsym}
+%\usepackage{marvosym}
+%\usepackage{multido}
+%\usepackage{hologo, mflogo}
+%\usepackage[outline]{contour}
+%\usepackage{pdfrender}
+%\usepackage{pst-text}
+%\usepackage{pst-light3d}
+%\usepackage{pgfplots}
+%\pgfplotsset{width=5cm}
+%\usepackage{tikz-3dplot}
+%\usepackage{tkz-euclide}
+%\usetkzobj{all}
+%\usepgfplotslibrary{fillbetween}
+%\usepgfplotslibrary{polar}
+
+\setmainfont{Avant Garde}
+\fontsize{0.05cm}{0.1cm}\selectfont
+
+\usetikzlibrary{
+  arrows,
+  calc,
+  fit,
+  patterns,
+  plotmarks,
+  shapes.geometric,
+  shapes.misc,
+  shapes.symbols,
+  shapes.arrows,
+  shapes.callouts,
+  shapes.multipart,
+  shapes.gates.logic.US,
+  shapes.gates.logic.IEC,
+  circuits.logic.US,
+  circuits.logic.IEC,
+  circuits.logic.CDH,
+  circuits.ee.IEC,
+  datavisualization,
+  datavisualization.formats.functions,
+  er,
+  automata,
+  backgrounds,
+  chains,
+  topaths,
+  trees,
+  petri,
+  mindmap,
+  matrix,
+  calendar,
+  folding,
+  fadings,
+  shadings,
+  spy,
+  through,
+  turtle,
+  positioning,
+  scopes,
+  decorations.fractals,
+  decorations.shapes,
+  decorations.text,
+  decorations.pathmorphing,
+  decorations.pathreplacing,
+  decorations.footprints,
+  decorations.markings,
+  shadows,
+  shadows.blur,
+  lindenmayersystems,
+  intersections,
+  fixedpointarithmetic,
+  fpu,
+  svg.path,
+  external,
+}
+
+
+\newcommand*{\RaisedText}[1]{%
+  \begingroup
+    \leavevmode
+    \rlap{\kern-1pt\raise.5pt\hbox{\color{White}#1}}%
+    \rlap{\kern1pt\raise-.5pt\hbox{\color{black}#1}}%
+    \hbox{#1}%
+  \endgroup
+}
+
+\newcommand*{\RaisedTextNew}[1]{%
+  \begingroup
+    \leavevmode
+    \rlap{\kern-.1pt\raise.1pt\hbox{%
+      \pdfrender{
+        TextRenderingMode=Stroke,
+        LineWidth=.2pt,
+        StrokeColor=white,
+      }#1%
+    }}%
+    \rlap{\kern.1pt\raise-.1pt\hbox{%
+      \pdfrender{
+        TextRenderingMode=Stroke,
+        LineWidth=.2pt,
+        StrokeColor=black,
+      }#1%
+    }}%
+    \rlap{%
+      \pdfrender{
+        TextRenderingMode=Stroke,
+        LineWidth=.2pt,
+      }#1%
+    }%
+    \hbox{#1}%
+  \endgroup
+}
+
+\newfontfamily\hindifont[Script=Devanagari, BoldFont={Sahadeva}]{Nakula}
+\newenvironment{hindi}{\hindifont}{\par}
+\DeclareTextFontCommand{\texthindi}{\hindifont}
+
+\tikzset{
+  ld/.style={level distance=#1},lw/.style={line width=#1},
+  level 1/.style={ld=4.5mm, trunk, lw=1ex ,sibling angle=60},
+  level 2/.style={ld=3.5mm, trunk!80!leaf a,lw=.8ex,sibling angle=56},
+  level 3/.style={ld=2.75mm,trunk!60!leaf a,lw=.6ex,sibling angle=52},
+  level 4/.style={ld=2mm, trunk!40!leaf a,lw=.4ex,sibling angle=48},
+  level 5/.style={ld=1mm, trunk!20!leaf a,lw=.3ex,sibling angle=44},
+  level 6/.style={ld=1.75mm,leaf a, lw=.2ex,sibling angle=40},
+}
+\pgfarrowsdeclare{leaf}{leaf}{
+  \pgfarrowsleftextend{-2pt} \pgfarrowsrightextend{1pt}
+}{
+  \pgfpathmoveto{\pgfpoint{-2pt}{0pt}}
+  \pgfpatharc{150}{30}{1.8pt}
+  \pgfpatharc{-30}{-150}{1.8pt}
+  \pgfusepathqfill
+}
+
+\makeatletter
+\def\agobble#1\nil#2{}
+\def\mytextcolor@a#1 #2\nil#3{%
+  \mytextcolor@b#1\nil{#3}
+  \if\relax\detokenize{#2}\relax\expandafter\agobble\fi
+  \mytextcolor@a#2\nil{#3}%
+}
+\def\mytextcolor@b#1#2\nil#3{%
+  \textcolor{-#3}{\textbf{#1}}\textcolor{#3}{#2}\\
+}
+\def\mytextcolor#1#2{%
+  \if\relax\detokenize{#2}\relax\expandafter\agobble\fi
+  \mytextcolor@a#2 \nil{#1}%
+}
+
+\newcommand{\logo}[8]{%
+  \colorlet{border}{#1}
+  \colorlet{trunk}{#2}
+  \colorlet{leaf a}{#3}
+  \colorlet{leaf b}{#4}
+%  \rotatebox{#8}{%
+%    \begin{tikzpicture}[font=\scriptsize\scshape]
+      \begin{scope}[scale=0.5, shift={(#8)}]
+      \coordinate (root) [grow cyclic,rotate=90]
+        child {
+          child [line cap=round] foreach \a in {0,1} {
+            child foreach \b in {0,1} {
+              child foreach \c in {0,1} {
+                child foreach \d in {0,1} {
+                child foreach \leafcolor in {leaf a,leaf b}
+                  { edge from parent [color=\leafcolor,-#5] }
+                }
+              }
+            }
+          }
+          edge from parent [shorten >=-1pt,serif cm-,line cap=butt]
+        };
+      \node [scale=1,align=center,below,transform shape] at (0pt,-.5ex){%
+        \mytextcolor{#6}{#7}\\
+      };
+    \end{scope}
+%    \end{tikzpicture}
+%  }
+}
+\makeatother
+
+
+\tikzset{
+    shade border west to east/.style args={#1 to #2}{
+        preaction={draw, very thick, path fading=east, #1},
+        preaction={draw, very thick, path fading=west, #2}
+    },
+    shade fill west to east/.style args={#1 to #2}{
+        left color=#1,
+        right color=#2
+    }
+}
+
+\def\nodeshadowed[#1]#2;{\node[scale=1,above,#1]{#2};\node[scale=1,
+        above,#1,yscale=-1,scope fading=south,opacity=0.0,yslant=0.0]{#2};}
+        
+
+ \special{pdf:docinfo <<
+        /Title (Science of Deriving Beautiful and Correct Programs)
+        /Subject (CS)
+        /Author (Chandra Shekhar Kumar)
+        /Keywords ()
+        /Trapped /False
+        /GTS_PDFXVersion (PDF/X-1a:2003)
+        /GTS_PDFXConformance (PDF/X-1a:2003)
+     >>}
+
+\special{pdf:put @catalog <<
+	/OutputIntents [ <<
+	/Info (none)
+	/Type /OutputIntent
+	/S /GTS_PDFX
+	/OutputConditionIdentifier (createspace.com)
+	/RegistryName (https://www.createspace.com/)
+	>> ] >>
+}
+
+%\definecolor{celestialblue}{rgb}{0.29, 0.59, 0.82}
+\definecolor{celestialblue}{cmyk}{0.649, 0.274, 0.0, 0.164}
+
+\newcommand\textproblem[1]{{\begin{center}\small \bfseries #1\end{center}}}
+
+\colorlet{LineColor}{Sepia} 
+%\colorlet{FillColor}{Olive}%{DarkCyan}
+%\colorlet{MyColor}{DarkOrange} 
+%\colorlet{MyColor}{YellowOrange} 
+\colorlet{MyColor}{Black}
+
+\colorlet{TitleColor}{Red}
+\colorlet{SubTitleColor}{Red}
+\colorlet{AuthorTextColor}{Sepia}
+\colorlet{SpineTextColor}{Gray}
+
+\colorlet{TextColor}{BurntOrange}
+
+\colorlet{BackTextColor}{Gray}
+
+
+\newcommand{\itemcolor}[1]{% Update list item colour
+  \renewcommand{\makelabel}[1]{\color{#1}\hfil ##1}}
+  
+\newcommand\shadetext[2][]{%
+  \setbox0=\hbox{{\special{pdf:literal 7 Tr }#2}}%
+  \tikz[baseline=0]\path [#1] \pgfextra{\rlap{\copy0}} (0,-\dp0) rectangle (\wd0,\ht0);%
+}
+
+\newcommand{\cmd}{\texthindi{ ॐ }}
+\newcommand{\Repeat}{\multido{\i=1+1}}
+
+\tikzfading[name=fade out,inner color=transparent!0,outer color=transparent!100]
+
+
+
+\colorlet{EagleBodyColor}{White}
+\colorlet{EagleHeadColor}{BurntOrange}
+\colorlet{EagleEyeColor}{White}
+
+% rabbit 
+\newcommand{\rabbit}[1]{\path[ball color=#1, line width=0.212pt] (82.5674,75.5849) .. controls (85.7411,76.9768) and (82.0664,87.7459) .. (82.0107,92.1489) .. controls (80.5733,100.1051) and (79.4572,102.9102) .. (74.6707,109.4490) .. controls (71.4154,114.3827) and (78.0329,120.9167) .. (83.2332,119.1247) .. controls (89.0434,118.2483) and (94.7744,116.5355) .. (100.7067,117.1800) .. controls (120.8817,117.6007) and (134.8787,132.1636) .. (144.2820,147.3390) .. controls (146.1343,152.7719) and (148.3811,158.4917) .. (146.5867,164.2316) .. controls (146.5198,167.6616) and (153.2623,163.7725) .. (150.5725,168.5797) .. controls (148.3883,173.3249) and (146.3915,180.5117) .. (140.4855,181.0726) .. controls (130.9141,182.1718) and (121.2585,181.7993) .. (111.6734,182.6946) .. controls (105.3965,182.7537) and (99.8801,184.9868) .. (98.8666,177.0171) .. controls (93.3472,176.5982) and (87.7614,168.1063) .. (82.4465,172.7630) .. controls (79.6602,176.4211) and (76.4300,180.8276) .. (72.3542,182.6559) .. controls (66.7276,182.6340) and (58.8188,183.9473) .. (54.5977,181.7328) .. controls (55.0193,175.1486) and (63.7928,176.5087) .. (65.9692,171.8127) .. controls (67.1188,165.5333) and (58.6354,165.3787) .. (55.6001,161.5918) .. controls (49.4814,153.9578) and (48.2561,137.4571) .. (40.0411,136.7050) .. controls (34.2819,135.1458) and (34.4466,128.0901) .. (35.8772,123.4981) .. controls (38.1840,116.0524) and (43.2671,108.9741) .. (50.6787,106.0193) .. controls (57.3926,103.7052) and (57.8091,96.2871) .. (57.7640,90.2587) .. controls (57.4566,84.6846) and (58.8020,77.8309) .. (64.2082,75.0401) .. controls (71.5410,72.2045) and (69.8166,86.3591) .. (70.9719,86.4958) .. controls (75.0357,82.7046) and (77.9005,73.5381) .. (82.5674,75.5849) -- cycle;}
+
+\definecolor{riflegreen}{rgb}{0.25, 0.28, 0.2}
+\definecolor{roseebony}{rgb}{0.4, 0.3, 0.28}
+
+\definecolor{shadow}{rgb}{0.54, 0.47, 0.36}
+
+\definecolor{vividviolet}{rgb}{0.62, 0.0, 1.0}
+\definecolor{satinsheengold}{rgb}{0.8, 0.63, 0.21}
+\definecolor{darkorchid}{rgb}{0.6, 0.2, 0.8}
+\definecolor{modebeige}{rgb}{0.59, 0.44, 0.09}
+
+\newcommand{\hlt}[1]{\textcolor{vividviolet}{\emph{#1}}}% prints text in burntorange
+\newcommand{\hlm}[1]{{\color{modebeige}{#1}}}% prints math in Sepia
+\newcommand{\hlbt}[1]{\textbf{\color{Olive}#1}}% prints bold text in burntorange
+
+
+
+
+
+
+\begin{document}
+\pagestyle{empty}
+
+\setmainfont{Avant Garde}
+\fontsize{0.5cm}{0cm}\selectfont
+
+\pgfkeyssetvalue{/cfr/soul base dimension}{10pt}
+\begin{tikzpicture}[remember picture,overlay]
+
+  
+
+\begin{scope}[shift={(current page.center)}]
+
+%\node[fill=Gold, minimum width=12in, minimum height=9.25in,text=white,ultra thick] 
+%\node[shading=ball, ball color=Yellow, minimum width=15in, minimum height=9.25in,text=white,ultra thick] 
+%\node[fill=Fuchsia, minimum width=15in, minimum height=9.25in,text=white,ultra thick] 
+\node[shade,top color=White, bottom color=Red, minimum width=15in, minimum height=9.25in,text=white,ultra thick] 
+%\node[shading=ball, ball color=MyColor, minimum width=6.375in, minimum height=9.25in,text=white,ultra thick] 
+at(0in,0in) (MyBox)
+{};
+
+\begin{scope}[shift={(0in,3.8in)}]
+
+
+\node[scale=0.6, at={(0in, -0.4in)}]
+    {\setmainfont{Cooper Black}
+\fontsize{2cm}{1.5cm}\selectfont \bfseries \textcolor{TitleColor}{\RaisedText{Science of Deriving}}};
+
+\node[scale=0.7, at={(0in, -1.0in)}]
+    {\setmainfont{Cooper Black}
+\fontsize{2cm}{1.5cm}\selectfont \bfseries  { \color{TitleColor} \RaisedText{Beautiful Programs}}};
+
+
+
+
+\node[scale=0.4, at={(0in, -6.5in)}]
+    {\setmainfont{Cooper Black}
+\fontsize{2cm}{1.5cm}\selectfont \bfseries \textcolor{Sepia} {\RaisedText{Chandra Shekhar Kumar}}};
+
+
+\node[scale=0.4, at={(0in, -7.1in)}]
+    {\setmainfont{Cooper Black}
+\fontsize{2cm}{1.5cm}\selectfont \bfseries \textcolor{Sepia}{\calligra {Ancient Science Publishers}}};
+
+\end{scope}
+
+\end{scope}
+
+\end{tikzpicture}
+
+
+
+\end{document}
