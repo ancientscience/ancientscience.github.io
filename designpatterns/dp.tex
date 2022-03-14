@@ -1,4 +1,5 @@
 %\begin{center}
+\begin{wrapfigure}{r}{0.5\textwidth}
 \begin{tikzpicture}[remember picture,overlay]
 \begin{scope}[shift={(current page.center)}]
   \node[scale=.6, at={(2.8in, 3.4in)}]
@@ -99,3 +100,223 @@ Quality \\without \\ a name!
 \end{scope}
 \end{tikzpicture}
 %\end{center}
+\end{wrapfigure}
+
+\underline{\textbf{\textcolor{BurntOrange}{Excerpt from the Chapter} \textcolor{Sepia}{(Pattern Concept):}}}
+
+\begin{defn}
+A pattern is a rule triad expressing a relation between:
+\begin{enumerate}
+  \item a certain \hlt{context} defining the scope of applicability of the given pattern,
+  \item a \hlt{problem} detailing a certain system of conflicting forces which occurs repeatedly that the pattern resolves in that context and
+  \item a \hlt{solution} in a form of a certain software configuration which can be used repeatedly and uniquely to resolve the given system of forces themselves, wherever the context makes it relevant.
+\end{enumerate}
+\par\vspace{-1.8\baselineskip}
+\qedhere
+\end{defn}
+
+%\begin{warpHTML}
+\begin{wrapfigure}{l}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{designpatterns/patterns-triad}
+  \end{center}
+  %\caption{Front Cover}
+\end{wrapfigure}
+%\end{warpHTML}
+
+
+The output of this rule triad is a pattern too.
+
+\vspace{4mm}
+
+It leads (but not limited) to the following  key observations about pattern:
+%\begin{enumerate}[label=\protect\circnode{\color{red}\arabic*}]
+\begin{dinglist}{213}
+\item It is both a thing and a process.
+\item It is both a description of a thing which is alive and a description of the process which will generate that thing.
+\item It is both a thing which happens in the world and the rule which tells us how to create that thing.
+\item It can exist at all scales and resolve almost any kind of conflicting forces.
+\item Identification of what-why-when-where marks its inner structure explicit and sharable.
+\item It starts with defining features worth abstracting.
+\item Then it defines the problem, i.e. the field of forces which it brings into balance.
+\item It is a sketch rather than a blue-print. 
+\item It can complement and compound another pattern(s).
+\item It is generative and self-sustaining.
+\item It is a micro-architecture.
+\item It promotes design-reuse.
+\item The exact range of contexts is defined where the stated problem occurs and where this particular solution to the problem is appropriate.
+\item Each pattern describes a problem which occurs over and over again in our system and then describes the core of the solution to that problem in such a way that we can use this solution a million times over, without ever doing it the same way twice.
+\end{dinglist}
+
+Beyond its elements, each system is defined by a certain patterns of relationships among the elements, and these relationships are integral part of the elements to such an extent that the elements themselves are patterns of relationships. And finally, the so called elements get dissolved, leaving patterns of relationships behind, which is the actual thing that actually repeats itself and gives structure to the system.
+
+Each one of these patterns $\mathcal{P}_i$  is a morphological law onto itself, which establishes a set of relationships in the system in a given context of type $\mathcal{C}$, i.e.
+\hlm{\begin{gather*}
+\mathcal{P}_i \triangleq \mathcal{C} \rightarrow \mathcal{R}\left(\ldots, \mathcal{P}_{i-1}, \mathcal{P}_{i+1}, \ldots\right)
+\end{gather*}} 
+where $\triangleq$ stands for \hlt{is defined by}. The parts (i.e, rest of the patterns except $\mathcal{P}_i$) $\ldots, \mathcal{P}_{i-1}, \mathcal{P}_{i+1}, \ldots$ are related by the relationship $\mathcal{R}$ within a context of type $\mathcal{C}$.
+
+Note that, each law or pattern is itself a pattern of relationships among the remaining laws (i.e. except itself), which are themselves just patterns of relationships again.
+
+\hlt{Therefore, a pattern is defined by formulating it in the form of a rule triad as depicted before,  which establishes a relationship between a context, a system of (often conflicting) forces which arise in that context and configuration which allows these forces to resolve themselves in that context.}
+
+\vspace{3mm}
+
+Hence, generic form of each pattern is:
+
+%\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{designpatterns/patterns-form}
+  \end{center}
+  %\caption{Front Cover}
+%\end{wrapfigure}
+
+Discovery of (the invariant features) pattern(s) always start with observation or purely abstract argument. This process is not sequential from the problem to the solution or vice versa. Rather it is a multidimensional global process to help identify a solid and reliable invariant which relates context, problem, solution in an unchanging way. 
+
+The statement of the problem and the forces helps to solidify the pattern which is responsible for making the system of forces come to an equilibrium. Thought it is still tentative, but clear enough to be shared.
+
+There are two components in a pattern definition, which are empirical in nature, i.e. can be tested as true/false:
+\begin{enumerate}
+\item The problem is real, i.e. it is expressible as conflicting real forces within the stated context(s).
+\item The configuration solves the problem, i.e. it deals with all the forces in the stated context(s).
+\end{enumerate}
+Quality without a name is the living essence of a pattern.
+
+\vspace{20mm}
+
+\underline{\textbf{\textcolor{BurntOrange}{Excerpt from the Chapter} \textcolor{Sepia}{(Pattern Form):}}}
+
+\hspace{5mm}Each (living) pattern has the same form for the sake of convenience and clarity. It has \hlt{nine} parts in the following sequence :
+\begin{enumerate}[label=\protect\circnode{\color{Sepia}\arabic*}]
+\item A \hlt{picture} is drawn to illustrate an archetypal example of the pattern.
+\item An \hlt{introductory paragraph} to set the context for the pattern.
+\item The symbol \hl{\texthindi{ॐ}} marks the beginning of the problem the pattern addresses later.
+\item A \hlbt{headline} set in bold-typeface to provide the essence of the problem.
+\item The \hlt{body} of the problem describing (but not limited to) the 
+    \begin{dinglist}{213}
+        \item empirical background of the pattern,
+        \item empirical evidence for its validity which sets the motivational tone too,
+        \item variations, i.e. the range of different ways of manifesting it in a software.
+    \end{dinglist}
+\item The \hlbt{solution} set in bold-typeface, encoded in an instructional form, stating the exact steps to build the pattern. It illustrates the field of relationships needed to solve the stated problem in the stated context.
+\item A \hlt{diagram} that shows the solution as a labeled picture indicating its main components.
+\item The symbol \hl{\texthindi{ॐ}} marking the end of the main body of the pattern.
+\item A \hlt{paragraph}, which ties the pattern to all those smaller patterns in the pattern language, which are needed to complete this pattern, to embellish it, to fill it out.
+\end{enumerate}
+
+This form serves the following two essential purposes :
+\begin{enumerate}[itemsep=0.3em]%[label=\protect\circnode{\color{Sepia}\arabic*}]
+    \item to present each pattern connected to other patterns to help grasp the collection of all these patterns as a whole, as a pattern language, within which an infinite variety of combinations can be created.
+    \item to present the problem and solution of each pattern in such a way that it sets the exact tone of self-judgment and modifications without losing the central essence. 
+\end{enumerate}
+
+\vspace{20mm}
+
+\underline{\textbf{\textcolor{BurntOrange}{Excerpt from the Chapter} \textcolor{Sepia}{(Null Object):}}}
+
+\epigraphhead[30]
+{
+\epigraph{\hlt{Do what you can to establish coherence in your software. I am smart because I do nothing!}}{}
+
+}
+
+\begin{center}
+\begin{tikzpicture}[remember picture]
+\node[ellipse callout, callout pointer shorten=-1.2cm, draw] (hallo) 
+{
+\begin{varwidth}{1.5in}
+I am a reference!
+
+What are you?
+%\begin{hindi}
+%मैं वैक्सीन हूँ। 
+
+%तू कौन है?
+%\end{hindi}
+\end{varwidth}
+};
+
+\draw[fill=Grey] (-0.5,-4) circle [x radius=1.5cm, y radius=5mm];
+\draw[fill=Grey] (5,-4) circle [x radius=1cm, y radius=5mm];
+
+\begin{scope}[xshift=-3.5cm]
+\begin{scope}[y=0.80pt, x=0.80pt, yscale=-0.5, xscale=0.5, inner sep=0pt, outer sep=0pt]
+\path[draw, fill=Orange,even odd rule] (386.4600,182.7600) .. controls (380.5260,182.3640) and (374.0910,184.0390) .. (369.4330,187.7910) .. controls (370.8200,185.4800) and (372.2190,183.4020) .. (373.3020,180.8250) .. controls (366.6320,180.9420) and (360.7610,183.0510) .. (354.6830,185.5840) .. controls (348.1310,188.3130) and (343.0510,182.0710) .. (337.6970,178.5020) .. controls (328.5990,172.4380) and (318.4820,166.3890) .. (313.4880,156.4000) .. controls (308.9610,147.3470) and (301.9760,127.8640) .. (288.2940,129.4720) .. controls (274.2360,131.1270) and (266.4640,123.6190) .. (255.6510,115.8070) .. controls (234.7890,100.7320) and (215.7280,82.8280) .. (188.6990,79.4280) .. controls (161.5340,76.0120) and (135.6750,88.4450) .. (111.4310,98.4280) .. controls (88.7860,107.7520) and (59.5580,119.9360) .. (38.5410,100.3270) .. controls (29.3610,91.7620) and (24.5120,78.5840) .. (21.3670,66.7900) .. controls (17.6240,52.7560) and (24.3950,44.3350) .. (29.9910,32.3460) .. controls (32.4580,27.0580) and (32.3670,-3.2680) .. (21.7070,0.2850) .. controls (12.1280,3.4770) and (12.2530,24.5660) .. (8.6270,32.5420) .. controls (2.6690,45.6470) and (-0.8060,55.1290) .. (0.1620,69.6300) .. controls (0.9820,81.9410) and (6.9130,94.8560) .. (12.9940,105.3670) .. controls (36.1080,145.3280) and (85.7680,142.4600) .. (124.8340,130.1370) .. controls (121.7750,141.9320) and (125.0470,150.5490) .. (127.3430,162.0300) .. controls (128.4310,167.4730) and (128.2430,173.0530) .. (129.0920,178.5120) .. controls (130.1360,185.2330) and (134.1230,190.1210) .. (135.6710,196.3150) .. controls (137.6700,204.3080) and (138.8680,219.8830) .. (134.3170,227.4690) .. controls (127.4420,238.9280) and (134.7940,243.6040) .. (136.0590,254.7530) .. controls (137.2200,264.9820) and (132.6560,275.9590) .. (146.5080,278.3600) .. controls (151.6900,279.2580) and (161.6800,278.2010) .. (164.3100,272.9420) .. controls (168.6440,264.2730) and (161.0060,267.7030) .. (157.5380,264.2340) .. controls (154.8410,261.5390) and (155.0530,252.9090) .. (153.7750,249.0760) .. controls (151.8480,243.2950) and (152.3330,237.9310) .. (154.4420,232.3060) .. controls (158.2770,222.0780) and (166.6630,211.8920) .. (165.0850,200.5710) .. controls (172.1600,211.9720) and (172.4630,221.7580) .. (166.6330,233.8540) .. controls (164.2230,238.8550) and (159.8630,243.8760) .. (161.6020,250.1080) .. controls (162.6430,253.8370) and (165.9040,254.9870) .. (167.7940,257.8480) .. controls (169.8990,261.0370) and (170.7110,264.4470) .. (172.9970,267.4940) .. controls (181.1970,278.4280) and (187.5520,285.7130) .. (202.2380,285.7130) .. controls (208.3370,285.7130) and (212.7340,285.6950) .. (214.2360,278.9410) .. controls (215.8780,271.5520) and (210.7010,270.5280) .. (204.6940,268.9260) .. controls (197.9420,267.1260) and (193.3560,267.9050) .. (190.6280,260.5570) .. controls (188.3880,254.5250) and (189.6850,247.1190) .. (190.5070,240.9530) .. controls (190.9980,237.2670) and (198.1880,229.5340) .. (200.3030,226.1140) .. controls (203.5980,220.7850) and (206.0530,215.3790) .. (209.0320,209.9170) .. controls (217.8900,193.6780) and (226.3260,216.5620) .. (229.9080,226.1140) .. controls (233.9870,236.9900) and (233.4210,253.3020) .. (240.9380,262.1060) .. controls (245.2300,267.1320) and (266.0050,272.2320) .. (265.3190,260.5570) .. controls (264.9940,255.0270) and (254.8840,254.8990) .. (252.5480,251.6560) .. controls (249.7520,247.7760) and (252.5480,239.9970) .. (252.5480,235.4020) .. controls (256.0660,240.3200) and (259.3810,245.7330) .. (263.9000,249.7510) .. controls (268.9880,254.2720) and (269.2890,259.9800) .. (272.6730,265.5890) .. controls (279.3290,276.6240) and (288.1900,281.6540) .. (300.7940,276.0530) .. controls (305.0600,274.1570) and (302.2120,266.1600) .. (299.1820,264.4280) .. controls (292.9670,260.8760) and (290.5570,266.5530) .. (287.3780,259.0100) .. controls (283.2070,249.1100) and (283.6690,235.3660) .. (282.1530,224.7590) .. controls (281.6320,221.1110) and (292.9140,225.4690) .. (296.0860,225.6670) .. controls (301.0350,225.9760) and (309.7770,223.9760) .. (314.0810,225.3410) .. controls (318.7460,226.8200) and (321.0190,233.0080) .. (324.5310,236.1760) .. controls (329.6070,240.7570) and (335.3810,244.3040) .. (342.3760,244.3040) .. controls (353.9930,244.3040) and (358.2910,259.8880) .. (372.5200,254.7530) .. controls (375.6520,253.6230) and (382.3360,250.9170) .. (382.7760,247.4000) .. controls (383.5000,241.6150) and (378.4720,237.9130) .. (379.8740,232.3060) .. controls (381.9430,224.0280) and (378.0000,215.0970) .. (375.6170,207.1510) .. controls (373.7900,201.0560) and (372.8770,198.9840) .. (377.3590,193.6040) .. controls (380.2590,190.1440) and (383.1690,185.8940) .. (386.4590,182.7940);
+
+
+
+
+\path[draw=black,fill=Snow,even odd rule,line width=0.249pt,miter limit=5.33] (374.8400,224.5600) .. controls (370.1790,224.1080) and (362.2460,225.3020) .. (365.5520,231.9140) .. controls (369.9820,240.7540) and (373.5020,228.1540) .. (374.8420,224.5640);
+
+
+
+\path[draw=black,line cap=rect,line width=0.249pt,miter limit=5.33] (382.5800,245.8400) .. controls (385.0340,240.3050) and (389.2710,235.2550) .. (394.5780,232.2960);
+
+
+
+\path[draw=black,line cap=rect,line width=0.249pt,miter limit=5.33] (376.0000,248.9400) .. controls (365.0840,249.4720) and (356.6660,254.6200) .. (348.9100,262.0980);
+
+
+
+\path[draw=black,line cap=rect,line width=0.249pt,miter limit=5.33] (367.8800,245.8400) .. controls (359.2980,247.8990) and (350.4040,248.1800) .. (341.9500,250.4850);
+
+
+
+\path[draw=black,line cap=rect,line width=0.249pt,miter limit=5.33] (360.9100,250.1000) .. controls (352.0790,251.4510) and (343.5320,253.4170) .. (335.3680,257.0670);
+
+
+
+\path[draw=black,fill=Black,even odd rule,line width=0.249pt,miter limit=5.33] (382.9700,244.3000) .. controls (379.9050,245.1640) and (379.0350,248.1570) .. (376.0040,248.9450) .. controls (378.8140,253.6450) and (383.9040,249.0350) .. (382.9740,244.3050);
+
+
+
+\path[draw=black,fill=Black,even odd rule,line width=0.249pt,miter limit=5.33] (370.9700,224.9500) .. controls (371.4990,228.0060) and (370.8810,231.0770) .. (368.6490,233.0770) .. controls (369.1990,229.9370) and (368.8390,225.8270) .. (370.9690,224.9470);
+\end{scope}
+\end{scope}
+
+\begin{scope}[xshift=5cm]
+\node[ellipse callout, callout relative pointer={(0,-1)}, draw] (hallo) 
+{
+\begin{varwidth}{1.5in}
+I am a null \\reference!
+%\texthindi{मैं बहुरुपिया कोरोना।}
+\end{varwidth}
+};
+\end{scope}
+
+%\node at (-3,0.3) {\tiny \copyright \texthindi{शेखर}};
+\end{tikzpicture}
+\end{center}
+
+%\thispagestyle{empty}
+
+\vspace{3mm}
+
+$\cdots$ consider now the character of settlements within the object references : what balance of real objects and null references is in keeping with the transparency ?
+
+\begin{center}
+\hl{\aum} 
+\end{center}
+
+\begin{quote}
+\hspace{5mm}\hlbt{Optionally null object references, where the result of a null check is to do nothing, will not come to balance until both the presence of a null reference and the absence of an object be treated in a consistent and transparent manner to establish an independent and coherent sphere of object references.}
+\end{quote}
+
+\vspace{3mm}
+
+Out of a list of objects, some may not exist. Hence no service is expected in such cases which can be an acceptable behavior too. Acceptable inaction is represented at times with repetitive explicit checking for the optional null. Repetition and optional doesn't go together. Absence of objects can be abstracted out to presence of objects doing nothing, i.e. conformance to the interface with no implied functionality. No-op is the correct operation. We need a way to represent the object with appropriate behavior that will allow us to treat all object references in a consistent and uniform way, devoid of special case consideration.
+
+Typical scenarios under consideration are
+\begin{enumerate}[topsep=0em, itemsep=0.2em]
+\item Some object instances are not required to do anything because they correspond to null references.
+\item These instances should be treated in the same manner as real instances to avoid explicit constraints.
+\item There is a need to reuse the do nothing behavior to enforce consistent and repetitive usage.
+\end{enumerate}
+
+\hlt{Null Object} patterns addresses all of these under a single umbrella, typically by encapsulating the do nothingness.
+
+
+
+
+
+
