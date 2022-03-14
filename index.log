@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  15 MAR 2022 01:25
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  15 MAR 2022 01:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3606,17 +3606,23 @@ File: science-dcp/cover.pdf Graphic file (type pdf)
 
 ]) [5]
 (./codingla/ch1.tex
+File: codingla/cover.pdf Graphic file (type pdf)
+<use codingla/cover.pdf>
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 17.28pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+
+Overfull \hbox (182.42201pt too wide) in paragraph at lines 15--16
+[]$[]$ 
+ []
+
 Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 12.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
 Requested font "DejaVu Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
  at 12.0pt
  -> /home/babaji/.local/share/fonts/DejaVuSerif-BoldItalic.ttf
-LaTeX Font Info:    Trying to load font information for U+eus on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+eus on input line 19.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
@@ -3630,15 +3636,20 @@ fm
 Requested font "eusm7" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
 m
- [6
+
+Overfull \hbox (106.50293pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][] 
+ []
+
+[6
 
 ]
-Overfull \hbox (49.0044pt too wide) in paragraph at lines 35--36
+Overfull \hbox (49.0044pt too wide) in paragraph at lines 42--43
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (70.60461pt too wide) in paragraph at lines 45--46
+Overfull \hbox (70.60461pt too wide) in paragraph at lines 52--53
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -4098,17 +4109,14 @@ Package lwarp Warning: SideTOCDepth is less than FileDepth,
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 8D8F515871043C06C2CB31E033EFD8E7;10128.
  ) 
 Here is how much of TeX's memory you used:
- 69355 strings out of 476180
- 1650560 string characters out of 5809555
+ 69365 strings out of 476180
+ 1650815 string characters out of 5809555
  2404661 words of memory out of 5000000
- 88452 multiletter control sequences out of 15000+600000
+ 88462 multiletter control sequences out of 15000+600000
  544630 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,112p,4834b,1848s stack positions out of 5000i,500n,10000p,200000b,80000s
