@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  14 MAR 2022 23:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  15 MAR 2022 01:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3594,9 +3594,12 @@ at 12.0pt
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 24.88pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+ (./dcp/dcp.tex
+File: dcp/cover.pdf Graphic file (type pdf)
+<use dcp/cover.pdf>
  [2
 
-] [3
+]) [3] [4
 
 ] (./codingla/ch1.tex
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
@@ -3623,7 +3626,7 @@ fm
 Requested font "eusm7" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
 m
- [4
+ [5
 
 ]
 Overfull \hbox (49.0044pt too wide) in paragraph at lines 35--36
@@ -3635,7 +3638,7 @@ Overfull \hbox (70.60461pt too wide) in paragraph at lines 45--46
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-Excluding 'comment' comment.) [5] (./designpatterns/dp.tex
+Excluding 'comment' comment.) [6] (./designpatterns/dp.tex
 Requested font "Cooper Black" at 11.99997pt
  -> /home/babaji/.local/share/fonts/Cooper Black Regular.ttf
 Requested font "Cooper Black/OT" at 12.00003pt
@@ -3773,7 +3776,7 @@ Requested font "eusm5" at 5.0pt
 m
 File: designpatterns/patterns-triad.pdf Graphic file (type pdf)
 <use designpatterns/patterns-triad.pdf>
-[6
+[7
 
 ]
 Underfull \hbox (badness 1082) in paragraph at lines 137--138
@@ -3805,7 +3808,7 @@ Overfull \hbox (2.88434pt too wide) in paragraph at lines 143--144
 \TU/DejaVuSerif(0)/m/n/12 pound another pattern(s). 
  []
 
-[7]
+[8]
 Overfull \hbox (0.19489pt too wide) in paragraph at lines 145--146
 []\TU/DejaVuSerif(0)/m/n/12 It is a micro-architecture. 
  []
@@ -3850,13 +3853,13 @@ Overfull \hbox (1.34332pt too wide) in paragraph at lines 148--149
 \TU/DejaVuSerif(0)/m/n/12 out ever doing it the same
  []
 
-[8]
+[9]
 File: designpatterns/patterns-form.pdf Graphic file (type pdf)
 <use designpatterns/patterns-form.pdf>
- [9]
+ [10]
 Requested font "Nakula/OT:script=deva;language=dflt;" at 12.0pt
  -> /usr/share/fonts/truetype/Nakula/nakula.ttf
- [10]
+ [11]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  10.95pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
@@ -3880,15 +3883,13 @@ Requested font "msbm10" at 10.95pt
 Requested font "eusm10" at 10.95pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
 fm
- [11]
+ [12]
 Overfull \hbox (1.08801pt too wide) in paragraph at lines 302--303
 [] []\TU/DejaVuSerif(0)/b/sc/12 Optionally null object references, where the re
 -
  []
 
-) [12] [13
-
-] [14
+) [13] [14
 
 ] [15
 
@@ -3912,12 +3913,14 @@ Overfull \hbox (1.08801pt too wide) in paragraph at lines 302--303
 
 ] [25
 
-]
-[26
+] [26
 
-] [27
+]
+[27
 
 ] [28
+
+] [29
 
 ] (./solvingdpp/dpp.tex Excluding 'warpHTML' comment.
 Requested font "rm-lmbx12" at 12.0pt
@@ -3934,7 +3937,7 @@ Including 'warpprint' comment.
 (./comment_print.cut
 File: solvingdpp/cover/dpp-cover.pdf Graphic file (type pdf)
 <use solvingdpp/cover/dpp-cover.pdf>
-) [29
+) [30
 
 ]
 Overfull \hbox (4.48438pt too wide) in paragraph at lines 22--23
@@ -3942,11 +3945,11 @@ Overfull \hbox (4.48438pt too wide) in paragraph at lines 22--23
 ly lively
  []
 
-[30]
+[31]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  6.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
- [31] [32]
+ [32] [33]
 Requested font "rm-lmbx5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
 
@@ -3957,7 +3960,7 @@ Overfull \hbox (1.39818pt too wide) in paragraph at lines 137--138
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;mapping=tex-text;" 
 at 17.28pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
-[33]
+[34]
 Overfull \hbox (3.18295pt too wide) in paragraph at lines 172--173
  [] 
  []
@@ -3969,7 +3972,7 @@ Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
 (Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
 
-[34] [35]
+[35] [36]
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  9.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
@@ -3983,7 +3986,7 @@ Overfull \hbox (99.4049pt too wide) in paragraph at lines 326--327
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[36]
+[37]
 Overfull \hbox (27.40417pt too wide) in paragraph at lines 339--340
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -4003,7 +4006,7 @@ Overfull \hbox (214.60608pt too wide) in paragraph at lines 343--344
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[37] Excluding 'comment' comment. [38]
+[38] Excluding 'comment' comment. [39]
 Overfull \hbox (3.78766pt too wide) in paragraph at lines 416--417
 []\TU/DejaVuSerif(0)/m/sc/12 Maximum sum non-contiguous subsequence : compute s
 um 
@@ -4027,7 +4030,7 @@ Overfull \hbox (6.49469pt too wide) in paragraph at lines 424--425
 rod-
  []
 
-[39]
+[40]
 Overfull \hbox (13.98297pt too wide) in paragraph at lines 451--452
 []\TU/DejaVuSerif(0)/m/sc/12 Constrained Kriya Grid Paths to Heaven : Optimal P
 ranayams 
@@ -4045,15 +4048,13 @@ Overfull \hbox (13.98297pt too wide) in paragraph at lines 453--454
 ranayams
  []
 
-[40]
+[41]
 Overfull \hbox (8.33453pt too wide) in paragraph at lines 504--505
 []\TU/DejaVuSerif(0)/m/sc/12 Maximum Length of Palindromic Kriya Subsequence : 
 Space
  []
 
-[41]) [42] [43
-
-] [44
+[42]) [43] [44
 
 ] [45
 
@@ -4075,15 +4076,17 @@ Space
 
 ] [54
 
-] [55]
-[56
+] [55
+
+] [56]
+[57
 
 ]
 
 Package lwarp Warning: SideTOCDepth is less than FileDepth,
 (lwarp)                so some website pages may be inaccessible.
 
-[57]
+[58]
 \tf@toc=\write8
 \openout8 = `index.toc'.
 
@@ -4095,12 +4098,12 @@ Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 8D8F515871043C06C2CB31E033EFD8E7;10128.
  ) 
 Here is how much of TeX's memory you used:
- 69320 strings out of 476180
- 1649837 string characters out of 5809555
- 2404662 words of memory out of 5000000
- 88426 multiletter control sequences out of 15000+600000
+ 69338 strings out of 476180
+ 1650131 string characters out of 5809555
+ 2404661 words of memory out of 5000000
+ 88439 multiletter control sequences out of 15000+600000
  544630 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,112p,4834b,1848s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index.pdf (61 pages).
+Output written on index.pdf (62 pages).
