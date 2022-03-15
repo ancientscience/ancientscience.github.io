@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  15 MAR 2022 01:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  16 MAR 2022 01:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3448,6 +3448,8 @@ Requested font "msbm10" at 12.0pt
 Requested font "msbm10" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
 .tfm
+File: catalogue/asp-catalogue.pdf Graphic file (type pdf)
+<use catalogue/asp-catalogue.pdf>
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
  24.88pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
@@ -3457,7 +3459,7 @@ at 24.88pt
 
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/sc' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 575.
+(Font)              using `TU/DejaVuSerif(0)/b/n' instead on input line 582.
 
 (./index.toc
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;mapping=tex-text;" at
@@ -3528,27 +3530,27 @@ Overfull \hbox (12.44116pt too wide) in paragraph at lines 2--2
  Hacker’s 
  []
 
+[1
 
+]
 Overfull \hbox (13.83667pt too wide) in paragraph at lines 8--8
  [][] [][][]\TU/DejaVuSerif(0)/b/n/12 Elements of Coding ML : Internals of Mach
 ine Learn- 
  []
 
-[1
 
-]
 Overfull \hbox (1.07104pt too wide) in paragraph at lines 16--16
  [][] [][][]\TU/DejaVuSerif(0)/b/n/12 Conceptual Solutions to (CLRS) Introducti
 on to Al- 
  []
 
-
+[2]
 Overfull \hbox (8.6779pt too wide) in paragraph at lines 27--27
  [][] [][][]\TU/DejaVuSerif(0)/b/n/12 Generic Algorithms and Data Structures us
 ing C++11[][] []  
  []
 
-[2]
+
 Overfull \hbox (1.81169pt too wide) in paragraph at lines 31--31
  [][] [][][]\TU/DejaVuSerif(0)/b/n/12 Cracking Programming Interviews : 500 Que
 stions 
@@ -3583,7 +3585,7 @@ at 30.0pt
 
 ]
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 587.
+(Font)              scaled to size 12.0pt on input line 594.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinBioli
@@ -4113,10 +4115,10 @@ Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 8D8F515871043C06C2CB31E033EFD8E7;10128.
  ) 
 Here is how much of TeX's memory you used:
- 69365 strings out of 476180
- 1650815 string characters out of 5809555
- 2404661 words of memory out of 5000000
- 88462 multiletter control sequences out of 15000+600000
+ 69377 strings out of 476180
+ 1651183 string characters out of 5809555
+ 2404679 words of memory out of 5000000
+ 88472 multiletter control sequences out of 15000+600000
  544630 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,112p,4834b,1848s stack positions out of 5000i,500n,10000p,200000b,80000s

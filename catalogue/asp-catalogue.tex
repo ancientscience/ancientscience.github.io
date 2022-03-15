@@ -1,0 +1,306 @@
+\documentclass[makeidx, 10pt, oneside, onecolumn, openright, final, svgnames, dvipsnames, extrafontsizes]{memoir}
+
+\renewcommand{\chaptername}{Book}
+\renewcommand{\partname}{\color{Maroon} Part}
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\usepackage{hologo, mflogo, calligra, dashrule}
+\usepackage{tikz, comment}
+\usepackage{varwidth} % hyphenate texts in TikZ Node (back cover)
+\usetikzlibrary{fadings, shadings, shadows, decorations, decorations.footprints, calc, positioning, mindmap,arrows, patterns, arrows.meta}
+\usepackage{fontspec}
+\usepackage[misc]{ifsym}
+\usepackage{multido}
+\usepackage[colorlinks=true, linkcolor=BurntOrange, linktoc=all]{hyperref}
+\usepackage{tfrupee}
+
+\usetikzlibrary{
+  arrows,
+  calc,
+  fit,
+  patterns,
+  plotmarks,
+  shapes.geometric,
+  shapes.misc,
+  shapes.symbols,
+  shapes.arrows,
+  shapes.callouts,
+  shapes.multipart,
+  shapes.gates.logic.US,
+  shapes.gates.logic.IEC,
+  circuits.logic.US,
+  circuits.logic.IEC,
+  circuits.logic.CDH,
+  circuits.ee.IEC,
+  datavisualization,
+  datavisualization.formats.functions,
+  er,
+  automata,
+  backgrounds,
+  chains,
+  topaths,
+  trees,
+  petri,
+  mindmap,
+  matrix,
+  calendar,
+  folding,
+  fadings,
+  shadings,
+  spy,
+  through,
+  turtle,
+  positioning,
+  scopes,
+  decorations.fractals,
+  decorations.shapes,
+  decorations.text,
+  decorations.pathmorphing,
+  decorations.pathreplacing,
+  decorations.footprints,
+  decorations.markings,
+  shadows,
+  shadows.blur,
+  lindenmayersystems,
+  intersections,
+  fixedpointarithmetic,
+  fpu,
+  svg.path,
+  external,
+}
+
+%\setmainlanguage{sanskrit}
+%\setotherlanguage{english}
+
+
+
+\setstocksize{4in}{6in}
+\setlength{\paperwidth}{\stockwidth}
+\setlength{\paperheight}{\stockheight}
+\setlength{\spinemargin}{0.1in}
+\setlength{\foremargin}{\spinemargin}
+\setlength{\uppermargin}{30pt}
+%\setlength{\lowermargin}{3pt}
+\setlength{\headheight}{5pt}
+\setlength{\headsep}{20pt}
+\setlength{\footskip}{-2pt}
+\settypeblocksize{3.4in}{5.5in}{*}
+\checkandfixthelayout
+\setlength{\oddsidemargin}{\evensidemargin}
+
+\makeindex
+
+
+\maxsecnumdepth{subsubsection}
+\maxtocdepth{subsubsection}
+
+\newcommand*{\RaisedText}[1]{%
+  \begingroup
+    \leavevmode
+    \rlap{\kern-1pt\raise.5pt\hbox{\color{white}#1}}%
+    \rlap{\kern1pt\raise-.5pt\hbox{\color{black}#1}}%
+    \hbox{#1}%
+  \endgroup
+}
+
+\tikzset{
+    shade border west to east/.style args={#1 to #2}{
+        preaction={draw, very thick, path fading=east, #1},
+        preaction={draw, very thick, path fading=west, #2}
+    },
+    shade fill west to east/.style args={#1 to #2}{
+        left color=#1,
+        right color=#2
+    }
+}
+
+\tikzset{
+  ld/.style={level distance=#1},lw/.style={line width=#1},
+  level 1/.style={ld=4.5mm, trunk, lw=1ex ,sibling angle=60},
+  level 2/.style={ld=3.5mm, trunk!80!leaf a,lw=.8ex,sibling angle=56},
+  level 3/.style={ld=2.75mm,trunk!60!leaf a,lw=.6ex,sibling angle=52},
+  level 4/.style={ld=2mm, trunk!40!leaf a,lw=.4ex,sibling angle=48},
+  level 5/.style={ld=1mm, trunk!20!leaf a,lw=.3ex,sibling angle=44},
+  level 6/.style={ld=1.75mm,leaf a, lw=.2ex,sibling angle=40},
+}
+\pgfarrowsdeclare{leaf}{leaf}{
+  \pgfarrowsleftextend{-2pt} \pgfarrowsrightextend{1pt}
+}{
+  \pgfpathmoveto{\pgfpoint{-2pt}{0pt}}
+  \pgfpatharc{150}{30}{1.8pt}
+  \pgfpatharc{-30}{-150}{1.8pt}
+  \pgfusepathqfill
+}
+
+\makeatletter
+\def\agobble#1\nil#2{}
+\def\mytextcolor@a#1 #2\nil#3{%
+  \mytextcolor@b#1\nil{#3}
+  \if\relax\detokenize{#2}\relax\expandafter\agobble\fi
+  \mytextcolor@a#2\nil{#3}%
+}
+\def\mytextcolor@b#1#2\nil#3{%
+  \textcolor{-#3}{\textbf{#1}}\textcolor{#3}{#2}\\
+}
+\def\mytextcolor#1#2{%
+  \if\relax\detokenize{#2}\relax\expandafter\agobble\fi
+  \mytextcolor@a#2 \nil{#1}%
+}
+
+\newcommand{\logo}[8]{%
+  \colorlet{border}{#1}
+  \colorlet{trunk}{#2}
+  \colorlet{leaf a}{#3}
+  \colorlet{leaf b}{#4}
+%  \rotatebox{#8}{%
+%    \begin{tikzpicture}[font=\scriptsize\scshape]
+      \begin{scope}[scale=1.0, shift={(#8)}]
+      \coordinate (root) [grow cyclic,rotate=90]
+        child {
+          child [line cap=round] foreach \a in {0,1} {
+            child foreach \b in {0,1} {
+              child foreach \c in {0,1} {
+                child foreach \d in {0,1} {
+                child foreach \leafcolor in {leaf a,leaf b}
+                  { edge from parent [color=\leafcolor,-#5] }
+                }
+              }
+            }
+          }
+          edge from parent [shorten >=-1pt,serif cm-,line cap=butt]
+        };
+      \node [scale=1,align=center,below,transform shape] at (0pt,-.5ex){%
+        \mytextcolor{#6}{#7}\\
+      };
+    \end{scope}
+%    \end{tikzpicture}
+%  }
+}
+\makeatother
+
+\def\nodeshadowed[#1]#2;{\node[scale=1.1,above,#1]{#2};\node[scale=1.1,
+        above,#1,yscale=-1,opacity=1.0]{#2};}
+        
+
+% Code for pdf/x compliance : pdf/x-1a:2003
+% Start
+
+
+ \special{pdf:docinfo <<
+        /Title (Ancient Science Publishers : Catalogue 2022)
+        /Subject (Science)
+        /Author (Chandra Shekhar Kumar)
+        /Keywords ()
+        /Location ()
+        /Trapped /False
+        /GTS_PDFXVersion (PDF/X-1a:2003)
+        /GTS_PDFXConformance (PDF/X-1a:2003)
+     >>}
+
+\special{pdf:put @catalog <<
+	/OutputIntents [ <<
+	/Info (none)
+	/Type /OutputIntent
+	/S /GTS_PDFX
+	/OutputConditionIdentifier (createspace.com)
+	/RegistryName (https://www.createspace.com/)
+	>> ] >>
+}
+
+%\usepackage{polyglossia}
+%\setmainlanguage{sanskrit}
+%\setotherlanguage{english}
+
+
+%\setmainfont[Script=Devanagari, BoldFont={Sahadeva}]{Nakula}
+\newfontfamily\hindifont[Script=Devanagari, BoldFont={Sahadeva}]{Nakula}
+\newenvironment{hindi}{\hindifont}{\par}
+\DeclareTextFontCommand{\texthindi}{\hindifont}
+
+%\newcommand{\devanagarinumeral}[1]{%
+%   \devanagaridigits{\number\csname c@#1\endcsname}}
+
+\aliaspagestyle{title}{empty} 
+\aliaspagestyle{part}{empty}
+
+
+\usepackage{unicode-math}
+\setmathfont{XITS Math}
+
+%\setmainfont{DejaVu Serif}
+
+\newcommand*\up{\textcolor{YellowGreen}{$\blacktriangle$}}
+\newcommand*\down{\textcolor{Red}{$\blacktriangledown$}}
+\newcommand*\const{\textcolor{darkgray}{\textbf{--}}}
+\newcommand*\head[1]{\textbf{#1}}
+% The table environment:
+\newenvironment{matrixtable}[5]{%
+  \begin{tikzpicture}[matrix of nodes/.style={
+    execute at begin cell=\node\bgroup\strut,
+    execute at end cell=\egroup;}]
+  \matrix (m) [matrix of nodes,top color=BurntOrange!20,
+    bottom color=BurntOrange!90,draw=white,
+    nodes={draw,top color=BurntOrange!10,bottom color=BurntOrange!85,
+    draw,inner sep=2pt,minimum height=3.1ex},
+    column sep=1ex,row sep=0.6ex,inner sep=2ex,
+    rounded corners,column 1/.style={minimum width=#1},
+    column 2/.style={minimum width=#2},
+    column 3/.style={minimum width=#3},
+    column 4/.style={minimum width=#4},
+    column 5/.style={minimum width=#5}]}%
+{;\end{tikzpicture}}
+
+\begin{document}
+%set fontsize to 9.5 pt
+%\fontsize{9.2pt}{11.04pt}\selectfont %\fontsize{desirefontsize in pt}{baselineskip = desirefontsize x 1.2}
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture,overlay]
+
+ 
+
+\begin{scope}[shift={(current page.center)}]
+
+\node[shading=ball, ball color=BurntOrange, minimum width=6in, minimum height=9in,text=Maroon,ultra thick]
+at(0,0in) 
+{
+};
+  
+ 
+
+\node[scale=0.8, at={(0in, -0.0in)}]
+{
+  \begin{matrixtable}{1.2cm}{2.4cm}{1.2cm}{1.2cm}{0.6cm}
+{
+  \head{\textbf{Sl.}}   & \head{\textbf{Title}} & \head{\textbf{India}} &  \head{\textbf{Others}} & \\
+  1 & Conceptual Kinematics: {\scriptsize A Companion to I. E. Irodov's Problems in General Physics}  & \rupee 250 & \$9.95 & \up  \\
+  2 & Conceptual Geometry of Straight Line : {\scriptsize A Companion to S. L. Loney's Co-ordinate Geometry}  & \rupee 350 & \$19.95 & \up  \\
+ 3 & Conceptual Trigonometry Part I : {\scriptsize A Companion to S. L. Loney's Plane Trigonometry Part I}    & \rupee 500 & \$39.95 & \up    \\
+ 4 & Solutions of the Examples in Higher Algebra : {\scriptsize H. S. Hall, S. R. Knight} & \rupee 400 & \$29.95 &  \up \\
+ 5 & Problems and Solutions in Plane Trigonometry : {\scriptsize  Isaac Todhunter}  & \rupee 500 & \$39.95 & \up    \\
+ 6 & Concepts, Problems and Solutions in School Calculus : A Dialogue Approach   & \rupee 500  & \$19.95 & \up    \\
+ 7 & Solving Problems using Dynamic Programming : {\scriptsize A Hacker's Perspective}    & \rupee 500 & \$29.95 & \down  \\
+ 8 & Advanced C++ FAQs  & \rupee 500 & \$29.95 & \down    \\
+ 9 & C++14 FAQs & \rupee 200 & \$8.95 & \up    \\
+ 10 & Cracking Programming Interviews : {\scriptsize 500 Questions with Solutions}  & \rupee 500 & \$29.95 & \up    \\
+ 11 & Top 20 Coding Interview Problems Asked in Google with Solutions  & \rupee 250 & \$9.95  & \up    \\
+
+  12 & Elements of C++20  & \rupee 2000 & \$39.95 & \down    \\
+}
+\end{matrixtable}
+};
+
+\node[scale=1.6, at={(0in, 1.7in)}]
+    {\Huge \bfseries \textcolor{BurntOrange}{\RaisedText{Catalogue 2022}}};    
+	
+\node[scale=0.8, at={(0in, -1.6in)}]
+    {\Huge \bfseries \textcolor{BurntOrange}{\RaisedText{Flat 20\% Off, Bulk Discount 30-50\%}}};
+
+\node[scale=0.8, at={(0in, -1.9in)}]
+    {\Huge \bfseries \textcolor{BurntOrange}{\RaisedText{email : ancientsciencepublishers@gmail.com}}};
+  
+\end{scope}
+
+\end{tikzpicture}
+
+\end{document}
