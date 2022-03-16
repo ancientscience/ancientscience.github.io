@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  16 MAR 2022 01:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  17 MAR 2022 01:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3790,11 +3790,67 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count510
 \enitdp@description=\count511
 ))
-\LWR@userspaperwidth=\skip342
-\LWR@userspaperheight=\skip343
-\LWR@usersmarginparwidth=\skip344
-\LWR@userstextwidth=\skip345
-\LWR@userstextheight=\skip346
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/exercise/exercise.sty
+Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
+\ExerciseSkipBefore=\skip342
+\ExerciseSkipAfter=\skip343
+\AnswerSkipBefore=\skip344
+\AnswerSkipAfter=\skip345
+\Exesep=\skip346
+\Exetopsep=\skip347
+\Exeparsep=\skip348
+\Exepartopsep=\skip349
+\Exeleftmargin=\skip350
+\Exerightmargin=\skip351
+\Exelabelwidth=\skip352
+\Exelabelsep=\skip353
+\ExerciseBefore=\skip354
+\QuestionBefore=\skip355
+\subQuestionBefore=\skip356
+\subsubQuestionBefore=\skip357
+\QuestionIndent=\skip358
+\subQuestionIndent=\skip359
+\subsubQuestionIndent=\skip360
+\c@Exercise=\count512
+\c@Answer=\count513
+\c@ExePart=\count514
+\c@Question=\count515
+\c@subQuestion=\count516
+\c@subsubQuestion=\count517
+\c@savedQuestion=\count518
+\c@savedsubQuestion=\count519
+\c@savedsubsubQuestion=\count520
+\@QuestionLevel=\count521
+\@Exercisebox=\box109
+\all@Exercisebox=\box110
+\temp@Exercisebox=\box111
+\all@Answerbox=\box112
+\temp@Answerbox=\box113
+\ExerciseDifficulty=\count522
+\QuestionDifficulty=\count523
+\subQuestionDifficulty=\count524
+\subsubQuestionDifficulty=\count525
+\ExePartDifficulty=\count526
+\@Answerbox=\box114
+\colonnesLevel=\count527
+\tempskipa=\skip361
+\tempskipb=\skip362
+\@savedmathindent=\skip363
+)
+\LWR@userspaperwidth=\skip364
+\LWR@userspaperheight=\skip365
+\LWR@usersmarginparwidth=\skip366
+\LWR@userstextwidth=\skip367
+\LWR@userstextheight=\skip368
 
 
 LaTeX Warning: Unused global option(s):
@@ -3803,33 +3859,33 @@ LaTeX Warning: Unused global option(s):
 (./index_html.aux)
 \openout1 = `index_html.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 458.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 470.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-58.
+70.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 458.
-LaTeX Font Info:    ... okay on input line 458.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 470.
+LaTeX Font Info:    ... okay on input line 470.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-geometry.sty
 Package lwarp Info: Replacing package `geometry' with the lwarp version,
 (lwarp)             and discarding options, on input line 20.
 Package: lwarp-geometry 2018/04/16
 )
-\LWR@colorminipagebox=\box109
+\LWR@colorminipagebox=\box115
 
 
 Package lwarp Warning: Lwarp provides emulation for MathJax when used
@@ -3874,21 +3930,21 @@ Package lwarp Warning: Lwarp provides emulation for MathJax when used
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 458.
+ on input line 470.
 
-\c@lstlisting=\count512
-Package lwarp Info: Removing background hook on input line 458.
+\c@lstlisting=\count528
+Package lwarp Info: Removing background hook on input line 470.
 Requested font "Avant Garde/OT:language=dflt;mapping=tex-text;" at 10.0pt
  -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
 \openout6 = `index-images.txt'.
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 458.
+(Font)              scaled to size 10.0pt on input line 470.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 458.
+(Font)              scaled to size 9.0pt on input line 470.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 9.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
@@ -3959,7 +4015,7 @@ t;" at 10.0pt
 Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
 t;" at 12.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
-\c@density=\count513
+\c@density=\count529
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
 ext;" at 12.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
@@ -3986,14 +4042,14 @@ Requested font "Nakula/OT:script=deva;language=dflt;" at 20.74pt
 
 
 LaTeX Font Warning: Font shape `T1/calligra/b/n' undefined
-(Font)              using `T1/calligra/m/n' instead on input line 520.
+(Font)              using `T1/calligra/m/n' instead on input line 532.
 
 LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
-(Font)              scaled to size 43.20007pt on input line 538.
+(Font)              scaled to size 43.20007pt on input line 550.
 Requested font "callig15" at 43.20007pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-62.
+74.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -4004,7 +4060,7 @@ Requested font "rm-lmr7" at 7.0pt
 Requested font "rm-lmr5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-62.
+74.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -4016,7 +4072,7 @@ Requested font "lmmi7" at 7.0pt
 Requested font "lmmi5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-562.
+574.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -4028,20 +4084,20 @@ Requested font "lmsy7" at 7.0pt
 Requested font "lmsy5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-562.
+574.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 562.
+(Font)              <10> on input line 574.
 Requested font "lmex10" scaled 1000
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 562.
+(Font)              <7> on input line 574.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 562.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 562
+(Font)              <5> on input line 574.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 574
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -4056,7 +4112,7 @@ tfm
 Requested font "msam5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.
 tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 562
+LaTeX Font Info:    Trying to load font information for U+msb on input line 574
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -4118,6 +4174,13 @@ Requested font "eusm5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm5.tf
 m
  [18] [19]
+Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
+t;" at 9.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 9.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+
 [20] [21] Excluding 'comment' comment.) [22]
 File: "lwarp_mathjax.txt"  (verbatim)
  [23] (./index_html.sidetoc)
@@ -4428,11 +4491,11 @@ Requested font "rm-lmbx8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 Requested font "rm-lmbx6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
- [139] [140] [141] [142] [143] [144]
-Requested font "DejaVu Serif/OT:script=latn;language=dflt;-liga;mapping=tex-tex
-t;" at 9.0pt
- -> /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
- [145] [146] [147]
+ [139] [140] [141] [142] [143] [144] [145] [146] [147]
+Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;-liga;mapping=tex-t
+ext;" at 9.0pt
+ -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
+
 Excluding 'comment' comment. [148] [149] [150]) [151]
 File: "lwarp_mathjax.txt"  (verbatim)
  [152]
@@ -4441,48 +4504,73 @@ File: "lwarp_mathjax.txt"  (verbatim)
  [154] (./index_html.sidetoc) [155]
 File: "lwarp_mathjax.txt"  (verbatim)
  [156]
-(./index_html.sidetoc) [157]
+(./index_html.sidetoc) (./cpp14faqs/cpp14faqs.tex [157] [158] [159] [160]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170]
+(./cpp14faqs/code/c++14/variable_template.cpp)
+(./cpp14faqs/code/c++14/variable_template_area.cpp) [171] [172] [173] [174]
+[175] [176] [177] [178] [179] [180]
+(./cpp14faqs/code/c++14/specialize_variable_templates.cpp) [181] [182]
+(./cpp14faqs/code/c++14/variable_template_area.cpp) [183]
+(./cpp14faqs/code/c++14/variable_template_simplify.cpp) [184] [185]
+(./cpp14faqs/code/c++14/variable_template1.cpp) [186] [187] [188]
+(./cpp14faqs/code/c++14/auto_variable_templates.cpp) [189] [190]
+(./cpp14faqs/code/c++14/specialize.cpp) [191] [192] [193]
+(./cpp14faqs/code/c++14/variable_template_lambda.cpp) [194] [195] [196]
+[197] [198] [199] [200] [201] [202]
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 503.
+Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 9.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_MB.otf
+ [203] [204] [205] [206] [207] [208]
+[209] [210] [211] [212] (./cpp14faqs/code/c++14/generic_lambda3.cpp) [213]
+[214] (./cpp14faqs/code/c++14/constexpr_implicit_const.cpp) [215]
+(./cpp14faqs/code/c++14/constexpr_implicit_const1.cpp) [216] [217] [218]
+[219] (./cpp14faqs/code/c++14/constexpr_constructor.cpp) [220] [221] [222]
+[223] [224] [225] [226] [227] [228] [229]
+(./cpp14faqs/code/c++14/constexpr_init.cpp) [230] [231] [232] [233] [234]
+[235] [236] [237] (./cpp14faqs/code/c++14/constexpr_static.cpp) [238] [239]
+[240] (./cpp14faqs/code/c++14/constexpr_memfn.cpp) [241] [242] [243] [244]
+(./cpp14faqs/code/c++14/deprecated_attribute.cpp)
+(./cpp14faqs/code/c++14/deprecated_attribute_msg.cpp)
+(./cpp14faqs/code/c++14/deprecated_redeclare.cpp) [245] [246] [247] [248]
+[249] [250] [251] [252] [253]) [254]
 File: "lwarp_mathjax.txt"  (verbatim)
- [158] (./index_html.sidetoc) [159]
+ [255] (./index_html.sidetoc) [256]
 File: "lwarp_mathjax.txt"  (verbatim)
- [160]
-(./index_html.sidetoc) [161]
-File: "lwarp_mathjax.txt"  (verbatim)
- [162] (./index_html.sidetoc) [163]
-File: "lwarp_mathjax.txt"  (verbatim)
- [164]
-(./index_html.sidetoc) [165]
-File: "lwarp_mathjax.txt"  (verbatim)
- [166] (./index_html.sidetoc) [167]
-File: "lwarp_mathjax.txt"  (verbatim)
- [168]
-(./index_html.sidetoc) [169]
-File: "lwarp_mathjax.txt"  (verbatim)
- [170] (./index_html.sidetoc) [171]
-File: "lwarp_mathjax.txt"  (verbatim)
- [172]
-(./index_html.sidetoc) [173]
-File: "lwarp_mathjax.txt"  (verbatim)
- [174] (./index_html.sidetoc) [175]
-File: "lwarp_mathjax.txt"  (verbatim)
- [176]
-(./index_html.sidetoc)
 
-Package lwarp Warning: SideTOCDepth is less than FileDepth,
-(lwarp)                so some website pages may be inaccessible.
-
-[177] (./index_html.aux)
+[257] (./index_html.sidetoc) [258]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [259] (./index_html.sidetoc) [260]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [261]
+(./index_html.sidetoc) [262]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [263] (./index_html.sidetoc) [264]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [265]
+(./index_html.sidetoc) [266]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [267] (./index_html.sidetoc) [268]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [269]
+(./index_html.sidetoc) [270]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [271] (./index_html.sidetoc) [272]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [273]
+(./index_html.sidetoc) [274] (./index_html.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 69081 strings out of 476180
- 1697402 string characters out of 5809555
- 2428028 words of memory out of 5000000
- 87819 multiletter control sequences out of 15000+600000
- 538389 words of font info for 183 fonts, out of 8000000 for 9000
+ 70239 strings out of 476180
+ 1717734 string characters out of 5809555
+ 2527403 words of memory out of 5000000
+ 88899 multiletter control sequences out of 15000+600000
+ 538413 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  153i,15n,166p,4854b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index_html.pdf (177 pages).
+Output written on index_html.pdf (274 pages).

@@ -20,9 +20,9 @@
 \usepackage{kantlipsum}
 
 \title{Ancient Science Publishers}
-\setcounter{tocdepth}{2} % Include subsections in the \TOC.
-\setcounter{secnumdepth}{2} % Number down to subsections.
-\setcounter{FileDepth}{2}
+%\setcounter{tocdepth}{1} % Include subsections in the \TOC.
+%\setcounter{secnumdepth}{0} % Number down to chapters.
+\setcounter{FileDepth}{0}
 \booltrue{CombineHigherDepths}
 \HTMLPageTop{\LinkPrevious}
 \HTMLPageBottom{\LinkNext}
@@ -450,6 +450,18 @@
   
 \usepackage{epigraph}
 
+\lstset{language=C++, breaklines=true, mathescape=true,
+morekeywords={std, iterator_traits, final, max, tuple, make_tuple, assert, cassert, cstdlib, size_t, reverse, iter_swap, equal, algorithm, vector, begin, end, reverse_copy, move, swap, distance, iter_swap, partition, cout, endl, less, bind2nd}, numbers=left, numberstyle=\tiny, numbersep=2pt,lineskip=-5pt, showstringspaces=false}
+
+\usepackage{exercise}
+\renewcommand{\ExerciseName}{Question}
+\renewcommand{\AnswerName}{\textsc{Solution}}% of \ExerciseName}}
+
+\setsecnumdepth{chapter}
+\maxsecnumdepth{chapter}
+
+\maxtocdepth{chapter}
+\settocdepth{chapter}
 
 
 
@@ -648,6 +660,7 @@
 \chapter{Advanced C++ FAQs Vol 1 \& 2}
 
 \chapter{C++14 FAQs}
+\input{cpp14faqs/cpp14faqs}
 
 \chapter{The Boost C++ Libraries: Generic Programming}
 

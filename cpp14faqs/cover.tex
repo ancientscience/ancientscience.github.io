@@ -1,0 +1,335 @@
+% spine = 0.002252 * 105 = 0.23646
+% Minimum Cover Width: Bleed + Back Cover Trim Size + Spine Width + Front Cover Trim Size + Bleed =  0.125" + 6" + 0.23646" + 6" + .125" = 12.48646''
+%  Minimum Cover Height: Bleed + Book Height Trim Size + Bleed = 0.125" + 9" + .125" = 9.25"
+\documentclass[12pt, svgnames, dvipsnames]{article}
+%\PassOptionsToPackage{cmyk}{xcolor}
+
+\usepackage{comment, calligra}
+\usepackage{amsmath, etoolbox, amssymb, manfnt}
+\usepackage{pifont}
+\usepackage[paperheight=9.25in,paperwidth=6.3in,margin=0in]{geometry}
+%\usepackage{pdfpages}
+\usepackage{tikz, comment}
+\usepackage{fontspec}
+%\usepackage{dtklogos}
+\usepackage{varwidth} % hyphenate texts in TikZ Node (back cover)
+\usetikzlibrary{fadings, shadings, shadows, patterns}
+
+
+\usepackage[]{minted}
+
+\renewcommand{\theFancyVerbLine}{\sffamily
+\textcolor[rgb]{0.5,0.5,1.0}{\scriptsize
+\oldstylenums{\arabic{FancyVerbLine}}}}
+
+
+\newmintedfile[newcppfile]{cpp}
+{
+frame=none, linenos=false, samepage=false, numbersep=5pt, fontfamily=courier, 
+fontseries=m, fontsize=\tiny, baselinestretch=0.1
+}
+
+
+\newminted[newcpp]{cpp}
+{
+frame=none, linenos=false, samepage=false, numbersep=7pt, fontfamily=courier, 
+fontseries=m, fontsize=\tiny, baselinestretch=0.1
+}
+
+
+\newcommand{\itemcolor}[1]{% Update list item colour
+  \renewcommand{\makelabel}[1]{\color{#1}\hfil ##1}}
+
+\tikzset{
+    shade border west to east/.style args={#1 to #2}{
+        preaction={draw, very thick, path fading=east, #1},
+        preaction={draw, very thick, path fading=west, #2}
+    },
+    shade fill west to east/.style args={#1 to #2}{
+        left color=#1,
+        right color=#2
+    }
+}
+
+\def\nodeshadowed[#1]#2;{\node[scale=2,above,#1]{#2};\node[scale=2,
+        above,#1,yscale=-1,scope fading=south,opacity=0.4]{#2};}
+\def\nodeshadow[#1]#2;{\node[text=black, scale=1,above,#1]{#2};\node[text=black, scale=1, above,#1,yscale=-1,scope fading=south,opacity=1.0]{#2};}
+        
+
+ \special{pdf:docinfo <<
+        /Title (C++14 FAQs)
+        /Subject (C++)
+        /Author (Chandra Shekhar Kumar)
+        /Keywords ()
+        /Trapped /False
+        /GTS_PDFXVersion (PDF/X-1a:2003)
+        /GTS_PDFXConformance (PDF/X-1a:2003)
+     >>}
+
+\special{pdf:put @catalog <<
+	/OutputIntents [ <<
+	/Info (none)
+	/Type /OutputIntent
+	/S /GTS_PDFX
+	/OutputConditionIdentifier (createspace.com)
+	/RegistryName (https://www.createspace.com/)
+	>> ] >>
+}
+
+\colorlet{MyColor}{Maroon} 
+\colorlet{TextColor}{White} 
+\colorlet{BgTextColor}{LightCyan} 
+
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}[remember picture,overlay]
+
+\begin{scope}[shift={(current page.center)}]
+
+
+% render background of front page
+%\node[shading=ball, ball color=MyColor, minimum width=6.15in, minimum height=9.25in,text=white,ultra thick] at(3.2in,0) {};
+%\node[shading=ball, ball color=MyColor, minimum width=6.3in, minimum height=9.25in,text=white,ultra thick] at(0in,0) {};
+%\node[fill=MyColor, minimum width=6.3in, minimum height=9.25in,text=white,ultra thick] at(0in,0) {};
+
+\node[shading=ball, ball color=MyColor, align=left, color=TextColor, text opacity=1.0, rounded corners=5ex,ultra thick] at(0.0in,5in) 
+{
+\tiny
+\begin{varwidth}{16cm}
+%\begin{comment}
+\begin{newcpp}
+#include <type_traits>
+#include <chrono>
+#include <tuple>
+
+template<class T1, class T2 = T1>
+inline T1 exchange(T1 & obj, T2 && new_value)
+{
+    T1 old_value = std::move(obj);
+
+    obj = std::forward<T2>(new_value);
+
+    return old_value;
+}
+
+struct increment_me 
+{
+    template<typename T>
+    auto operator()(T t) const 
+        -> decltype(++t)
+    { 
+        return ++t; 
+    }
+};
+
+template<typename T=double>
+constexpr T pi = T(3.1415926535897932385);
+ 
+auto area = []( auto c ) 
+{
+    using T = typename decltype(c)::value_type;
+    return pi<T> * c.radius * c.radius;
+};
+
+template<typename Array, size_t... I>
+auto array_to_tuple_(const Array& a, std::index_sequence<I...>)
+    -> decltype(std::make_tuple(a[I]...))
+{
+    return std::make_tuple(a[I]...);
+}
+
+
+template<typename T, std::size_t N, typename Indices = std::make_index_sequence<N>>
+auto array_to_tuple(const std::array<T, N>& a)
+    -> decltype(array_to_tuple_(a, Indices()))
+{
+    return array_to_tuple_(a, Indices());
+}
+
+template <class T>
+struct C
+{
+    T t_;
+
+    template <class U, class V = typename std::enable_if
+                    <
+                        !std::is_lvalue_reference<U>::value
+                    >::type>
+        C(U&& u) : t_(std::forward<T>(std::move(u).get())) {}
+};
+
+\end{newcpp}
+%\end{comment}
+
+\newcppfile[firstline=1, lastline=86]{make_integer_sequence.hpp}
+
+\begin{newcpp}
+
+template<class T1, class T2 = T1>
+inline T1 exchange(T1 & obj, T2 && new_value)
+{
+    T1 old_value = std::move(obj);
+
+    obj = std::forward<T2>(new_value);
+
+    return old_value;
+}
+
+struct increment_me 
+{
+    template<typename T>
+    auto operator()(T t) const 
+        -> decltype(++t)
+    { 
+        return ++t; 
+    }
+};
+
+
+template<typename T=double>
+constexpr T pi = T(3.1415926535897932385);
+ 
+auto area = []( auto c ) 
+{
+    using T = typename decltype(c)::value_type;
+    return pi<T> * c.radius * c.radius;
+};
+
+
+template<typename Array, size_t... I>
+auto array_to_tuple_(const Array& a, std::index_sequence<I...>)
+    -> decltype(std::make_tuple(a[I]...))
+{
+    return std::make_tuple(a[I]...);
+}
+
+
+template<typename T, std::size_t N, typename Indices = std::make_index_sequence<N>>
+auto array_to_tuple(const std::array<T, N>& a)
+    -> decltype(array_to_tuple_(a, Indices()))
+{
+    return array_to_tuple_(a, Indices());
+}
+
+
+template <class T>
+struct C
+{
+    T t_;
+
+    template <class U, class V = typename std::enable_if
+                    <
+                        !std::is_lvalue_reference<U>::value
+                    >::type>
+        C(U&& u) : t_(std::forward<T>(std::move(u).get())) {}
+};
+
+
+int x;                              
+
+struct A 
+{
+    // constexpr constructor
+    constexpr A(bool b) : m(b?42:x) { }
+    int m;
+};
+
+
+constexpr int v = A(true).m;        
+                                    
+constexpr int w = A(false).m; 
+
+
+
+#include <utility>
+#include <type_traits>
+
+// generates std::size_t : 0, 1, 2, 3
+using indices = 
+    std::index_sequence_for<char, int, std::size_t, unsigned long>;
+
+static_assert(std::is_same<
+              indices,
+              std::make_index_sequence<4>
+             >::value, "");
+
+
+struct A{};
+struct B{};
+
+static_assert(std::is_same<
+    std::index_sequence_for<A, B>,
+    std::index_sequence<0, 1>
+>::value, "");
+
+
+
+template< class T >
+    using void_t = void;
+    //using void_t = std::conditional_t<true, void, T>;
+
+
+template< class, class T = void >
+struct has_type_member : std::false_type 
+{ };
+
+
+template< class T >
+struct has_type_member<T, void_t<typename T::type>> : std::true_type
+{ };
+
+
+template<typename Array, size_t... I>
+auto array_to_tuple_(const Array& a, std::index_sequence<I...>)
+    -> decltype(std::make_tuple(a[I]...))
+{
+    return std::make_tuple(a[I]...);
+}
+
+
+template<typename T, std::size_t N, typename Indices = std::make_index_sequence<N>>
+auto array_to_tuple(const std::array<T, N>& a)
+    -> decltype(array_to_tuple_(a, Indices()))
+{
+    return array_to_tuple_(a, Indices());
+}
+
+
+template <class T>
+struct C
+{
+    T t_;
+
+    template <class U, class V = typename std::enable_if
+                    <
+                        !std::is_lvalue_reference<U>::value
+                    >::type>
+        C(U&& u) : t_(std::forward<T>(std::move(u).get())) {}
+};
+\end{newcpp}
+
+\end{varwidth}
+};
+
+% design front cover
+% Title
+\node[scale=2.6, text=YellowOrange, at={(0in, 3.3in)}]
+    {\Huge \bfseries C++14};
+\node[scale=2.6, text=YellowOrange, at={(0in, 2.3in)}]
+    {\Huge \bfseries FAQs};
+
+% Author
+\node[scale=1.1, text=Gainsboro, at={(0in, -3.0in)}]
+    {\Huge \bfseries \emph{Chandra Shekhar Kumar}};
+
+
+\end{scope}
+
+  
+\end{tikzpicture}
+
+
+
+\end{document}

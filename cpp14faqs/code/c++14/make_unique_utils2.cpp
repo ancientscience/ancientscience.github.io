@@ -1,0 +1,34 @@
+#include <memory>
+#include <type_traits>
+#include <iostream>
+
+template<class T>
+struct unique_type
+{
+    typedef std::unique_ptr<T> single_object;
+};
+
+template<class T>
+struct unique_type<T[]>
+{
+    typedef std::unique_ptr<T[]> array_unknown_bound;
+};
+
+template<class T, class... Args> 
+typename unique_type<T>::array_unknown_bound
+make_unique_value_init(size_t n, Args&&... args) 
+{
+        return std::unique_ptr<T>(new typename std::remove_extent<T>::type[n]{std::forward<Args>(args)... });
+}
+
+
+int main()
+{
+    auto up = make_unique_value_init<int[]>(5, 100, 200, 300);
+
+    for (int i = 0; i < 5; ++i) 
+    {
+        std::cout << up[i] << " ";
+    }
+    std::cout << std::endl;
+}

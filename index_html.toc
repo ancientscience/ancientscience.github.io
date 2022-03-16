@@ -1,3 +1,4 @@
+\changetocdepth {0}
 \contentsline {part}{\numberline {I}{\ignorespaces \textcolor {red}{Computer Science}\relax }}{9}{}%
 \contentsline {chapter}{\numberline {1}{\ignorespaces Discipline of Competitive Programming : A Hacker’s Perspective\relax }}{10}{}%
 \contentsline {chapter}{\numberline {2}{\ignorespaces Elements of Coding : Science of Deriving Correct Programs\relax }}{13}{}%
@@ -23,13 +24,36 @@
 \contentsline {chapter}{\numberline {22}{\ignorespaces Hacking TensorFlow Internals : An Insider’s Commentary on A Learning System\relax }}{153}{}%
 \contentsline {chapter}{\numberline {23}{\ignorespaces Advanced C++ FAQs Vol 1 \& 2\relax }}{155}{}%
 \contentsline {chapter}{\numberline {24}{\ignorespaces C++14 FAQs\relax }}{157}{}%
-\contentsline {chapter}{\numberline {25}{\ignorespaces The Boost C++ Libraries: Generic Programming\relax }}{159}{}%
-\contentsline {chapter}{\numberline {26}{\ignorespaces Generic Algorithms and Data Structures using C++11\relax }}{161}{}%
-\contentsline {chapter}{\numberline {27}{\ignorespaces C++11 Standard Library: Usage and Implementation\relax }}{163}{}%
-\contentsline {chapter}{\numberline {28}{\ignorespaces Foundation of Algorithms in C++11\relax }}{165}{}%
-\contentsline {chapter}{\numberline {29}{\ignorespaces C++11 Algorithms : Using and Extending C++11, Boost and Beyond\relax }}{167}{}%
-\contentsline {chapter}{\numberline {30}{\ignorespaces Cracking Programming Interviews : 500 Questions with Solutions\relax }}{169}{}%
-\contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{171}{}%
-\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{173}{}%
-\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{175}{}%
-\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{177}{}%
+\contentsline {section}{variable templates}{160}{}%
+\contentsline {section}{Constexpr static data members of class templates}{165}{}%
+\contentsline {section}{constexpr function templates}{167}{}%
+\contentsline {section}{variable templates in action}{171}{}%
+\contentsline {section}{static data member template}{177}{}%
+\contentsline {section}{specialization of variable template}{180}{}%
+\contentsline {section}{default argument and specialization of variable template}{181}{}%
+\contentsline {section}{lambda and variable template}{183}{}%
+\contentsline {section}{variable templates variables vary}{186}{}%
+\contentsline {section}{auto variable templates}{189}{}%
+\contentsline {section}{valid specialization but error ?}{191}{}%
+\contentsline {section}{variable templates and lambda revisited}{194}{}%
+\contentsline {section}{Incremental improvement to integral\_constant}{196}{}%
+\contentsline {section}{is\_same musings}{203}{}%
+\contentsline {section}{auto variable template and generic lambda}{213}{}%
+\contentsline {section}{constexpr member functions and implicit const}{215}{}%
+\contentsline {section}{constexpr constructor and initialization}{220}{}%
+\contentsline {section}{constexpr and branching}{224}{}%
+\contentsline {section}{constexpr and looping iteration}{227}{}%
+\contentsline {section}{constexpr and mutation}{230}{}%
+\contentsline {section}{constexpr vs static vs uninitialized}{238}{}%
+\contentsline {section}{constexpr vs member function revisited}{241}{}%
+\contentsline {section}{deprecated attribute}{244}{}%
+\contentsline {chapter}{\numberline {25}{\ignorespaces The Boost C++ Libraries: Generic Programming\relax }}{256}{}%
+\contentsline {chapter}{\numberline {26}{\ignorespaces Generic Algorithms and Data Structures using C++11\relax }}{258}{}%
+\contentsline {chapter}{\numberline {27}{\ignorespaces C++11 Standard Library: Usage and Implementation\relax }}{260}{}%
+\contentsline {chapter}{\numberline {28}{\ignorespaces Foundation of Algorithms in C++11\relax }}{262}{}%
+\contentsline {chapter}{\numberline {29}{\ignorespaces C++11 Algorithms : Using and Extending C++11, Boost and Beyond\relax }}{264}{}%
+\contentsline {chapter}{\numberline {30}{\ignorespaces Cracking Programming Interviews : 500 Questions with Solutions\relax }}{266}{}%
+\contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{268}{}%
+\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{270}{}%
+\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{272}{}%
+\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{274}{}%
