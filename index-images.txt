@@ -27,7 +27,6 @@
 |80|false|image-27|
 |82|false|image-28|
 |85|false|image-29|
-|139|false|image-30|
-|142|false|image-31|
-|145|false|image-32|
-|end|end|end|
+|142|false|image-30|
+|145|false|image-31|
+|148|false|image-32|

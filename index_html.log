@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  17 MAR 2022 11:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  20 MAR 2022 02:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4442,20 +4442,21 @@ File: "lwarp_mathjax.txt"  (verbatim)
  [117]
 (./index_html.sidetoc) [118]
 File: "lwarp_mathjax.txt"  (verbatim)
- [119] (./index_html.sidetoc) [120]
+ [119] (./index_html.sidetoc) (./cpp20/cpp20.tex
+[120] [121] [122] [123]) [124]
 File: "lwarp_mathjax.txt"  (verbatim)
- [121]
-(./index_html.sidetoc) (./solvingdpp/dpp.tex Including 'warpHTML' comment.
+ [125] (./index_html.sidetoc)
+(./solvingdpp/dpp.tex Including 'warpHTML' comment.
 \openout4 = `comment_html.cut'.
 
 
-Straight input of comment_html.cut. (./comment_html.cut [122] [123])
-Excluding 'warpprint' comment. [124]
+Straight input of comment_html.cut. (./comment_html.cut [126] [127])
+Excluding 'warpprint' comment. [128]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 14.40002pt on input line 27.
 Requested font "callig15" at 14.40002pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
- [125] [126] [127]
+ [129] [130] [131]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 49.
@@ -4463,17 +4464,17 @@ LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 Requested font "DejaVu Serif/B/OT:script=latn;language=dflt;-liga;mapping=tex-t
 ext;" at 10.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
-[128] [129] [130] [131]
+[132] [133] [134] [135]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 145.
 
-[132]
+[136]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/sc' undefined
 (Font)              using `TU/DejaVuSerif(0)/m/n' instead on input line 175.
 
-[133] [134] [135] [136]
+[137] [138] [139] [140]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 214.
@@ -4484,67 +4485,62 @@ Requested font "rm-lmbx7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx7.tfm
 Requested font "rm-lmbx5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
-[137] [138]
+[141] [142]
 Requested font "rm-lmbx12" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 Requested font "rm-lmbx8" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 Requested font "rm-lmbx6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
- [139] [140] [141] [142] [143] [144] [145] [146] [147]
+ [143] [144] [145] [146] [147] [148] [149] [150] [151]
 Requested font "DejaVu Serif/I/OT:script=latn;language=dflt;-liga;mapping=tex-t
 ext;" at 9.0pt
  -> /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf
 
-Excluding 'comment' comment. [148] [149] [150]) [151]
-File: "lwarp_mathjax.txt"  (verbatim)
- [152]
-(./index_html.sidetoc) [153]
-File: "lwarp_mathjax.txt"  (verbatim)
- [154] (./index_html.sidetoc) [155]
+Excluding 'comment' comment. [152] [153] [154]) [155]
 File: "lwarp_mathjax.txt"  (verbatim)
  [156]
-(./index_html.sidetoc) (./cpp14faqs/cpp14faqs.tex [157] [158] [159] [160]
-[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171]
+(./index_html.sidetoc) [157]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [158] (./index_html.sidetoc) [159]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [160]
+(./index_html.sidetoc) (./cpp14faqs/cpp14faqs.tex [161] [162] [163] [164]
+[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]
 (./cpp14faqs/code/c++14/variable_template.cpp)
-(./cpp14faqs/code/c++14/variable_template_area.cpp) [172] [173] [174] [175]
-[176] [177] [178] [179] [180] [181]
-(./cpp14faqs/code/c++14/specialize_variable_templates.cpp) [182] [183]
-(./cpp14faqs/code/c++14/variable_template_area.cpp) [184]
-(./cpp14faqs/code/c++14/variable_template_simplify.cpp) [185] [186]
-(./cpp14faqs/code/c++14/variable_template1.cpp) [187] [188] [189]
-(./cpp14faqs/code/c++14/auto_variable_templates.cpp) [190] [191]
-(./cpp14faqs/code/c++14/specialize.cpp) [192] [193] [194]
-(./cpp14faqs/code/c++14/variable_template_lambda.cpp) [195] [196] [197]
-[198] [199] [200] [201] [202] [203]
+(./cpp14faqs/code/c++14/variable_template_area.cpp) [176] [177] [178] [179]
+[180] [181] [182] [183] [184] [185]
+(./cpp14faqs/code/c++14/specialize_variable_templates.cpp) [186] [187]
+(./cpp14faqs/code/c++14/variable_template_area.cpp) [188]
+(./cpp14faqs/code/c++14/variable_template_simplify.cpp) [189] [190]
+(./cpp14faqs/code/c++14/variable_template1.cpp) [191] [192] [193]
+(./cpp14faqs/code/c++14/auto_variable_templates.cpp) [194] [195]
+(./cpp14faqs/code/c++14/specialize.cpp) [196] [197] [198]
+(./cpp14faqs/code/c++14/variable_template_lambda.cpp) [199] [200] [201]
+[202] [203] [204] [205] [206] [207]
 LaTeX Font Info:    Font shape `TU/LinLibertine(5)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 505.
+(Font)              scaled to size 9.0pt on input line 595.
 Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 9.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_MB.otf
- [204] [205] [206] [207] [208] [209]
-[210] [211] [212] [213] (./cpp14faqs/code/c++14/generic_lambda3.cpp) [214]
-[215] (./cpp14faqs/code/c++14/constexpr_implicit_const.cpp) [216]
-(./cpp14faqs/code/c++14/constexpr_implicit_const1.cpp) [217] [218] [219]
-[220] (./cpp14faqs/code/c++14/constexpr_constructor.cpp) [221] [222] [223]
-[224] [225] [226] [227] [228] [229] [230]
-(./cpp14faqs/code/c++14/constexpr_init.cpp) [231] [232] [233] [234] [235]
-[236] [237] [238] (./cpp14faqs/code/c++14/constexpr_static.cpp) [239] [240]
-[241] (./cpp14faqs/code/c++14/constexpr_memfn.cpp) [242] [243] [244] [245]
+ [208] [209] [210] [211] [212] [213]
+[214] [215] [216] [217] (./cpp14faqs/code/c++14/generic_lambda3.cpp) [218]
+[219] (./cpp14faqs/code/c++14/constexpr_implicit_const.cpp) [220]
+(./cpp14faqs/code/c++14/constexpr_implicit_const1.cpp) [221] [222] [223]
+[224] (./cpp14faqs/code/c++14/constexpr_constructor.cpp) [225] [226] [227]
+[228] [229] [230] [231] [232] [233] [234]
+(./cpp14faqs/code/c++14/constexpr_init.cpp) [235] [236] [237] [238] [239]
+[240] [241] [242] (./cpp14faqs/code/c++14/constexpr_static.cpp) [243] [244]
+[245] (./cpp14faqs/code/c++14/constexpr_memfn.cpp) [246] [247] [248] [249]
 (./cpp14faqs/code/c++14/deprecated_attribute.cpp)
 (./cpp14faqs/code/c++14/deprecated_attribute_msg.cpp)
-(./cpp14faqs/code/c++14/deprecated_redeclare.cpp) [246] [247] [248] [249]
-[250] [251] [252] [253] [254]) [255]
-File: "lwarp_mathjax.txt"  (verbatim)
- [256] (./index_html.sidetoc) [257]
-File: "lwarp_mathjax.txt"  (verbatim)
-
-[258] (./index_html.sidetoc) [259]
+(./cpp14faqs/code/c++14/deprecated_redeclare.cpp) [250] [251] [252] [253]
+[254] [255] [256] [257] [258]) [259]
 File: "lwarp_mathjax.txt"  (verbatim)
  [260] (./index_html.sidetoc) [261]
 File: "lwarp_mathjax.txt"  (verbatim)
- [262]
-(./index_html.sidetoc) [263]
+
+[262] (./index_html.sidetoc) [263]
 File: "lwarp_mathjax.txt"  (verbatim)
  [264] (./index_html.sidetoc) [265]
 File: "lwarp_mathjax.txt"  (verbatim)
@@ -4559,18 +4555,26 @@ File: "lwarp_mathjax.txt"  (verbatim)
  [272] (./index_html.sidetoc) [273]
 File: "lwarp_mathjax.txt"  (verbatim)
  [274]
-(./index_html.sidetoc) [275] (./index_html.aux)
+(./index_html.sidetoc) [275]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [276] (./index_html.sidetoc) [277]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [278]
+(./index_html.sidetoc) [279] (./index_html.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) ) 
 Here is how much of TeX's memory you used:
- 70239 strings out of 476180
- 1717734 string characters out of 5809555
- 2527404 words of memory out of 5000000
- 88899 multiletter control sequences out of 15000+600000
+ 70348 strings out of 476180
+ 1720240 string characters out of 5809555
+ 2527403 words of memory out of 5000000
+ 89004 multiletter control sequences out of 15000+600000
  538413 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  153i,15n,166p,4854b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index_html.pdf (275 pages).
+Output written on index_html.pdf (279 pages).
