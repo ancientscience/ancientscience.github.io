@@ -1,0 +1,143 @@
+%Compile it with pdflatex to get large and bfseries with textsc and calligra
+%
+% spine = 0.002252 * 164 =0.369328
+% Minimum Cover Width: Bleed + Back Cover Trim Size + Spine Width + Front Cover Trim Size + Bleed =  0.125" + 5.5" + 0.369328" + 5.5" + .125" = 11.619328''
+%  Minimum Cover Height: Bleed + Book Height Trim Size + Bleed = 0.125" + 8.5" + .125" = 8.75"
+\documentclass[12pt, svgnames, dvipsnames]{article}
+\PassOptionsToPackage{cmyk}{xcolor}
+\usepackage[T1]{fontenc}   
+\usepackage{comment, calligra}
+\usepackage{amsmath, etoolbox, amssymb, manfnt}
+\usepackage{pifont}
+\usepackage[paperheight=8.75in,paperwidth=5.8in,margin=0in]{geometry}
+%\usepackage{pdfpages}
+\usepackage{tikz, comment}
+\usepackage{hologo, mflogo}
+\usepackage{varwidth} % hyphenate texts in TikZ Node (back cover)
+\usetikzlibrary{fadings, shadings, shadows, patterns, decorations.text}
+\usepackage{bold-extra}
+
+
+
+
+\newcommand{\itemcolor}[1]{% Update list item colour
+  \renewcommand{\makelabel}[1]{\color{#1}\hfil ##1}}
+
+\tikzset{
+    shade border west to east/.style args={#1 to #2}{
+        preaction={draw, very thick, path fading=east, #1},
+        preaction={draw, very thick, path fading=west, #2}
+    },
+    shade fill west to east/.style args={#1 to #2}{
+        left color=#1,
+        right color=#2
+    }
+}
+
+
+\def\nodeshadowed[#1]#2;{\node[scale=2,above,#1]{#2};\node[scale=2,
+        above,#1,yscale=-1,scope fading=south,opacity=0.4]{#2};}
+\def\nodeshadow[#1]#2;{\node[text=black, scale=1,above,#1]{#2};\node[text=black, scale=1, above,#1,yscale=-1,scope fading=south,opacity=0.0]{#2};}
+
+\begin{comment}        
+
+ \special{pdf:docinfo <<
+        /Title (Top20)
+        /Subject (Algorithms)
+        /Author (Lin Quan)
+        /Keywords ()
+        /Trapped /False
+        /GTS_PDFXVersion (PDF/X-1a:2003)
+        /GTS_PDFXConformance (PDF/X-1a:2003)
+     >>}
+
+\special{pdf:put @catalog <<
+	/OutputIntents [ <<
+	/Info (none)
+	/Type /OutputIntent
+	/S /GTS_PDFX
+	/OutputConditionIdentifier (createspace.com)
+	/RegistryName (https://www.createspace.com/)
+	>> ] >>
+}
+
+\end{comment}
+
+\colorlet{MyColor}{Green} 
+\colorlet{TextColor}{White} 
+\colorlet{BgTextColor}{White} 
+
+
+\newcommand*{\mytextstyle}{\sffamily\bfseries\color{TextColor}}
+\newcommand{\arcarrow}[8]{%
+% inner radius, middle radius, outer radius, start angle,
+% end angle, tip protusion angle, options, text
+  \pgfmathsetmacro{\rin}{#1}
+  \pgfmathsetmacro{\rmid}{#2}
+  \pgfmathsetmacro{\rout}{#3}
+  \pgfmathsetmacro{\astart}{#4}
+  \pgfmathsetmacro{\aend}{#5}
+  \pgfmathsetmacro{\atip}{#6}
+  \fill[#7] (\astart:\rin) arc (\astart:\aend:\rin)
+       -- (\aend+\atip:\rmid) -- (\aend:\rout) arc (\aend:\astart:\rout)
+       -- (\astart+\atip:\rmid) -- cycle;
+  \path[font = \sffamily, decoration = {text along path, text = {|\mytextstyle|#8},
+    text align = {align = center}, raise = -0.5ex}, decorate]
+    (\astart+\atip:\rmid) arc (\astart+\atip:\aend+\atip:\rmid);
+}
+
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}[remember picture,overlay]
+
+\begin{scope}[shift={(current page.center)}]
+
+
+% render background of front page
+%\node[shading=ball, ball color=MyColor, minimum width=6.15in, minimum height=9.25in,text=white,ultra thick] at(3.2in,0) {};
+\node[shading=ball, ball color=MyColor, minimum width=6in, minimum height=8.75in,text=white,ultra thick] at(0in,0) {};
+
+
+% design front cover
+% Title
+\node[scale=1.0, text=BgTextColor, at={(0in, 3.5in)}]
+{
+\Huge \bfseries \textsc{Top 20 coding interview}
+};
+\node[scale=1.0, text=BgTextColor, at={(0in, 3.1in)}]
+{
+\Huge \bfseries \textsc{problems asked in Google}
+};
+\node[scale=1.0, text=BgTextColor, at={(0in, 2.7in)}]
+{
+\Huge \bfseries \textsc{with solutions}
+};
+
+
+
+
+% Author
+\node[scale=1.1, text=BgTextColor, at={(0in, -3.0in)}]
+    {\Huge \bfseries \textsc{Lin Quan}};
+
+
+\node[shape=circle, shading=ball, ball color=MyColor, text=TextColor,ultra thick] at(0in,0.16in) {\large \textcalligra{Algorithmic Approach}};
+
+\end{scope}
+
+\begin{scope}[scale=0.9, xshift=2.95in, yshift=-4.5in]
+\fill[even odd rule,white] circle (3.8) circle (3.2);
+  \foreach \x in {0,60,...,300} {
+    \arcarrow{3}{3.5}{4}{\x+20}{\x+70}{5}{shading=ball, ball color=MyColor,
+      draw = Green, very thick}{Google}
+  }
+\end{scope}
+  
+  
+\end{tikzpicture}
+
+
+
+\end{document}

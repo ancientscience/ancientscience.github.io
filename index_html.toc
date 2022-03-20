@@ -56,6 +56,22 @@
 \contentsline {chapter}{\numberline {29}{\ignorespaces C++11 Algorithms : Using and Extending C++11, Boost and Beyond\relax }}{269}{}%
 \contentsline {chapter}{\numberline {30}{\ignorespaces Cracking Programming Interviews : 500 Questions with Solutions\relax }}{271}{}%
 \contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{273}{}%
-\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{275}{}%
-\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{277}{}%
-\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{279}{}%
+\contentsline {section}{Searching two-dimensional sorted array}{277}{}%
+\contentsline {subsection}{Basic Analysis}{280}{}%
+\contentsline {subsection}{Precondition (aka \textit {Input Assertion})}{284}{}%
+\contentsline {subsection}{Postcondition (aka \textit {Result Assertion)}}{288}{}%
+\contentsline {subsection}{Invariant}{292}{}%
+\contentsline {subsection}{Contract the rectangular region}{296}{}%
+\contentsline {paragraph}{Initial bounded searcheable region}{297}{}%
+\contentsline {subsection}{Saddleback Search Algorithm}{298}{}%
+\contentsline {subsubsection}{C++11 Implementation}{301}{}%
+\contentsline {subsubsection}{Time Complexity}{305}{}%
+\contentsline {subsection}{Variation}{306}{}%
+\contentsline {subsubsection}{Find First Occurrence}{307}{}%
+\contentsline {subsubsection}{Find All Occurrences}{312}{}%
+\contentsline {subsubsection}{Saddleback Count}{321}{}%
+\contentsline {paragraph}{C++11 Implementation}{323}{}%
+\contentsline {subsection}{Remarks}{333}{}%
+\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{335}{}%
+\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{337}{}%
+\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{339}{}%

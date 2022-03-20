@@ -1,0 +1,542 @@
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{top20/cover}
+  \end{center}
+  %\caption{Front Cover}
+\end{wrapfigure}
+
+This book is written for helping people prepare for Google Coding Interview. It contains top 20 programming problems frequently asked @Google with detailed worked-out solutions both in pseudo-code and C++ (and C++11).
+
+It came out as a result of numerous requests received from coders across the Globe, primarily from Google aspirants. Author has a vast collection of algorithmic problems since 20 years including experience in preparing computer science students for participation in programming contests like TopCoder, ACM ICPC and others.
+
+
+
+\begin{center}
+\textbf{Must Have for Google Aspirants !!!}
+\end{center}
+
+\colorlet{BgTextColor}{Sepia} 
+
+%\begin{comment}
+\begin{enumerate}[nosep]
+\itemcolor{BgTextColor}
+\item \emph{\textcolor{BgTextColor}{Matching Nuts and Bolts Optimally}}
+\item \emph{\textcolor{BgTextColor}{Searching two-dimensional sorted array}}
+\item \emph{\textcolor{BgTextColor}{Lowest Common Ancestor(LCA) Problem}}
+\item \emph{\textcolor{BgTextColor}{Max Sub-Array Problem}}
+\item \emph{\textcolor{BgTextColor}{Compute Next Higher Number}}
+\item \emph{\textcolor{BgTextColor}{2D Binary Search}}
+\item \emph{\textcolor{BgTextColor}{String Edit Distance}}
+\item \emph{\textcolor{BgTextColor}{Searching in Two Dimensional Sequence}}
+\item \emph{\textcolor{BgTextColor}{Select Kth Smallest Element}}
+\item \emph{\textcolor{BgTextColor}{Searching in Possibly Empty Two Dimensional Sequence}}
+\item \emph{\textcolor{BgTextColor}{The Celebrity Problem}}
+\item \emph{\textcolor{BgTextColor}{Switch and Bulb Problem}}
+\item \emph{\textcolor{BgTextColor}{Interpolation Search}}
+\item \emph{\textcolor{BgTextColor}{The Majority Problem}}
+\item \emph{\textcolor{BgTextColor}{The Plateau Problem}}
+\item \emph{\textcolor{BgTextColor}{Segment Problems}}
+\item \emph{\textcolor{BgTextColor}{Efficient Permutation}}
+\item \emph{\textcolor{BgTextColor}{The Non-Crooks Problem}}
+\item \emph{\textcolor{BgTextColor}{Median Search Problem}}
+\item \emph{\textcolor{BgTextColor}{Missing Integer Problem}}
+\end{enumerate}
+%\end{comment}
+
+%\newcommand\problem[1]{{#1}}
+
+%\newcommand\solution[1]{{#1}}
+
+%\renewcommand{\ExerciseName}{Problem}
+%\renewcommand{\AnswerName}{Solution}
+%\renewcommand{\AnswerHeader}{\centerline{\textbf{\Large \solution{\AnswerName}}}}
+
+%\renewcommand{\ExerciseHeader}{\problem{\centerline{\textbf{\Large  \ExerciseName\hspace{1mm}\ExerciseHeaderNB\ExerciseHeaderTitle \small \ExerciseHeaderOrigin\medskip}}}}
+
+
+\underline{\textbf{\textcolor{BurntOrange}{Excerpt from the Chapter} \textcolor{Sepia}{2:}}}
+
+\section{Searching two-dimensional sorted array}
+
+%\begin{Exercise}[difficulty=2, origin=David Gries, label=twod]
+\begin{center}
+\hlbt{**\textsc{Problem} 2 (\small David Gries)}
+\end{center}
+\hlt{Design and implement an efficient algorithm to search for a given integer x in a 2-dimensional \textbf{sorted} array a[0..m][0..n]. Please note that it is sorted row-wise and column-wise in ascending order.}
+%\end{Exercise}
+
+\begin{center}
+\hlbt{\textsc{Solution}}
+\end{center}
+
+%\begin{Answer}[ref=twod]
+
+\subsection{Basic Analysis}
+
+\noindent \qquad Let us start analyzing the problem by looking at implied properties related to search space. This array has the following properties:
+\begin{enumerate}
+    \item no of rows $m \geq 1$
+    \item no of columns  $n \geq 1$
+    \item Entries in each row are ordered by $\leq$, i.e., for $0 \leq i < m$ \&\& $0 \leq j < n$ 
+    \vspace{1mm}\\
+    \fbox{$\mathbf{a[i][j] \leq a[i][j+1]}$}
+    \begin{itemize}
+        \item $a_{11} \leq a_{12} \leq \ldots \leq a_{1n}$
+        \item $a_{21} \leq a_{22} \leq \ldots \leq a_{2n}$
+        \vspace{1mm}\\\vdots
+        \item $a_{m1} \leq a_{m2} \leq \ldots \leq a_{mn}$
+    \end{itemize}
+    \item Entries in each column are ordered by $\leq$, i.e., for $0 \leq i < m$ \&\& for $0 \leq j < n$\vspace{1mm}\\
+    \fbox{$\mathbf{a[i][j] \leq a[i+1][j]}$}
+        \begin{itemize}
+        \item $a_{11} \leq a_{21} \leq \ldots \leq a_{m1}$
+        \item $a_{12} \leq a_{22} \leq \ldots \leq a_{m2}$
+        \vspace{1mm}\\\vdots
+        \item $a_{1n} \leq a_{2n} \leq \ldots \leq a_{mn}$
+    \end{itemize}
+\end{enumerate}
+
+
+Pictorial representation of two-dimensional sorted array is as follows:
+\begin{center}
+\begin{tikzpicture}
+%\tikzstyle{ball} = [circle, shading=ball, ball color=black!80!white, minimum size=1cm, text=white]
+\tikzstyle{ball} = [circle, fill=black!80!white, minimum size=1cm, text=white]
+
+\matrix [matrix of math nodes, nodes=ball]
+{
+a_{11} & a_{12} & \ldots & a_{1n} \\
+a_{21} & a_{22} &  \ldots & a_{2n}\\
+\vdots & \vdots & \ddots & \vdots\\
+a_{m1} & a_{m2} & \ldots & a_{mn} \\
+};
+\end{tikzpicture}
+\end{center}
+
+With the properties above, we have to develop an efficient algorithm to find the position of a given integer x in the array a, i.e., the algorithm should find i and j such that  \fbox{$\mathbf{x = a[i, j]}$}. By efficient we mean to minimize the number of comparisons as much as possible.
+\vspace{3mm}\\
+Let us treat the input array as some kind of a rectangular region. 
+\vspace{3mm}\\
+The problem demands that the integer $x$ does exist somewhere in this region. Let us label this condition as \emph{Input Assertion} or \emph{Precondition}.\index{precondition}
+
+\subsection{Precondition (aka \textit{Input Assertion})}
+
+\fbox{$\mathbf{x \in a[0..m-1, 0..n-1]}$} \vspace{1mm}\\
+i.e., x is present somewhere in this rectangular region $a$.
+
+\begin{center}
+\begin{tikzpicture}
+
+\node at (0,0) (a1) {};
+\node at (3,2) (a2) {};
+\node[draw=black,inner sep=2mm,thick,rectangle,fit=(a1) (a2)] (a) {$x$};
+\node[above] at (a.north west) {$0$};
+\node[below] at (a.south west) {$m-1$};
+\node[above] at (a.north east) {$n-1$};
+
+\end{tikzpicture}
+\end{center}
+
+After the program terminates successfully, $x$ has to be found in a rectangular region of $a$ where the rectangular region consists of just one row and column. Let us label this condition as \emph{Output Assertion} or \emph{Result Assertion} or \emph{Postcondition}.\index{postcondition}
+
+\subsection{Postcondition (aka \textit{Result Assertion)}}
+
+\fbox{$\mathbf{0 \leq i \leq m-1}$} \&\& \fbox{$\mathbf{0 \leq j \leq n-1}$} \&\& \fbox{ $\mathbf{x = a[i, j]}$} \vspace{1mm}\vspace{1mm}\\
+i.e., x is in a rectangular region of $a$ where the rectangular region consists of just one row and column, i.e., $x$ is present at $i^{th}$ row and $j^{th}$ column of $a$.
+ 
+\begin{center}
+\begin{tikzpicture}
+
+\node at (0,0) (a1) {};
+\node at (3,2) (a2) {};
+\node[draw=black,inner sep=2mm,thick,rectangle,fit=(a1) (a2)] (a) {$x$};
+\node[above] at (a.north west) {$0$};
+\node[left] at (a.west) {$i$};
+\node[below] at (a.south west) {$m-1$};
+\node[above] at (a.north) {$j$};
+\node[above] at (a.north east) {$n-1$};
+
+\end{tikzpicture}
+\end{center}
+
+\subsection{Invariant} \index{variant}
+Looking at the precondition and postcondition, it is not that difficult to figure out that during the execution of our algorithm, x is guaranteed to be confined within some rectangular region of $a$, i.e., 
+\vspace{1mm} \\
+\fbox{$\mathbf{0 \leq i \leq p \leq m-1}$} \&\& \\\fbox{$\mathbf{0 \leq q \leq j \leq n-1}$} \&\& \\\fbox{$\mathbf{x \in a[i..p, q..j]}$}.
+\vspace{1mm}\\
+In simple words, the invariant implies that 
+\begin{itemize}
+    \item We have exhausted the rows a[0..p-1] and x is not present in these already searched rows.
+    \item We have exhausted the columns a[0..q-1] and x is not present in these already searched columns.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+
+\node at (0,0) (a1) {};
+\node at (3,2) (a2) {};
+\node[draw=black,inner sep=2mm,thick,rectangle,fit=(a1) (a2)] (a) {};
+\node[above] at (a.north west) {$0$};
+
+\node[shift=(a.160), left] at (a.west) {$i$};
+
+\node[left] (p) at (a.west) {$p$};
+
+\draw[densely dashdotdotted] (a.west) -- (a.mid);
+
+\node[below] at (a.south west) {$m-1$};
+\node[shift=(a.70), above] at (a.north) {$j$};
+
+\node[above] at (a.north) {$q$};
+
+\draw[densely dashdotdotted] (a.north) -- (a.mid);
+
+\node[below] at (18pt, 55pt) {x not found};
+
+\node[above] at (a.north east) {$n-1$};
+
+\end{tikzpicture}
+\end{center}
+
+
+\subsection{Contract the rectangular region}
+We have to choose a rectangular region $a[i..p, q..j]$ that contains x followed by making this region smaller till x is found. 
+\paragraph{Initial bounded searcheable region} is represented by : \\
+$i = 0$\hspace{1.2mm} $p = m - 1$\hspace{1.2mm} $q = 0$\hspace{1.2mm} 
+$j=n - 1$\vspace{2mm}\\
+Looking at bounds of the rectangle, there are 4 ways to march towards contracting it:
+
+
+\begin{itemize}
+    \item if $a[i, j] < x$ then since the row is ordered $\implies$ $i \leftarrow i + 1$, because if $a[i, j] > x$, then all the entries of that row is also greater than x. Please note that its execution will maintain the stated invariant if $x$ is not found in a[i, 0..n-1], i.e., in $i^{th}$ row.
+    \item if $a[p, q] > x$ $\implies$ $p \leftarrow p - 1$
+    \item if $a[p, q] < x$ $\implies$ $q \leftarrow q + 1$
+    \item if $a[i, j] > x$ $\implies$ $j \leftarrow j - 1$
+\end{itemize}
+
+These conditions are also known as \textit{guards}\cite{gries}.
+
+
+
+\subsection{Saddleback Search Algorithm}\index{saddleback search}
+Let us put together the complete solution as shown below:
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Saddleback Search Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\State \textbf{PreCondition}{ : $x \in a[0..m-1, 0..n-1]$}
+\State \textbf{PostCondition}{ : $0 \leq i \leq m-1$ \&\& $0 \leq j \leq n-1$ \&\& $x = a[i, j]$}
+\Function{Saddleback-search}{a[0..m-1, 0..n-1], x}
+    \State $i \gets 0$
+    \State $p \gets m - 1$
+    \State $q \gets 0$
+    \State $j \gets n - 1$
+  \State \textbf{Invariant}{ : $0 \leq i \leq p \leq m-1$ \&\& $0 \leq q \leq j \leq n-1$ \&\& $x \in a[i..p, q..j]$}\vspace{1mm}     
+  \While{$x \neq a[i, j]$}
+    \If{a[i, j] < x}
+        \State  $i \longleftarrow i + 1$
+    \EndIf
+    \If{a[p, q] > x}
+        \State  $p \longleftarrow p - 1$
+    \EndIf
+    \If{a[p, q] < x}
+        \State  $q \longleftarrow q + 1$
+    \EndIf
+    \If{a[i, j] > x}
+        \State  $j \longleftarrow j - 1$
+    \EndIf
+   \EndWhile
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+
+This layout was simple enough to embark on the journey of solving problems using formal programming methodology in somewhat pragmatic manner. 
+\vspace{1mm}\\
+With the above setting in place, now it is time to think towards proving correctness of the result upon termination. As an astute reader, it is not that difficult to surmise that intermediate conditions in form of the points p,q of search space are not really needed to test veracity of the result upon termination. Only the first and last conditions are necessary and sufficient enough to prove it. So let us drop the middle (two) conditions to complete the working program in practice as following:
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Saddleback Search Algorithm in practice}}
+\end{center}
+\begin{algorithmic}[1]
+\State \textbf{PreCondition}{ : $x \in a[0..m-1, 0..n-1]$}
+\State \textbf{PostCondition}{ : $0 \leq i \leq m-1$ \&\& $0 \leq j \leq n-1$ \&\& $x = a[i, j]$}
+\State \textbf{Invariant}{ : x is in a[i..m-1, 0..j]}
+\Function{Saddleback-search}{a[0..m-1, 0..n-1], x}
+        \While{$x \neq a[i, j]$}
+            \If{a[i, j] < x}
+                \State $i \gets i + 1$
+                \Else $j \gets j - 1$
+            \EndIf
+        \EndWhile
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+Still, we need to address that why we chose to start from top rightmost corner. We can of course start from bottom leftmost corner as well. We leave this an exercise to the reader to work out and think about the pros n cons of choosing the starting point.
+
+\subsubsection{C++11 Implementation}
+
+Let us try programming this algorithm in a real language, say C++11 to bring ourselves at workplace-setting environment:
+
+\lstinputlisting[caption=Saddleback search in C++11]{top20/saddle/saddleback_search.hpp}
+
+\lstinputlisting[caption=Using Saddleback Search]{top20/saddle/saddleback_search_test1.cpp}
+Output of the program is:
+\begin{boxedverbatim}
+6 is found at : a[1][3]
+\end{boxedverbatim}
+\subsubsection{Time Complexity} 
+As could be seen that the number of comparisons required in Saddleback search algorithm is at most $n + m$. Hence time complexity is $O(n + m)$. 
+\vspace{1mm}\\
+How to improve it further, is it possible? 
+\vspace{1mm}\\
+Let us take a simple case as a tryst to understand it better. Let us assume that the array is a square one with n x n dimension, i.e., m = n. Please note that the elements lying off-diagonal in the rectangular region form an unordered sequence of integers, i.e., a[0, n-1], a[1, n-2], a[2, n-3], $\ldots$, a[n-2, 1] and a[n-1, 0] form an unordered list because this particular sequence is not affected at all by the imposed ordering on row and column respectively. So even if we assume that $x$ could be lying on this off-diagonal set, then at least $n$ comparisons are required in the worst case.
+\vspace{1mm}\\
+Have we done our bit fully ? Not yet. We request our reader to think about it and be patient for now, thoughts on possible improvement will be taken up soon, whether it is feasible to improve it further or not will reveal itself in due course of time. But for now, we think about a simple variation in the problem statement and try solving it with help of approach discussed so far.
+
+\subsection{Variation}
+As mentioned in the problem statement, it was desired to find any one in case of multiple occurrence of the value sought after. How about finding all of these instead ? This problem is one of the variations of \emph{saddleback search}(discussed in the previous section). Here instead of locating an occurrence, it counts the number of occurrences. 
+
+\subsubsection{Find First Occurrence}\index{saddleback search find first occurrence}
+Before we march ahead towards a solution, we need to work on a strategy to spot the very first occurrence of $x$, because the earlier approach was focused to find any occurrence in case of multiple ones. So if we try to build our logic on the earlier approach, we may miss few occurrences. 
+\vspace{2mm}\\
+Therefore, we have to be a little more judicious in starting point which cannot simply be set to either rightmost top corner or leftmost bottom corner.
+\vspace{2mm}\\
+To understand it better, let us stick to our earlier solution for now as illustrated ahead and take it from there towards an appropriate solution.\vspace{2mm}\\
+We have to design an efficient algorithm to search for a given integer x in a 2-dimensional \textbf{sorted} array a[0..m][0..n]. Please note that it is sorted row-wise and column-wise in ascending order. In case of multiple occurrences, please find the very first occurrence, i.e, the occurrence with the smallest value of the row index and at the same time the occurrence with the smallest value of the column index as well. Please note that row index and column index at topmost left corner is being treated as (0, 0).
+
+\begin{enumerate}
+    \item Find any occurrence using original saddleback search algorithm which finds the entry corresponding to smallest row index and highest column index, i.e., it finds the very first row containing that value but the column index depict the last most occurrence in that particular row. 
+    \item Search backwards to adjust the column index to point to lowest index corresponding to that entry in that row.
+\end{enumerate}
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Saddleback Search Algorithm : Find First Occurrence}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{Saddleback-search}{a[0..m-1, 0..n-1], x}
+    \State $i \gets 0$
+    \State $j \gets n - 1$
+        \While{$x \neq a[i, j]$}
+            \If{a[i, j] < x}
+                \State $i \gets i + 1$
+           \ElsIf{a[i, j] > x}f 
+               \State $j \gets j - 1$           
+            \EndIf
+        \EndWhile
+    \While{$x == a[i, j]$}
+        \State $j \gets j - 1$ 
+    \EndWhile
+    \State $j \gets j + 1$ 
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\lstinputlisting[caption= Saddleback Search : First Occurrence]{top20/saddleback_count/saddleback_search_first.hpp}
+
+\lstinputlisting[caption=Using Saddleback Search : First Occurrence]{top20/saddleback_count/saddleback_search_first_test1.cpp}
+
+It prints:
+\begin{boxedverbatim}
+6 is found at : a[1][2]
+\end{boxedverbatim}
+
+First part of this algorithm uses original saddleback search whose complexity is $O(n + m)$. Second part involves linear search in backward dimension in the given row $\implies$ $O(n)$. Hence time complexity of \textit{Saddleback Search : Find First Occurrence} is $O(n + m)$. Please note that second part of this algorithm can be accomplished using binary search. We leave this an exercise to the reader.
+
+
+\subsubsection{Find All Occurrences}\index{saddleback search find all occurrences}
+Before we undertake solving the problem of finding the count of $x$, let us turn our attention to a related twister which requires reporting of all the occurrences of a given integer x in the array a[m, n], i.e., it will report all the row-indices ($i$) and column-indices ($j$) of the array where $x == a[i, j]$.
+\vspace{1mm}\\
+So far our termination condition was derived upon the first occurrence of $x$ in the array, but now we need to modify to proceed further till array is completely exhausted and maintain a list of vertices found relevant so far.
+\vspace{1mm}\\
+
+
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Saddleback Search Algorithm : Find All Occurrences}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{Saddleback-findall}{a[0..m-1, 0..n-1], x}
+    \State $i \gets 0$
+    \State $j \gets n - 1$
+    \State $currrent\_col\_index \gets j$
+    \State $List<Pair<rowindex, columnindex> > list\_indices$
+        \While{$j \leq n - 1$}
+            \If{a[i, j] < x}
+                \State $i \gets i + 1$
+           \ElsIf{a[i, j] > x} 
+               \State $j \gets j - 1$
+           \ElsIf{a[i, j] == x} 
+               \State $currrent\_col\_index \gets j$
+                   \While{currrent\_col\_index $\geq$ 0 \textbf{and} a[i][currrent\_col\_index] == x}
+                      \State list\_indices.insert(Pair<rowindex, columnindex>(i, currrent\_col\_index))
+                     \State $currrent\_col\_index \gets currrent\_col\_index\ - 1$
+                   \EndWhile
+                \State $i \gets i + 1$
+            \EndIf
+        \EndWhile
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+Key thing to notice here is how to start the next search after first occurrence is reported, say a[i, j] ?
+\vspace{1mm}\\
+If $x$ is equal to a[i, j] for a given row index $i$ and column index $j$, then it is obvious that these correspond to smallest values of row and column indices. Our algorithm developed for finding the first occurrence ends up traversing the path from the last most to first most in a given row, so all we need to do is to record this path and march towards the next row.
+
+\lstinputlisting[caption=Saddleback Find All]{top20/saddleback_count/saddleback_findall.hpp}
+
+\lstinputlisting[caption=Using Saddleback Find All]{top20/saddleback_count/saddleback_findall_test1.cpp}
+
+It prints :
+\begin{boxedverbatim}
+6 is found at : 
+a[1][3]
+a[2][2]
+a[3][1]
+\end{boxedverbatim}
+
+\lstinputlisting[caption=Another Usage of Saddleback Find All]{top20/saddleback_count/saddleback_findall_test2.cpp}
+
+It prints :
+\begin{boxedverbatim}
+6 is found at : 
+a[1][3]
+a[1][2]
+a[2][3]
+a[2][2]
+a[3][2]
+a[3][1]
+\end{boxedverbatim}  
+
+\lstinputlisting[caption=Continue Using Saddleback Find All]{top20/saddleback_count/saddleback_findall_test3.cpp}
+
+It prints :
+\begin{boxedverbatim}
+6 is found at : 
+a[0][3]
+a[0][2]
+a[0][1]
+a[0][0]
+a[1][3]
+a[1][2]
+a[1][1]
+a[1][0]
+a[2][3]
+a[2][2]
+a[2][1]
+a[2][0]
+a[3][3]
+a[3][2]
+a[3][1]
+a[3][0]
+\end{boxedverbatim}  
+
+\vspace{2mm}
+\textbf{Time Complexity} is $O(mn)$.
+
+\subsubsection{Saddleback Count}\index{saddleback count}
+Now our task becomes easier to work out original problem posed earlier, i.e., finding the count of a given integer $x$ in the array $a$. 
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Saddleback Count Algorithm : Initial Approach}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{Saddleback-count}{a[0..m-1, 0..n-1], x}
+    \State $i \gets 0$
+    \State $j \gets n - 1$
+    \State $count \gets 0$
+        \While{$j \leq n - 1$}
+            \If{a[i, j] < x}
+                \State $i \gets i + 1$
+           \ElsIf{a[i, j] > x}
+               \State $j \gets j - 1$
+           \ElsIf{a[i, j] == x} 
+               \State $i \gets i + 1$
+               \State $j \gets j - 1$
+               \State $count \gets count + 1$
+            \EndIf
+        \EndWhile
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\paragraph{C++11 Implementation}
+
+\lstinputlisting[caption=Saddleback Count : Initial Approach]{top20/saddleback_count/saddleback_count.hpp}
+
+\lstinputlisting[caption=Using Saddleback Count]{top20/saddleback_count/saddleback_count_test1.cpp}
+
+It prints : Count of 6 is: 3 which is fine so far.
+\vspace{1mm}\\
+Let us take another example:
+\lstinputlisting[caption=Using Saddleback Count : Count of 6 should be 6]{top20/saddleback_count/saddleback_count_test2.cpp}
+
+This too prints : Count of 6 is: 3 which is wrong because it should print : Count of 6 is: 6.
+\vspace{2mm}\\
+As an astute reader, you can figure out that ordering of rows and columns plays a key role here. Saddleback search has to locate such an occurrence, more precisely, the occurrence with the smallest value of the row index and at the same time the occurrence with the smallest value of the column index as well. Please note that the earlier logic relied on locating the occurrence with the smallest value of the row index and at the same time the occurrence with the largest value of the column index. So let us use the insight gained in the solution of finding first occurrence followed by finding all the occurrences of saddleback search with necessary modifications.
+
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Saddleback Count : Correct Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{Saddleback-count}{a[0..m-1, 0..n-1], x}
+    \State $i \gets 0$
+    \State $j \gets n - 1$
+    \State $currrent\_col\_index \gets j$
+    \State $count \gets 0$
+        \While{$j \leq n - 1$}
+            \If{a[i, j] < x}
+                \State $i \gets i + 1$
+           \ElsIf{a[i, j] > x} 
+               \State $j \gets j - 1$
+           \ElsIf{a[i, j] == x} 
+               \State $currrent\_col\_index \gets j$
+                   \While{currrent\_col\_index $\geq$ 0 \textbf{and} a[i][currrent\_col\_index] == x}
+                      \State $count \gets count + 1$
+                     \State $currrent\_col\_index \gets currrent\_col\_index\ - 1$
+                   \EndWhile
+                \State $i \gets i + 1$
+            \EndIf
+        \EndWhile
+        \State \textbf{return} count
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+
+\lstinputlisting[caption=Implementing Saddleback Count]{top20/saddleback_count/saddleback_count_correct.hpp}
+
+\lstinputlisting[caption=Using Saddleback Count]{top20/saddleback_count/saddleback_count_correct_test1.cpp}
+
+It prints :
+\begin{boxedverbatim}
+Count of 6 is: 6
+\end{boxedverbatim}
+
+
+\lstinputlisting[caption=another Usage of Saddleback Count]{top20/saddleback_count/saddleback_count_correct_test3.cpp}
+
+It prints :
+\begin{boxedverbatim}
+Count of 6 is: 16
+\end{boxedverbatim}
+
+Time complexity is same as that of find all, i.e., $O(mn)$.
+
+\subsection{Remarks}
+It is called \emph{Saddleback Search} because the search space is confined by a region with the smallest element at the top-left, largest at bottom-right and two wings gives it a look like a saddle.\index{saddle}
+
+%\end{Answer}
+
+
+
+
