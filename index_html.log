@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  20 MAR 2022 02:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  20 MAR 2022 12:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4564,15 +4564,12 @@ File: "lwarp_mathjax.txt"  (verbatim)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) ) 
 Here is how much of TeX's memory you used:
- 70348 strings out of 476180
- 1720240 string characters out of 5809555
- 2527403 words of memory out of 5000000
- 89004 multiletter control sequences out of 15000+600000
+ 70261 strings out of 476180
+ 1718181 string characters out of 5809555
+ 2527404 words of memory out of 5000000
+ 88917 multiletter control sequences out of 15000+600000
  538413 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  153i,15n,166p,4854b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
