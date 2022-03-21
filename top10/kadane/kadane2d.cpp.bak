@@ -1,0 +1,28 @@
+long KadaneAlgorithm(long sums[], int N)
+{
+    long maxSum = sums[0];
+    long cumulativeSum = sums[0];
+    int changingStartIndex = 0;
+    int startIndex = 0;
+    int endIndex = 0;
+
+    for (int i = 1; i < N; i++)
+    {
+        cumulativeSum += sums[i];
+
+        if(sums[i] > cumulativeSum)
+        {
+            cumulativeSum = sums[i];
+	    changingStartIndex = i;
+        }
+
+        if(cumulativeSum > maxSum)
+        {
+            maxSum = cumulativeSum;
+            startIndex = changingStartIndex;
+	    endIndex = i;
+        }
+    }
+    
+    return maxSum;
+}

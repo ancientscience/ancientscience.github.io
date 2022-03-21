@@ -73,6 +73,18 @@
 \contentsline {paragraph}{C++11 Implementation}{323}{}
 \contentsline {subsection}{Remarks}{333}{}
 \contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{335}{}
-\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{337}{}
-\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{339}{}
+\contentsline {section}{Max Sub-Array Problem}{339}{}
+\contentsline {subsection}{Kadane'{}s Algorithm}{342}{}
+\contentsline {subsubsection}{C++11 Implementation}{344}{}
+\contentsline {subsubsection}{Usage}{346}{}
+\contentsline {subsection}{Find indices of max subarray}{349}{}
+\contentsline {subsubsection}{C++11 Implementation}{352}{}
+\contentsline {subsubsection}{Usage}{354}{}
+\contentsline {subsubsection}{Time Complexity}{357}{}
+\contentsline {subsection}{Find subarray with sum closest to zero}{358}{}
+\contentsline {subsection}{Find subarray with sum closest to k}{362}{}
+\contentsline {subsection}{Maximum 2D subarray problem}{364}{}
+\contentsline {subsection}{K-Maximum Sub-array problem}{366}{}
+\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{371}{}
+\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{373}{}
 

@@ -493,14 +493,14 @@ Home</a>
 
 
 <p>
-<a href="Physics.html#autosec-337" class="tocpart" >
+<a href="Physics.html#autosec-371" class="tocpart" >
 <span class="sectionnumber">II</span>&#x2003;Physics</a>
 </p>
 
 
 
 <p>
-<a href="Mathematics.html#autosec-339" class="tocpart" >
+<a href="Mathematics.html#autosec-373" class="tocpart" >
 <span class="sectionnumber">III</span>&#x2003;Mathematics</a>
 </p>
 
@@ -701,6 +701,1678 @@ Home</a>
 <h3 id="autosec-335">Monograph&nbsp;<span class="sectionnumber">32&#x2003;</span>Top 10 Coding Interview Problems Asked in Google with Solutions</h3>
 <a id="index-autopage-335"></a>
 <a id="index-autofile-32"></a>
+<div class="marginblock" role="note" style="width:217pt; float:right; ">
+<div class="center">
+
+<p>
+
+
+<a href="top10/cover.svg" target="_blank" ><img
+      src="top10/cover.svg"
+      style="
+      width:217pt;
+      "
+      class="inlineimage"
+      alt="(image)"
+></a>
+</p>
+</div>
+
+</div>
+
+<p>
+This book is written for helping people prepare for Google Coding Interview. It contains top 10 programming problems frequently asked @Google with detailed worked-out solutions both in
+pseudo-code and C++ (and C++11).
+</p>
+
+<p>
+It came out as a result of numerous requests received from coders across the Globe, primarily from Google aspirants. Author has a vast collection of algorithmic problems since 20 years including
+experience in preparing computer science students for participation in programming contests like TopCoder, ACM ICPC and others.
+</p>
+<div class="center">
+
+<p>
+<b>Must Have for Google Aspirants !!!</b>
+</p>
+</div>
+
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Matching Nuts and Bolts Optimally</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Searching two-dimensional sorted array</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Lowest Common Ancestor(LCA) Problem</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Max Sub-Array Problem</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Compute Next Higher Number</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+6. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>2D Binary Search</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+7. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>String Edit Distance</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+8. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Searching in Two Dimensional Sequence</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+9. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Select Kth Smallest Element</span></em>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+10. <em><span
+      class="textcolor"
+      style="color:#4D0000"
+>Searching in Possibly Empty Two Dimensional Sequence</span></em>
+</p>
+</li>
+</ul>
+
+<p>
+<span class="underline"><b><span
+      class="textcolor"
+      style="color:#FF7D00"
+>Excerpt from the Chapter</span> <span
+      class="textcolor"
+      style="color:#4D0000"
+>4:</span></b></span>
+</p>
+<!--................................-->
+<h4 id="autosec-339">Max Sub-Array Problem</h4>
+<a id="index-autopage-339"></a>
+<div class="center">
+
+<p>
+<b><span
+      class="textcolor"
+      style="color:#808000"
+>**<span class="textsc">Problem</span> 4 (Kadane)</span></b>
+</p>
+</div>
+
+<p>
+<span
+      class="textcolor"
+      style="color:#9E00FF"
+><em>Design and implement an efficient program to find a contiguous subarray within a one-dimensional array of integers which has the largest sum. Please note that there is at least one positive
+integer in the input array.</em></span>
+</p>
+<div class="center">
+
+<p>
+<b><span
+      class="textcolor"
+      style="color:#808000"
+><span class="textsc">Solution</span></span></b>
+</p>
+</div>
+<!--................................-->
+<h5 id="autosec-342">Kadane’s Algorithm</h5>
+<a id="index-autopage-342"></a>
+
+
+
+<p>
+There is scanning algorithm known as <i>Kadane’s algorithm</i> which keeps track of the maximum sum subarray by starting at the leftmost element and scanning through to the rightmost
+element. It works in a dynamic programming set-up because it has an optimal substructure, i.e., the maximum sum subarray upto the \((i - 1)^{th}\) element is used to find maximum sum
+subarray upto \(i^{th}\) element.<br />
+The algorithm accumulates a partial sum in max_ending_here and updates the current solution max_so_far appropriately. It is increased by the value contained in \(i^{th}\) index as far as it keeps it
+positive, it is reset to zero otherwise.<br />
+If all elements of an array are non-negative, this problem is trivial, as the entire array represents the solution. Similarly, if all elements are non-positive, the solution is empty with value 0. So we
+consider a data set containing both positive and negative values.
+</p>
+
+<figure id="autoid-47" class="figure ">
+<div class="center">
+
+<p>
+<span
+      class="fbox"
+      style="display:inline-block ; border:1pt solid #000000; padding:3pt ; color:#000000"
+><b><span
+      class="textcolor"
+      style="color:#808000"
+>Kadane’s 1D Algorithm</span></b></span>
+</p>
+</div>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1: <span style="width:0pt; display:inline-block;"></span><b>function</b> <span class="textsc">kadane1D</span>(start, end)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2:     <span style="width:15pt; display:inline-block;"></span>\(max\_so\_far \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3:     <span style="width:15pt; display:inline-block;"></span>\(max\_ending\_here \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4:     <span style="width:15pt; display:inline-block;"></span><b>while</b> \(start \neq end\) <b>do</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5:       <span style="width:30pt; display:inline-block;"></span>max_ending_here \(\gets \) max(max_ending_here + *start, 0)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+6:       <span style="width:30pt; display:inline-block;"></span>max_so_far \(\gets \) max(max_so_far, max_ending_here)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+7:       <span style="width:30pt; display:inline-block;"></span>start \(\gets \) start + 1
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+8:     <span style="width:15pt; display:inline-block;"></span><b>end</b> <b>while</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+9:     <span style="width:15pt; display:inline-block;"></span><b>return</b> max_so_far
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+10: <span style="width:0pt; display:inline-block;"></span><b>end</b> <b>function</b>
+</p>
+</li>
+</ul>
+
+</figure>
+<!--................................-->
+<h6 id="autosec-344">C++11 Implementation</h6>
+<a id="index-autopage-344"></a>
+<a id="autoid-48" ></a >
+
+
+
+<div class="figurecaption">
+
+<p>
+Listing&nbsp;32.1:&nbsp;Implementing Kadane’s Algorithm
+</p>
+</div>
+<pre class="programlisting">
+1 #include &lt;algorithm&gt;
+2
+3 template &lt;typename ForwardIterator&gt;
+4 typename std::iterator_traits&lt;
+5    ForwardIterator&gt;::value_type
+6 kadane1d(ForwardIterator start,
+7         ForwardIterator end)
+8{
+9    typedef typename std::iterator_traits&lt;
+10            ForwardIterator
+11        &gt;::value_type value_type;
+12
+13    value_type max_so_far = 0,
+14               max_ending_here = 0;
+15
+16    while(start != end)
+17    {
+18        max_ending_here =
+19          std::max(max_ending_here + ∗start++,
+20                  0);
+21        max_so_far =
+22        std::max(max_so_far, max_ending_here);
+23    }
+24    return max_so_far;
+25 }
+</pre>
+<!--................................-->
+<h6 id="autosec-346">Usage</h6>
+<a id="index-autopage-346"></a>
+<a id="autoid-49" ></a >
+
+
+
+<div class="figurecaption">
+
+<p>
+Listing&nbsp;32.2:&nbsp;Using Kadane’s Algorithm
+</p>
+</div>
+<pre class="programlisting">
+1 #include &lt;iostream&gt;
+2 #include &lt;array&gt;
+3 #include &lt;vector&gt;
+4 #include &lt;forward_list&gt;
+5 #include ”kadane1d.hpp”
+6
+7 int main()
+8{
+9     std::array&lt;int, 8&gt; a
+10     {−2, −3, 4, −1, −2, 1, 5, −3};
+11
+12     std::cout &lt;&lt; kadane1d(a.cbegin(), a.cend())
+13               &lt;&lt; std::endl;
+14
+15     std::vector&lt;int&gt; v
+16     {−1, 4, −2, 5, −5, 2, −20, 6};
+17
+18     std::cout &lt;&lt; kadane1d(v.cbegin(), v.cend())
+19               &lt;&lt; std::endl;
+20
+21     std::forward_list&lt;int&gt; l
+22     {−2, 1, −3, 4, −1, 2, 1, −5, 4};
+23
+24     std::cout &lt;&lt; kadane1d(l.cbegin(), l.cend())
+25               &lt;&lt; std::endl;
+26 }
+</pre>
+
+<p>
+It prints
+</p>
+<pre class="boxedverbatim">
+7
+7
+6
+</pre>
+<!--................................-->
+<h5 id="autosec-349">Find indices of max subarray</h5>
+<a id="index-autopage-349"></a>
+
+
+
+<p>
+&#x2003;&#x2003;
+</p>
+<div class="center">
+
+<p>
+Design and implement an efficient program to find a contiguous subarray within a one-dimensional array of integers which has the largest sum. The result should include sum and
+(start, end) of the subarray
+</p>
+</div>
+
+<p>
+.<br />
+It is easy to see that
+</p>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+• the maximum subarray starts and ends in positive elements
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+• if we start from the first positive element, i.e., a[l], and sum over the subsequent elements until the sum drops negative at a[r], then the optimal subarray is either
+</p>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+– in a[l..r] and starts from a[l], or
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+– in a[r + 1..n].
+</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<figure id="autoid-50" class="figure ">
+<div class="center">
+
+<p>
+<span
+      class="fbox"
+      style="display:inline-block ; border:1pt solid #000000; padding:3pt ; color:#000000"
+><b><span
+      class="textcolor"
+      style="color:#808000"
+>Kadane’s 1D Algorithm : Find Indices</span></b></span>
+</p>
+</div>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1: <span style="width:0pt; display:inline-block;"></span><b>function</b> <span class="textsc">kadane1D</span>(start, end)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2:     <span style="width:15pt; display:inline-block;"></span>\(max\_so\_far \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3:     <span style="width:15pt; display:inline-block;"></span>\(max\_ending\_here \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4:     <span style="width:15pt; display:inline-block;"></span>\(l \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5:     <span style="width:15pt; display:inline-block;"></span>\(r \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+6:     <span style="width:15pt; display:inline-block;"></span>\(li \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+7:     <span style="width:15pt; display:inline-block;"></span><b>while</b> \(start \neq end\) <b>do</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+8:       <span style="width:30pt; display:inline-block;"></span>max_ending_here \(\gets \) (max_ending_here + *start)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+9:       <span style="width:30pt; display:inline-block;"></span><b>if</b> max_ending_here < 0 <b>then</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+10:          <span style="width:45pt; display:inline-block;"></span>max_ending_here \(\gets \) 0
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+11:          <span style="width:45pt; display:inline-block;"></span>li \(\gets \)start + 1
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+12:       <span style="width:30pt; display:inline-block;"></span><b>end</b> <b>if</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+13:       <span style="width:30pt; display:inline-block;"></span><b>if</b> max_so_far < max_ending_here <b>then</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+14:          <span style="width:45pt; display:inline-block;"></span>max_so_far \(\gets \) max_ending_here
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+15:          <span style="width:45pt; display:inline-block;"></span>l \(\gets \) li
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+16:          <span style="width:45pt; display:inline-block;"></span>r \(\gets \) start
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+17:       <span style="width:30pt; display:inline-block;"></span><b>end</b> <b>if</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+18:       <span style="width:30pt; display:inline-block;"></span>start \(\gets \) start + 1
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+19:     <span style="width:15pt; display:inline-block;"></span><b>end</b> <b>while</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+20:     <span style="width:15pt; display:inline-block;"></span><b>return</b> \(&lt;\)max_so_far, l, r\(&gt;\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+21: <span style="width:0pt; display:inline-block;"></span><b>end</b> <b>function</b>
+</p>
+</li>
+</ul>
+
+</figure>
+<!--................................-->
+<h6 id="autosec-352">C++11 Implementation</h6>
+<a id="index-autopage-352"></a>
+<a id="autoid-51" ></a >
+
+
+
+<div class="figurecaption">
+
+<p>
+Listing&nbsp;32.3:&nbsp;Implementing Kadane’s Algorithm : Finding Indices
+</p>
+</div>
+<pre class="programlisting">
+1 #include &lt;algorithm&gt;
+2 #include &lt;tuple&gt;
+3
+4 template &lt;typename ForwardIterator&gt;
+5 std::tuple&lt;typename std::iterator_traits&lt;
+6                  ForwardIterator
+7              &gt;::value_type,
+8            ForwardIterator, ForwardIterator&gt;
+9 kadane1d(ForwardIterator start,
+10          ForwardIterator end)
+11 {
+12     typedef typename std::iterator_traits&lt;
+13                      ForwardIterator
+14                  &gt;::value_type value_type;
+15
+16     int max_so_far = 0, max_ending_here = 0;
+17
+18     ForwardIterator starti,
+19                  sum_start, sum_end = start;
+20
+21     while(start != end)
+22     {
+23         max_ending_here += ∗start;
+24
+25         if (max_ending_here &lt;0)
+26         {
+27              max_ending_here = 0;
+28              starti = start;
+29              ++starti;
+30         }
+31
+32         if (max_so_far &lt;max_ending_here)
+33         {
+34              max_so_far = max_ending_here;
+35              sum_start = starti;
+36              sum_end = start;
+37         }
+38         ++start;
+39     }
+40
+41     return std::make_tuple(max_so_far,
+42                              sum_start,
+43                              sum_end);
+44 }
+</pre>
+<!--................................-->
+<h6 id="autosec-354">Usage</h6>
+<a id="index-autopage-354"></a>
+
+
+
+<p>
+In practice, a bitmap image has all non-negative pixel values. When the average is subtracted from each pixel, we can apply the maximum subarray algorithm to find the brightest area within the
+image.
+</p>
+<a id="autoid-52" ></a >
+
+
+
+<div class="figurecaption">
+
+<p>
+Listing&nbsp;32.4:&nbsp;Using Kadane’s Algorithm : Finding Indices
+</p>
+</div>
+<pre class="programlisting">
+1 #include &lt;iostream&gt;
+2 #include &lt;forward_list&gt;
+3 #include ”kadane1d_indices.hpp”
+4
+5 template&lt;typename ForwardIterator&gt;
+6 void printcontents(ForwardIterator start,
+7                      ForwardIterator end)
+8{
+9     std::cout &lt;&lt; ”{”;
+10     while(start != end)
+11     {
+12         std::cout &lt;&lt; ∗start++ &lt;&lt;” ”;
+13     }
+14     std::cout &lt;&lt; ∗start &lt;&lt; ”}” &lt;&lt; std::endl;
+15 }
+16
+17 int main()
+18 {
+19     std::tuple&lt;int, int∗, int∗&gt; sum_start_end;
+20
+21     std::array&lt;int, 8&gt; a
+22     {−2, −3, 4, −1, −2, 1, 5, −3};
+23
+24     sum_start_end =
+25       kadane1d(a.begin(), a.end());
+26
+27     auto max_sum = std::get&lt;0&gt;(sum_start_end);
+28
+29     auto start_index =
+30         std::distance(std::begin(a),
+31               std::get&lt;1&gt;(sum_start_end));
+32
+33     auto end_index =
+34         std::distance(std::begin(a),
+35               std::get&lt;2&gt;(sum_start_end));
+36
+37     std::cout &lt;&lt; ”&lt;sum : ” &lt;&lt; max_sum &lt;&lt;”,”
+38      &lt;&lt; ” start index : ” &lt;&lt; start_index &lt;&lt; ”,”
+39      &lt;&lt; ” end index : ” &lt;&lt; end_index &lt;&lt; ”&gt;”
+40      &lt;&lt; ” \nMax subarray is : ”;
+41
+42     printcontents(std::get&lt;1&gt;(sum_start_end),
+43                     std::get&lt;2&gt;(sum_start_end));
+44
+45     std::vector&lt;int&gt; v
+46     {−1, 4, −2, 5, −5, 2, −20, 6};
+47
+48     typedef std::vector&lt;int&gt;::iterator vitr;
+49     std::tuple&lt;int, vitr , vitr &gt;
+50       sum_start_end_v;
+51
+52     sum_start_end_v =
+53         kadane1d(v.begin(), v.end());
+54
+55     max_sum = std::get&lt;0&gt;(sum_start_end_v);
+56
+57     start_index =
+58       std::distance(v.begin(),
+59            std::get&lt;1&gt;(sum_start_end_v));
+60
+61     end_index = std::distance(v.begin(),
+62                   std::get&lt;2&gt;(sum_start_end_v));
+63
+64     std::cout &lt;&lt; ”&lt;sum : ” &lt;&lt; max_sum &lt;&lt;”,”
+65      &lt;&lt; ” start index : ” &lt;&lt; start_index &lt;&lt; ”,”
+66      &lt;&lt; ” end index : ” &lt;&lt; end_index &lt;&lt; ”&gt;”
+67      &lt;&lt; ” \nMax subarray is : ”;
+68
+69     printcontents(std::get&lt;1&gt;(sum_start_end_v),
+70                     std::get&lt;2&gt;(sum_start_end_v));
+71
+72
+73     std::forward_list&lt;int&gt; l
+74     {−2, 1, −3, 4, −1, 2, 1, −5, 4};
+75
+76     typedef std::forward_list&lt;int&gt;::iterator
+77          litr ;
+78     std::tuple&lt;int, litr , litr &gt; sum_start_end_l;
+79
+80     sum_start_end_l =
+81         kadane1d(l.begin(), l.end());
+82
+83     max_sum = std::get&lt;0&gt;(sum_start_end_l);
+84
+85     start_index = std::distance(l.begin(),
+86                     std::get&lt;1&gt;(sum_start_end_l));
+87
+88     end_index = std::distance(l.begin(),
+89                   std::get&lt;2&gt;(sum_start_end_l));
+90
+91     std::cout &lt;&lt; ”&lt;sum : ” &lt;&lt; max_sum &lt;&lt;”,”
+92      &lt;&lt; ” start index : ” &lt;&lt; start_index &lt;&lt; ”,”
+93      &lt;&lt; ” end index : ” &lt;&lt; end_index &lt;&lt; ”&gt;”
+94      &lt;&lt; ” \nMax subarray is : ”;
+95     printcontents(std::get&lt;1&gt;(sum_start_end_l),
+96                     std::get&lt;2&gt;(sum_start_end_l));
+97 }
+</pre>
+
+<p>
+It prints
+</p>
+<pre class="boxedverbatim">
+<sum : 7, start   index :   2, end index : 6>
+Max subarray is   : {4 -1   -2 1 5}
+<sum : 7, start   index :   1, end index : 3>
+Max subarray is   : {4 -2   5}
+<sum : 6, start   index :   3, end index : 6>
+Max subarray is   : {4 -1   2 1}
+</pre>
+<!--................................-->
+<h6 id="autosec-357">Time Complexity</h6>
+<a id="index-autopage-357"></a>
+
+
+
+<p>
+This algorithm consists of n additions and at most 2n comparisons, so the complexity is around 3n.<br />
+Hence complexity is linear, i.e., \(O(n)\).
+</p>
+<!--................................-->
+<h5 id="autosec-358">Find subarray with sum closest to zero</h5>
+<a id="index-autopage-358"></a>
+
+
+
+<p>
+&#x2003;&#x2003;
+</p>
+<div class="center">
+
+<p>
+Find a sub-array whose sum is closest to zero rather than that with maximum sum. Please note that closest to zero doesn’t mean minimum sum
+</p>
+</div>
+
+<p>
+Assuming input array is <em>a</em>, let us have a notion of <em>prefix array</em> <i>prefixa</i> such that<br />
+\(prefixa[i] = a[0] + a[1] + a[2] + \ldots + a[i - 1] + a[i]\)<br />
+\(\implies \)<br />
+\(prefixa[i] = prefixa[i - 1] + a[i]\)<br />
+\(\implies \)<br />
+\(a[i] = prefixa[i] - prefixa[i - 1]\)<br />
+Suppose a[l..k] be such a sub-array with sum closest to zero. Then we have the sum of this sub-array as :<br />
+\(a[l] + a[l + 1] + \ldots + a[k - 1] + a[k]\)<br />
+=<br />
+\(prefixa[l] - prefixa[l - 1] + \\ prefixa[l + 1] - prefixa[l] + \\ \vdots \\ prefixa[k - 1] - prefixa[k - 2] + \\ prefixa[k] - prefixa[k - 1]\)<br />
+=<br />
+\(prefixa[k] - prefixa[l - 1]\)<br />
+Hence for the sum of a[l..k] to be equal to zero, we should have<br />
+\(prefixa[k] = prefixa[l - 1]\)<br />
+Hence the sum closest to zero can be found by locating the two closest elements in <em>prefixa</em>.<br />
+Let us formalize the above algorithm as follows:
+</p>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1. Compute prefix array with index of original array as well, so it is a collection of pair(value, index). \(O(n)\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2. Sort the above prefix array by value. \(O(nlogn)\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3. Compute pair-wise diff by value. Prepare absolute values to get a measure of how far/close these are to zero. \(O(n)\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4. The closest pair is that with minimum value found above. \(O(n)\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5. Report the indices found above in the original array. This is the subarray with sum being closest to zero. (2 comparisons needed).
+</p>
+</li>
+</ul>
+
+<p>
+Please note that the first and last entries of the suffix array are sentinel points(hence special cases) because these cannot be represented effectively by any other two sub prefix sum. Suppose the
+closest pair indices reported above is (l, k), then the subarray with sum closest to zero will be decided by the minimum of (closest pair-wise diff val, first entry of prefix, last entry of prefix), i.e. the
+desired subarray would be
+</p>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+• a[l..k] if closest pair-wise diff val is minimum
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+• a[0] if first entry of prefix is minimum
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+• a[0..n - 1] is last entry of prefix is minimum
+</p>
+</li>
+</ul>
+
+<p>
+Hence overall time complexity is \(O(n + nlogn)\)
+</p>
+
+<p>
+Let us start walking through an implementation approach in C++ to understand it better.
+</p>
+<a id="autoid-53" ></a >
+
+
+
+<div class="figurecaption">
+
+<p>
+Listing&nbsp;32.5:&nbsp;Finding sum closest to zero
+</p>
+</div>
+<pre class="programlisting">
+1 #include &lt;utility&gt;
+2 #include &lt;algorithm&gt;
+3 #include &lt;tuple&gt;
+4 #include &lt;iostream&gt;
+5
+6 typedef std::pair&lt;int, size_t&gt; ValueIndexPair;
+7
+8 std::vector&lt;int&gt; i
+9 findSubArraySumZero(std::vector&lt;int&gt; &amp; a)
+10 {
+11     typedef std::tuple&lt;int, size_t, size_t&gt;
+12           ValStartEndIndices;
+13
+14     size_t len = a.size() ;
+15     std::vector&lt;ValueIndexPair&gt; prefixa(len);
+16
+17     prefixa[0] = ValueIndexPair(a[0], 0);
+18
+19     for(size_t i = 1; i &lt; len; ++i)
+20     prefixa[ i ] =
+21     ValueIndexPair(
+22      prefixa[ i − 1]. first + a[i ], i ) ;
+23
+24     std::cout &lt;&lt;
+25     ”Printing Prefix Array with Value and”
+26     ” Original Index”
+27     &lt;&lt; std::endl;
+28
+29     for(ValueIndexPair vip : prefixa)
+30     std::cout &lt;&lt; vip. first &lt;&lt; ”:”
+31                 &lt;&lt; vip.second &lt;&lt; ” ”;
+32     std::cout &lt;&lt; std::endl;
+33
+34     int start_prefix = prefixa[0]. first ;
+35     int end_prefix = prefixa[len − 1]. first ;
+36
+37     std::sort(prefixa.begin(), prefixa.end(),
+38        []( ValueIndexPair f, ValueIndexPair s)
+39        {
+40             return f. first &lt; s. first ;
+41        }
+42     );
+43
+44     std::cout
+45     &lt;&lt; ”Printing Value Sorted Prefix Array”
+46     &lt;&lt; std::endl;
+47
+48     for(ValueIndexPair vip : prefixa)
+49     std::cout &lt;&lt; vip. first &lt;&lt; ”:”
+50                 &lt;&lt; vip.second &lt;&lt; ” ”;
+51     std::cout &lt;&lt; std::endl;
+52
+53     std::vector&lt;ValStartEndIndices&gt;
+54           pairwisediff_vec(len − 1);
+55     for(size_t i = 0; i &lt; len − 1; ++i)
+56     {
+57           pairwisediff_vec[i] =
+58           std::make_tuple(
+59           prefixa[ i + 1]. first − prefixa[i ]. first ,
+60           prefixa[ i ]. second,
+61           prefixa[ i + 1].second);
+62     }
+63
+64     std::cout &lt;&lt;
+65     ”Printing Pairwise Value Differences with”
+66     ” original indices”
+67     &lt;&lt; std::endl;
+68
+69     for(ValStartEndIndices vsei :
+70           pairwisediff_vec)
+71     std::cout &lt;&lt; ”(”
+72                 &lt;&lt; std::get&lt;0&gt;(vsei) &lt;&lt; ”:”
+73                 &lt;&lt; std::get&lt;1&gt;(vsei) &lt;&lt; ”:”
+74                 &lt;&lt; std::get&lt;2&gt;(vsei) &lt;&lt; ”) ”;
+75     std::cout &lt;&lt; std::endl;
+76
+77     std::vector&lt;ValStartEndIndices&gt;::iterator
+78     itr =
+79     std::min_element(
+80           pairwisediff_vec.begin(),
+81           pairwisediff_vec.end(),
+82        []( ValStartEndIndices f,
+83            ValStartEndIndices s)
+84        {
+85             return std::abs(std::get&lt;0&gt;(f))
+86                     &lt; std::abs(std::get&lt;0&gt;(s));
+87        }
+88     );
+89
+90     ValStartEndIndices closest_indices = ∗itr;
+91
+92     std::vector&lt;int&gt; vcandidates(3);
+93
+94     vcandidates[0] =
+95      std::abs(std::get&lt;0&gt;(closest_indices));
+96     vcandidates[1] =
+97      std::abs(start_prefix) ; // a[0]
+98     vcandidates[2] =
+99      std::abs(end_prefix); // a [0.. n − 1]
+100
+101      int close_zero = ∗std::min_element(
+102       vcandidates.begin(), vcandidates.end());
+103
+104      std::vector&lt;int&gt; vsumzero;
+105
+106      size_t start_index, end_index = 0;
+107
+108      if (close_zero == vcandidates[1])
+109     {
+110           vsumzero.push_back(a[0]);
+111     }
+112      else if (close_zero == vcandidates[2])
+113     {
+114           vsumzero = a;
+115     }
+116      else // close_zero == vcandidates[0])
+117     {
+118           std::pair&lt;size_t, size_t&gt; se =
+119           std::minmax(std::get&lt;1&gt;(
+120                 closest_indices) ,
+121                 std::get&lt;2&gt;(closest_indices));
+122
+123           vsumzero.assign(a.begin() +
+124                             se. first + 1,
+125                 a.begin() + se.second + 1);
+126     }
+127
+128      return vsumzero;
+129 }
+130
+131 int main()
+132 {
+133      std::vector&lt;int&gt; v
+134     { 8, −3, 2, 1, −4, 10, −5 };
+135
+136      std::vector&lt;int&gt; vclosest_sum_zero =
+137          findSubArraySumZero(v);
+138
+139      std::cout &lt;&lt; ”Subarray with sum closest”
+140       ”to zero is” &lt;&lt; std::endl;
+141      for(int e : vclosest_sum_zero)
+142      std::cout &lt;&lt; e &lt;&lt; ” ”;
+143      std::cout &lt;&lt; std::endl;
+144      std::cout &lt;&lt; std::endl;
+145
+146     v = {−3,2,4,−6,−8,10,11};
+147     vclosest_sum_zero = findSubArraySumZero(v);
+148
+149      std::cout &lt;&lt; ”Subarray with sum closest to”
+150       ” zero is” &lt;&lt; std::endl;
+151      for(int e : vclosest_sum_zero)
+152      std::cout &lt;&lt; e &lt;&lt; ” ”;
+153      std::cout &lt;&lt; std::endl;
+154      std::cout &lt;&lt; std::endl;
+155
+156     v = {10, −2, −7};
+157     vclosest_sum_zero = findSubArraySumZero(v);
+158
+159      std::cout &lt;&lt; ”Subarray with sum closest to”
+160       ” zero is” &lt;&lt; std::endl;
+161      for(int e : vclosest_sum_zero)
+162      std::cout &lt;&lt; e &lt;&lt; ” ”;
+163      std::cout &lt;&lt; std::endl;
+164      std::cout &lt;&lt; std::endl;
+165 }
+</pre>
+
+<p>
+It prints
+</p>
+<pre class="boxedverbatim">
+Printing Prefix Array with Value and Original Index
+8:0 5:1 7:2 8:3 4:4 14:5 9:6
+Printing Value Sorted Prefix Array
+4:4 5:1 7:2 8:0 8:3 9:6 14:5
+Printing Pairwise Value Differences with
+original indices
+(1:4:1) (2:1:2) (1:2:0) (0:0:3) (1:3:6) (5:6:5)
+Subarray with sum closest to zero is
+-3 2 1
+
+Printing Prefix Array with Value and Original Index
+-3:0 -1:1 3:2 -3:3 -11:4 -1:5 10:6
+Printing Value Sorted Prefix Array
+-11:4 -3:0 -3:3 -1:1 -1:5 3:2 10:6
+Printing Pairwise Value Differences with
+original indices
+(8:4:0) (0:0:3) (2:3:1) (0:1:5) (4:5:2) (7:2:6)
+Subarray with sum closest to zero is
+2 4 -6
+
+Printing Prefix Array with Value and Original Index
+10:0 8:1 1:2
+Printing Value Sorted Prefix Array
+1:2 8:1 10:0
+Printing Pairwise Value Differences with
+original indices
+(7:2:1) (2:1:0)
+Subarray with sum closest to zero is
+10 -2 -7
+</pre>
+<!--................................-->
+<h5 id="autosec-362">Find subarray with sum closest to k</h5>
+<a id="index-autopage-362"></a>
+
+
+
+<p>
+&#x2003;&#x2003;
+</p>
+<div class="center">
+
+<p>
+Find a sub-array whose sum is closest to a integer <em>s</em>
+</p>
+</div>
+
+<p>
+.<br />
+As can be seen from the previous problem that the sum of a[l..k] =<br />
+\(prefixa[k] - prefixa[l - 1] = s\)<br />
+Hence in order to find the sub-array with sum closest to zero, all we need to find is to locate 2 elements in the prefix array which are closest with respect to k-distance.<br />
+Rest of the exercise is left for the reader to work out.
+</p>
+<!--................................-->
+<h5 id="autosec-364">Maximum 2D subarray problem</h5>
+<a id="index-autopage-364"></a>
+
+
+
+<p>
+&#x2003;&#x2003;
+</p>
+<div class="center">
+
+<p>
+Design and implement an efficient program to find a contiguous 2D subarray within a two-dimensional array of integers which has the largest sum
+</p>
+</div>
+
+<p>
+.<br />
+<em>Bentley</em> has given a nice algorithm based on Kadane’s one dimensional algorithm to solve this problem in two-dimensional array thus making it look like Kadane’s 2D algorithm.<br />
+It applies Kadane’s algorithm to every possible row interval, summing over the rows in each interval to produce one dimensional array for Kadane’s algorithm to find the optimal column interval. One
+of the central idea of Bentley’s algorithm is the <em>prefix sum</em> , which aims to avoid repeating summations when processing subsequent row intervals. The 1D Kadane’e algorithm is run on the
+elements of each row of the array \((row_{1}, row_{2} \dots row_{m})\) considered as a 1D stream, then, on the sum of each pair of rows \((row_{1} + row_{2}, row_{1} + row_{3}\dots
+row_{1} + row_{m})\). The solution is given by the maximal sum produced by the 1D Kadane’s algorithm on these cases. If \(x_{1}\) and \(x_{2}\) are the pointers to the beginning and the end of
+the maximal sub-stream, and \(Row_{i}\) and \(Row_{j}\) are the two added rows for which the sum is maximal, then the solution is delimited by the rectangle given by the <b>upper-left
+(\(Row_{i}, x_{1}\))</b> and the <b>lower-right</b> corners <b>(\(Row_{j}, x_{2}\))</b>. This algorithm can be summarized as below:
+</p>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1. Compute the <em>prefix array</em> in the dimension of length m. This requires \(O(mn)\) computations.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2. If the maximum sum sub-array is between \(Row_{i}\) and \(Row_{j}\), inclusive, then there are \(\frac {m(m + 1)}{2}\) such pairs.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3. The sum of elements in the array between \(Row_{i}\) and \(Row_{j}\) for a given column is already computed as a part of our prefix sum. So each column sum looks like a single element of a one
+dimensional array across all columns, i.e., it looks like a one dimensional array with one row and n columns.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4. Apply Kadane’s 1D algorithm on such pairs to get the maximum sub-array as described above. Thus total time complexity is \(O(m^{2}n)\).
+</p>
+</li>
+</ul>
+
+<p>
+Let us formalize the algorithm as follows:<br />
+
+
+</p>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1. Let us denote the input array as \(a[0..m, 0..n]\), i.e., it has m rows and n columns. Let \(a_{i}\) denote the \(i^{th}\) row of this array.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2. Let us denote \(i^{th}\) rowa of the prefix array as \(prefixa_{i}\) which stands for \(a_{1} + a_{2} \ldots a_{i}\).
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3. Please note that \(prefixa_{i} = prefixa_{i - 1} + a_{i}\), where \(i \in {1..m}\). As described earlier, the computation of prefix array requires \(mn\) additions. Hence<br />
+\(a_{i} = prefixa_{i} - prefixa_{i - 1}\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4. It is easy to see that the sum over the rows l and k, i.e. \(a[l..k]\) can be computed as \(a_{l} + a_{l + 1} \ldots a_{k - 1} + a_{k}\) =<br />
+\(prefixa_{l} - prefixa_{l - 1}\) +<br />
+\(prefixa_{l + 1} - prefixa_{l}\) +<br />
+&#x22EE;<br />
+\(prefixa_{k - 1} - prefixa_{k - 2}\) +<br />
+\(prefixa_{k} - prefixa_{k - 1}\) =<br />
+\(prefixa_{k} - prefixa_{l - 1}\)<br />
+These consists of \(\frac {m(m + 1)}{2}\) pairs.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5. Kadane’s 1D algorithm is applied on \(prefixa_{k} - prefixa_{l - 1}\) for each interval [l,k] to find the maximum sum. Thus overall time complexity is \(O(m^{2}n)\).
+</p>
+</li>
+</ul>
+
+<p>
+We leave the coding exercise in C++ to the reader.
+</p>
+<!--................................-->
+<h5 id="autosec-366">K-Maximum Sub-array problem</h5>
+<a id="index-autopage-366"></a>
+
+
+
+<p>
+&#x2003;&#x2003;
+</p>
+<div class="center">
+
+<p>
+Design and implement an efficient program to find the <em>K</em> subarrays with largest sums. Please note that the maximum subarray problem for a one- or two-dimensional
+array is to find the array portion that maiximizes the sum of array elements in it
+</p>
+</div>
+
+<p>
+.<br />
+Let us revisit our prefix array concept as \(a[l..k] = prefixa[k] - prefix[l - 1]\). To find the maximum sub-array a[l..k], we have to find the indices l and k which maximizes sum of the
+entries a[l..k]. Let us denote minprefixa[i] as a minimum prefix array for the sub-array \(a[0..i - 1]\).<br />
+max(a[l..k]) = max(prefixa[k] - prefix[l - 1]) = max(prefixa[k] - min(prefix[l - 1])) = max(prefixa[k] - minprefixa[k]). So to compute the maximum sub-array all we need to do is to accumulate the prefix
+sums along with maintaining minimum of the preceding prefix sums which could be subtracted from the accumulated prefix sums to get the maximum sum so far.
+</p>
+
+<figure id="autoid-54" class="figure ">
+<div class="center">
+
+<p>
+<span
+      class="fbox"
+      style="display:inline-block ; border:1pt solid #000000; padding:3pt ; color:#000000"
+><b><span
+      class="textcolor"
+      style="color:#808000"
+>Maximum sub-array sum using prefix array</span></b></span>
+</p>
+</div>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1: <span style="width:0pt; display:inline-block;"></span><b>function</b> <span class="textsc">maxsubarray</span>(a[0..n - 1])
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2:     <span style="width:15pt; display:inline-block;"></span>\(minprefixsum \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3:     <span style="width:15pt; display:inline-block;"></span>\(curmaxsum \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4:     <span style="width:15pt; display:inline-block;"></span>\(prefixa[0] \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5:     <span style="width:15pt; display:inline-block;"></span><b>for</b> \(i \gets 0, n - 1\) <b>do</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+6:       <span style="width:30pt; display:inline-block;"></span>\(prefixa[i] \gets prefixa[i - 1] + a[i]\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+7:       <span style="width:30pt; display:inline-block;"></span>\(cand \gets prefixa[i] - minprefixsum\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+8:       <span style="width:30pt; display:inline-block;"></span>\(curmaxsum \gets max(curmaxsum, cand)\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+9:       <span style="width:30pt; display:inline-block;"></span>\(minprefixsum \gets min(minprefixsum, prefixa[i])\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+10:     <span style="width:15pt; display:inline-block;"></span><b>end</b> <b>for</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+11:     <span style="width:15pt; display:inline-block;"></span><b>return</b> max_so_far
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+12: <span style="width:0pt; display:inline-block;"></span><b>end</b> <b>function</b>
+</p>
+</li>
+</ul>
+
+</figure>
+
+<p>
+Based on the above algorithm, we can easily extend it to find K-maximum subarray in one dimensional case. Instead of having a single variable that safeguards the minimum prefix sum, we maintain a
+list of K minimum prefix sums, sorted in non-decreasing order. The merged list of two sorted sequences x and y are denoted by merge(x, y).
+</p>
+
+<figure id="autoid-55" class="figure ">
+<div class="center">
+
+<p>
+<span
+      class="fbox"
+      style="display:inline-block ; border:1pt solid #000000; padding:3pt ; color:#000000"
+><b><span
+      class="textcolor"
+      style="color:#808000"
+>K-Maximum sub-array sum using prefix array</span></b></span>
+</p>
+</div>
+<ul style="list-style-type:none">
+
+
+<li>
+<p>
+1: <span style="width:0pt; display:inline-block;"></span><b>function</b> <span class="textsc">kmaxsumarray</span>(a[0..n - 1])
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+2:     <span style="width:15pt; display:inline-block;"></span><b>for</b> k \(\gets 1, K\) <b>do</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+3:       <span style="width:30pt; display:inline-block;"></span>\(min[k] \gets \infty \)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+4:       <span style="width:30pt; display:inline-block;"></span>\(M[k] \gets \infty \)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+5:     <span style="width:15pt; display:inline-block;"></span><b>end</b> <b>for</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+6:     <span style="width:15pt; display:inline-block;"></span>\(sum[0] \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+7:     <span style="width:15pt; display:inline-block;"></span>\(min[1] \gets 0\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+8:     <span style="width:15pt; display:inline-block;"></span>\(M[1] \gets 0\)
+</p>
+</li>
+<li>
+
+
+<p>
+9:     <span style="width:15pt; display:inline-block;"></span><b>for</b> i \(\gets 1, n\) <b>do</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+10:        <span style="width:30pt; display:inline-block;"></span>\(sum[i] \gets sum[i - 1] + a[i]\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+11:        <span style="width:30pt; display:inline-block;"></span><b>for</b> k \(\gets 1, K\) <b>do</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+12:          <span style="width:45pt; display:inline-block;"></span>\(cand[k] \gets sum[i] - min[k]\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+13:        <span style="width:30pt; display:inline-block;"></span><b>end</b> <b>for</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+14:        <span style="width:30pt; display:inline-block;"></span>\(M \gets K largest elements of merge(M, cand)\)
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+15:        <span style="width:30pt; display:inline-block;"></span>insert sum[i] into min
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+16:     <span style="width:15pt; display:inline-block;"></span><b>end</b> <b>for</b>
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+17: <span style="width:0pt; display:inline-block;"></span><b>end</b> <b>function</b>
+</p>
+</li>
+</ul>
+
+</figure>
+
+<p>
+As we need to perform n iterations, the total time complexity is \(O(Kn)\). When K = 1, this result is comparable to O(n) time of Kadane’s algorithm and prefix array.
+</p>
 
 </section>
 

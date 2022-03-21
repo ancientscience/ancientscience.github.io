@@ -1,0 +1,344 @@
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{top10/cover}
+  \end{center}
+  %\caption{Front Cover}
+\end{wrapfigure}
+
+This book is written for helping people prepare for Google Coding Interview. It contains top 10 programming problems frequently asked @Google with detailed worked-out solutions both in pseudo-code and C++ (and C++11).
+
+It came out as a result of numerous requests received from coders across the Globe, primarily from Google aspirants. Author has a vast collection of algorithmic problems since 20 years including experience in preparing computer science students for participation in programming contests like TopCoder, ACM ICPC and others.
+
+
+
+\begin{center}
+\textbf{Must Have for Google Aspirants !!!}
+\end{center}
+
+\colorlet{BgTextColor}{Sepia} 
+
+%\begin{comment}
+\begin{enumerate}[nosep]
+\itemcolor{BgTextColor}
+\item \emph{\textcolor{BgTextColor}{Matching Nuts and Bolts Optimally}}
+\item \emph{\textcolor{BgTextColor}{Searching two-dimensional sorted array}}
+\item \emph{\textcolor{BgTextColor}{Lowest Common Ancestor(LCA) Problem}}
+\item \emph{\textcolor{BgTextColor}{Max Sub-Array Problem}}
+\item \emph{\textcolor{BgTextColor}{Compute Next Higher Number}}
+\item \emph{\textcolor{BgTextColor}{2D Binary Search}}
+\item \emph{\textcolor{BgTextColor}{String Edit Distance}}
+\item \emph{\textcolor{BgTextColor}{Searching in Two Dimensional Sequence}}
+\item \emph{\textcolor{BgTextColor}{Select Kth Smallest Element}}
+\item \emph{\textcolor{BgTextColor}{Searching in Possibly Empty Two Dimensional Sequence}}
+\end{enumerate}
+%\end{comment}
+
+%\newcommand\problem[1]{{#1}}
+
+%\newcommand\solution[1]{{#1}}
+
+%\renewcommand{\ExerciseName}{Problem}
+%\renewcommand{\AnswerName}{Solution}
+%\renewcommand{\AnswerHeader}{\centerline{\textbf{\Large \solution{\AnswerName}}}}
+
+%\renewcommand{\ExerciseHeader}{\problem{\centerline{\textbf{\Large  \ExerciseName\hspace{1mm}\ExerciseHeaderNB\ExerciseHeaderTitle \small \ExerciseHeaderOrigin\medskip}}}}
+
+
+\underline{\textbf{\textcolor{BurntOrange}{Excerpt from the Chapter} \textcolor{Sepia}{4:}}}
+
+\section{Max Sub-Array Problem}
+
+%\begin{Exercise}[difficulty=2, origin=David Gries, label=twod]
+\begin{center}
+\hlbt{**\textsc{Problem} 4 (\small Kadane)}
+\end{center}
+\hlt{Design and implement an efficient program to find a contiguous subarray within a one-dimensional array of integers which has the largest sum. Please note that there is at least one positive integer in the input array.}
+%\end{Exercise}
+
+\begin{center}
+\hlbt{\textsc{Solution}}
+\end{center}
+
+
+\subsection{Kadane\rq{}s Algorithm}
+There is scanning algorithm known as \textit{Kadane\rq{}s algorithm} which keeps track of the maximum sum subarray by starting at the leftmost element and scanning through to the rightmost element. It works in a dynamic programming\index{dynamic programming} set-up because it has an optimal substructure, i.e., the maximum sum subarray upto the $(i - 1)^{th}$ element is used to find maximum sum subarray\index{maximum sum sub-array problem} upto $i^{th}$ element. 
+\vspace{1mm}\\
+The algorithm accumulates a partial sum in max\_ending\_here and updates the current solution max\_so\_far appropriately. It is increased by the value contained in $i^{th}$ index as far as it keeps it positive, it is reset to zero otherwise.\\
+If all elements of an array are non-negative, this problem is trivial, as the entire array represents the solution. Similarly, if all elements are non-positive, the solution is empty with value 0. So we consider a data set containing both positive and negative values.\index{kadane 1D algorithm}
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Kadane\rq{}s 1D Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{kadane1D}{start, end}
+    \State $max\_so\_far \gets 0$
+    \State $max\_ending\_here \gets 0$
+        \While{$start \neq end$}
+             \State max\_ending\_here  $\gets$ max(max\_ending\_here + *start, 0)
+            \State max\_so\_far  $\gets$ max(max\_so\_far, max\_ending\_here)
+            \State start $\gets$ start + 1
+        \EndWhile
+    \State \textbf{return} max\_so\_far
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\subsubsection{C++11 Implementation}
+\lstinputlisting[caption=Implementing Kadane\rq{}s Algorithm]{top10/kadane/kadane1d.hpp}
+
+\subsubsection{Usage}
+\lstinputlisting[caption=Using Kadane\rq{}s Algorithm]{top10/kadane/kadane1d.cpp}
+It prints 
+\begin{boxedverbatim}
+7
+7
+6
+\end{boxedverbatim}
+
+\subsection{Find indices of max subarray}
+\qquad \textproblem {Design and implement an efficient program to find a contiguous subarray within a one-dimensional array of integers which has the largest sum. The result should include sum and (start, end) of the subarray}.
+\vspace{1mm}\\
+It is easy to see that 
+\begin{itemize}
+    \item the maximum subarray  starts and ends in positive elements
+    \item if we start from the first positive element, i.e., a[l], and sum over the subsequent elements until the sum drops negative at a[r], then the optimal subarray is either
+    \begin{itemize}
+        \item in a[l..r] and starts from a[l], or 
+        \item in a[r + 1..n].
+    \end{itemize}
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Kadane\rq{}s 1D Algorithm : Find Indices}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{kadane1D}{start, end}
+    \State $max\_so\_far \gets 0$
+    \State $max\_ending\_here \gets 0$
+    \State $l \gets 0$
+    \State $r \gets 0$
+    \State $li \gets 0$
+        \While{$start \neq end$}
+            \State max\_ending\_here  $\gets$ (max\_ending\_here + *start)
+            \If{max\_ending\_here < 0}
+                \State max\_ending\_here $\gets$ 0
+                \State li $\gets$start + 1
+            \EndIf
+            \If{max\_so\_far  < max\_ending\_here}
+               \State max\_so\_far $\gets$ max\_ending\_here
+               \State l $\gets$ li
+               \State r $\gets$ start
+            \EndIf
+            \State start $\gets$ start + 1
+        \EndWhile
+    \State \textbf{return} $<$max\_so\_far, l, r$>$
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\subsubsection{C++11 Implementation}
+\lstinputlisting[caption=Implementing Kadane\rq{}s Algorithm : Finding Indices]{top10/kadane/kadane1d_indices.hpp}
+
+\subsubsection{Usage}
+In practice, a bitmap image has all non-negative pixel values. When the average is subtracted from each pixel, we can apply the maximum subarray algorithm to find the brightest area within the image.
+
+\lstinputlisting[caption=Using Kadane\rq{}s Algorithm : Finding Indices]{top10/kadane/kadane1d_indices.cpp}
+It prints
+\begin{boxedverbatim}
+<sum : 7, start index : 2, end index : 6> 
+Max subarray is : {4 -1 -2 1 5}
+<sum : 7, start index : 1, end index : 3> 
+Max subarray is : {4 -2 5}
+<sum : 6, start index : 3, end index : 6> 
+Max subarray is : {4 -1 2 1}
+\end{boxedverbatim}
+
+\subsubsection{Time Complexity}
+This algorithm consists of n additions and at most 2n comparisons, so the complexity is around 3n. 
+\vspace{1mm}\\
+Hence complexity is linear, i.e., $O(n)$.
+
+\subsection{Find subarray with sum closest to zero}\index{find sum closest to zero}
+\qquad \textproblem{Find a sub-array whose sum is closest to zero rather than that with maximum sum. Please note that closest to zero doesn\rq{}t mean minimum sum}
+
+\vspace{1mm}
+
+Assuming input array is \emph{a}, let us have a notion of \emph{prefix array} \textit{prefixa} such that \\
+$prefixa[i] = a[0] + a[1] + a[2] + \ldots + a[i - 1] + a[i]$\\
+$\implies$\\
+$prefixa[i] = prefixa[i - 1] + a[i]$\\
+$\implies$\\
+$a[i] = prefixa[i] - prefixa[i - 1]$
+\vspace{1mm}\\
+Suppose a[l..k] be such a sub-array with sum closest to zero. Then we have the sum of this sub-array as :\\
+$a[l] + a[l + 1] + \ldots + a[k - 1] + a[k]$ \\
+=\\
+$prefixa[l] - prefixa[l - 1] + \\
+prefixa[l + 1] - prefixa[l] + \\
+\vdots\\
+prefixa[k - 1] - prefixa[k - 2] +  \\
+prefixa[k] - prefixa[k - 1]$
+\vspace{1mm}\\
+=\\
+$prefixa[k] - prefixa[l - 1]$
+\vspace{1mm}\\
+Hence for the sum of a[l..k] to be equal to zero, we should have \\$prefixa[k] = prefixa[l - 1]$
+\vspace{1mm}\\
+Hence the sum closest to zero can be found by locating the two closest elements in \emph{prefixa}.
+\vspace{2mm}\\
+Let us formalize the above algorithm as follows:
+\begin{enumerate}
+    \item Compute prefix array with index of original array as well, so it is a collection of pair(value, index). $O(n)$
+    \item Sort the above prefix array by value. $O(nlogn)$
+    \item Compute pair-wise diff by value. Prepare absolute values to get a measure of how far/close these are to zero. $O(n)$
+    \item The closest pair is that with minimum value found above.  $O(n)$
+    \item Report the indices found above in the original array. This is the subarray with sum being closest to zero.  (2 comparisons needed).
+\end{enumerate}
+
+Please note that the first and last entries of the suffix array are sentinel points(hence special cases) because these cannot be represented effectively by any other two sub prefix sum. Suppose the closest pair indices reported above is (l, k), then the subarray with sum closest to zero will be decided by the minimum of (closest pair-wise diff val, first entry of prefix, last entry of prefix), i.e. the desired subarray would be 
+\begin{itemize}
+    \item a[l..k] if closest pair-wise diff val is minimum
+    \item a[0] if first entry of prefix is minimum
+    \item a[0..n - 1] is last entry of prefix is minimum
+\end{itemize} 
+
+Hence overall time complexity is $O(n + nlogn)$
+
+Let us start walking through an implementation approach in C++ to understand it better.
+\lstinputlisting[caption=Finding sum closest to zero]{top10/kadane/closest_zero.cpp}
+It prints
+\begin{boxedverbatim}
+Printing Prefix Array with Value and Original Index
+8:0 5:1 7:2 8:3 4:4 14:5 9:6 
+Printing Value Sorted Prefix Array
+4:4 5:1 7:2 8:0 8:3 9:6 14:5 
+Printing Pairwise Value Differences with 
+original indices
+(1:4:1) (2:1:2) (1:2:0) (0:0:3) (1:3:6) (5:6:5) 
+Subarray with sum closest to zero is
+-3 2 1 
+
+Printing Prefix Array with Value and Original Index
+-3:0 -1:1 3:2 -3:3 -11:4 -1:5 10:6 
+Printing Value Sorted Prefix Array
+-11:4 -3:0 -3:3 -1:1 -1:5 3:2 10:6 
+Printing Pairwise Value Differences with 
+original indices
+(8:4:0) (0:0:3) (2:3:1) (0:1:5) (4:5:2) (7:2:6) 
+Subarray with sum closest to zero is
+2 4 -6 
+
+Printing Prefix Array with Value and Original Index
+10:0 8:1 1:2 
+Printing Value Sorted Prefix Array
+1:2 8:1 10:0 
+Printing Pairwise Value Differences with 
+original indices
+(7:2:1) (2:1:0) 
+Subarray with sum closest to zero is
+10 -2 -7 
+\end{boxedverbatim}
+
+\subsection{Find subarray with sum closest to k}\index{find sum closest to k}
+\qquad \textproblem{Find a sub-array whose sum is closest to a integer \emph{s}}.
+\vspace{1mm}\\
+As can be seen from the previous problem that the sum of a[l..k] = \\
+$prefixa[k] - prefixa[l - 1] = s$\\
+Hence in order to find the sub-array with sum closest to zero, all we need to find is to locate 2 elements in the prefix array which are closest with respect to k-distance. \vspace{1mm}\\
+Rest of the exercise is left for the reader to work out.
+
+\subsection{Maximum 2D subarray problem}\index{max sub-array 2D problem}
+\qquad \textproblem{Design and implement an efficient program to find a contiguous 2D subarray within a two-dimensional array of integers which has the largest sum}.
+\vspace{1mm}\\
+\emph{Bentley} has given a nice algorithm based on Kadane\rq{}s one dimensional algorithm to solve this problem in two-dimensional array thus making it look like Kadane\rq{}s 2D algorithm.\index{kadane 2D algorithm}
+\vspace{1mm}\\
+It applies Kadane\rq{}s algorithm to every possible row interval, summing over the rows in each interval to produce one dimensional array for Kadane\rq{}s algorithm to find the optimal column interval. One of the central idea of Bentley\rq{}s algorithm is the \emph{prefix sum} , which aims to avoid repeating summations when processing subsequent row intervals. The 1D Kadane\rq{}e algorithm is run on the elements of each row of the array $(row_{1}, row_{2} \dots row_{m})$ considered as a 1D stream, then, on the sum of each pair of rows $(row_{1} + row_{2},  row_{1} + row_{3}\dots row_{1}  + row_{m})$. The solution is given by the maximal sum produced by the 1D Kadane\rq{}s algorithm on these cases. If $x_{1}$ and $x_{2}$ are the pointers to the beginning and the end of the maximal sub-stream, and $Row_{i}$ and $Row_{j}$ are the two added rows for which the sum is maximal, then the solution is delimited by the rectangle given by the \textbf{upper-left ($Row_{i}, x_{1}$)} and the \textbf{lower-right} corners \textbf{($Row_{j}, x_{2}$)}.
+This algorithm can be summarized as below:
+\begin{enumerate}
+    \item Compute the \emph{prefix array}\index{prefix array} in the dimension of length m. This requires $O(mn)$ computations.
+    \item If the maximum sum sub-array is between $Row_{i}$ and $Row_{j}$, inclusive, then there are $\frac{m(m + 1)}{2}$ such pairs.
+    \item The sum of elements in the array between $Row_{i}$ and $Row_{j}$ for a given column is already computed as a part of our prefix sum. So each column sum looks like a single element of a one dimensional array across all columns, i.e., it looks like a one dimensional array with one row and n columns.
+    \item Apply Kadane\rq{}s 1D algorithm on such pairs to get the maximum sub-array as described above. Thus total time complexity is $O(m^{2}n)$.
+\end{enumerate}
+
+Let us formalize the algorithm as follows:\\
+\begin{enumerate}
+    \item Let us denote the input array as $a[0..m, 0..n]$, i.e., it has m rows and n columns. Let $a_{i}$ denote the $i^{th}$ row of this array.
+    \item Let us denote $i^{th}$ rowa of the prefix array as $prefixa_{i}$ which stands for $a_{1} + a_{2} \ldots a_{i}$.
+    \item Please note that $prefixa_{i} = prefixa_{i - 1} +  a_{i}$, where $i \in {1..m}$. As described earlier, the computation of prefix array requires $mn$ additions. Hence \\
+     $a_{i} = prefixa_{i} - prefixa_{i - 1}$
+    \item It is easy to see that the sum over the rows l and k, i.e. $a[l..k]$ can be computed as $a_{l} + a_{l + 1} \ldots a_{k - 1} + a_{k}$  = \\
+    $prefixa_{l} - prefixa_{l - 1}$ +\\
+    $prefixa_{l + 1} - prefixa_{l}$ +\\
+    \vdots\\
+    $prefixa_{k - 1} - prefixa_{k - 2}$ +\\
+    $prefixa_{k} - prefixa_{k - 1}$ = \\
+    $prefixa_{k} -  prefixa_{l - 1}$\\
+    These consists of $\frac{m(m + 1)}{2}$ pairs.
+   \item Kadane\rq{}s 1D algorithm is applied on $prefixa_{k} -  prefixa_{l - 1}$ for each interval [l,k] to find the maximum sum. Thus overall time complexity is $O(m^{2}n)$. 
+ %  \item If $m > n$, we can simply rotate the matrix so that it has less rows than columns and same computation can be carried out as described above.
+\end{enumerate}
+We leave the coding exercise in C++ to the reader.
+
+
+\subsection{K-Maximum Sub-array problem}\index{k maximum sub-array problem}
+\qquad \textproblem{Design and implement an efficient program to find the \emph{K} subarrays with largest sums. Please note that the maximum subarray problem for a one- or two-dimensional array is to find the array portion that maiximizes the sum of array elements in it}.
+\vspace{1mm}\\
+Let us revisit our prefix array concept as $a[l..k] = prefixa[k] - prefix[l - 1]$. To find the maximum sub-array a[l..k], we have to find the indices l and k which maximizes sum of the entries a[l..k]. Let us denote minprefixa[i] as a minimum prefix array for the sub-array $a[0..i - 1]$.\\
+max(a[l..k]) = max(prefixa[k] - prefix[l - 1]) = max(prefixa[k] - min(prefix[l - 1])) = max(prefixa[k] - minprefixa[k]). So to compute the maximum sub-array all we need to do is to accumulate the prefix sums along with maintaining minimum of the preceding prefix sums which could be subtracted from the accumulated prefix sums to get the maximum sum so far. 
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Maximum sub-array sum using prefix array}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{maxsubarray}{a[0..n - 1]}
+    \State $minprefixsum \gets 0$
+    \State $curmaxsum \gets 0$
+    \State $prefixa[0] \gets 0$
+       \For{$i \gets 0, n - 1$}
+           \State $prefixa[i] \gets prefixa[i - 1] + a[i]$
+           \State $cand \gets prefixa[i] - minprefixsum$
+           \State $curmaxsum \gets max(curmaxsum, cand)$
+           \State $minprefixsum \gets min(minprefixsum, prefixa[i])$
+        \EndFor
+    \State \textbf{return} max\_so\_far
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+Based on the above algorithm, we can easily extend it to find K-maximum subarray in one dimensional case. Instead of having a single variable that safeguards the minimum prefix sum, we maintain a list of K minimum prefix sums, sorted in non-decreasing order. The merged list of two sorted sequences x and y are denoted by merge(x, y).
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{K-Maximum sub-array sum using prefix array}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{kmaxsumarray}{a[0..n - 1]}
+    \For{k $\gets 1, K$}
+        \State $min[k] \gets \infty$
+        \State $M[k] \gets \infty$
+    \EndFor
+    \State $sum[0] \gets 0$
+    \State $min[1] \gets 0$
+    \State $M[1] \gets 0$
+
+    \For{i $\gets 1, n$}
+        \State $sum[i] \gets sum[i - 1] + a[i]$
+        \For{k $\gets 1, K$}
+            \State $cand[k] \gets sum[i] - min[k]$
+        \EndFor
+        \State $M \gets K largest elements of merge(M, cand)$
+        \State insert sum[i] into min
+    \EndFor
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+As we need to perform n iterations, the total time complexity is $O(Kn)$. When K = 1, this result is comparable to O(n) time of Kadane\rq{}s algorithm and prefix array.
+
+
+
+
