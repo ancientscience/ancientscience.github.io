@@ -55,35 +55,37 @@
 \contentsline {chapter}{\numberline {28}{\ignorespaces Foundation of Algorithms in C++11\relax }}{267}{}%
 \contentsline {chapter}{\numberline {29}{\ignorespaces C++11 Algorithms : Using and Extending C++11, Boost and Beyond\relax }}{269}{}%
 \contentsline {chapter}{\numberline {30}{\ignorespaces Cracking Programming Interviews : 500 Questions with Solutions\relax }}{271}{}%
-\contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{273}{}%
-\contentsline {section}{Searching two-dimensional sorted array}{277}{}%
-\contentsline {subsection}{Basic Analysis}{280}{}%
-\contentsline {subsection}{Precondition (aka \textit {Input Assertion})}{284}{}%
-\contentsline {subsection}{Postcondition (aka \textit {Result Assertion)}}{288}{}%
-\contentsline {subsection}{Invariant}{292}{}%
-\contentsline {subsection}{Contract the rectangular region}{296}{}%
-\contentsline {paragraph}{Initial bounded searcheable region}{297}{}%
-\contentsline {subsection}{Saddleback Search Algorithm}{298}{}%
-\contentsline {subsubsection}{C++11 Implementation}{301}{}%
-\contentsline {subsubsection}{Time Complexity}{305}{}%
-\contentsline {subsection}{Variation}{306}{}%
-\contentsline {subsubsection}{Find First Occurrence}{307}{}%
-\contentsline {subsubsection}{Find All Occurrences}{312}{}%
-\contentsline {subsubsection}{Saddleback Count}{321}{}%
-\contentsline {paragraph}{C++11 Implementation}{323}{}%
-\contentsline {subsection}{Remarks}{333}{}%
-\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{335}{}%
-\contentsline {section}{Max Sub-Array Problem}{339}{}%
-\contentsline {subsection}{Kadane'{}s Algorithm}{342}{}%
-\contentsline {subsubsection}{C++11 Implementation}{344}{}%
-\contentsline {subsubsection}{Usage}{346}{}%
-\contentsline {subsection}{Find indices of max subarray}{349}{}%
-\contentsline {subsubsection}{C++11 Implementation}{352}{}%
-\contentsline {subsubsection}{Usage}{354}{}%
-\contentsline {subsubsection}{Time Complexity}{357}{}%
-\contentsline {subsection}{Find subarray with sum closest to zero}{358}{}%
-\contentsline {subsection}{Find subarray with sum closest to k}{362}{}%
-\contentsline {subsection}{Maximum 2D subarray problem}{364}{}%
-\contentsline {subsection}{K-Maximum Sub-array problem}{366}{}%
-\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{371}{}%
-\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{373}{}%
+\contentsline {section}{Table of Contents}{274}{}%
+\contentsline {section}{Select Kth Smallest Element}{276}{}%
+\contentsline {chapter}{\numberline {31}{\ignorespaces Top 20 Coding Interview Problems Asked in Google with Solutions\relax }}{305}{}%
+\contentsline {section}{Searching two-dimensional sorted array}{309}{}%
+\contentsline {subsection}{Basic Analysis}{312}{}%
+\contentsline {subsection}{Precondition (aka \textit {Input Assertion})}{316}{}%
+\contentsline {subsection}{Postcondition (aka \textit {Result Assertion)}}{320}{}%
+\contentsline {subsection}{Invariant}{324}{}%
+\contentsline {subsection}{Contract the rectangular region}{328}{}%
+\contentsline {paragraph}{Initial bounded searcheable region}{329}{}%
+\contentsline {subsection}{Saddleback Search Algorithm}{330}{}%
+\contentsline {subsubsection}{C++11 Implementation}{333}{}%
+\contentsline {subsubsection}{Time Complexity}{337}{}%
+\contentsline {subsection}{Variation}{338}{}%
+\contentsline {subsubsection}{Find First Occurrence}{339}{}%
+\contentsline {subsubsection}{Find All Occurrences}{344}{}%
+\contentsline {subsubsection}{Saddleback Count}{353}{}%
+\contentsline {paragraph}{C++11 Implementation}{355}{}%
+\contentsline {subsection}{Remarks}{365}{}%
+\contentsline {chapter}{\numberline {32}{\ignorespaces Top 10 Coding Interview Problems Asked in Google with Solutions\relax }}{367}{}%
+\contentsline {section}{Max Sub-Array Problem}{371}{}%
+\contentsline {subsection}{Kadane'{}s Algorithm}{374}{}%
+\contentsline {subsubsection}{C++11 Implementation}{376}{}%
+\contentsline {subsubsection}{Usage}{378}{}%
+\contentsline {subsection}{Find indices of max subarray}{381}{}%
+\contentsline {subsubsection}{C++11 Implementation}{384}{}%
+\contentsline {subsubsection}{Usage}{386}{}%
+\contentsline {subsubsection}{Time Complexity}{389}{}%
+\contentsline {subsection}{Find subarray with sum closest to zero}{390}{}%
+\contentsline {subsection}{Find subarray with sum closest to k}{394}{}%
+\contentsline {subsection}{Maximum 2D subarray problem}{396}{}%
+\contentsline {subsection}{K-Maximum Sub-array problem}{398}{}%
+\contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{403}{}%
+\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{405}{}%

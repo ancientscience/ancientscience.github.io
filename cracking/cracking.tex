@@ -1,0 +1,402 @@
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{cracking/cover}
+  \end{center}
+  %\caption{Front Cover}
+\end{wrapfigure}
+
+This book contains \textbf{500} programming questions most frequently asked in technical interviews in top technical companies including Facebook, Microsoft, Google, Apple, Yahoo and others. Detailed solutions are provided for all of these including tips and techniques for solving similar problems.
+
+
+\section{Table of Contents}
+\setlist{nosep}
+\begin{enumerate}[label=\Roman*]
+\item Algorithms and Data Structures
+    \begin{enumerate}[label=\arabic*.]
+      \item Fundamentals
+          %\begin{enumerate}[label=\arabic{enumi}.\arabic*.]
+          \begin{enumerate}[label*=\arabic*.]
+              \item Approximating the square root of a number
+              \item Generating Permutation Efficiently
+              \item Unique 5-bit Sequences
+              \item Select Kth Smallest Element
+              \item The Non-Crooks Problem
+              \item Is this (almost) sorted?
+              \item Sorting an almost sorted list
+              \item The Longest Upsequence Problem
+              \item Fixed size generic array in C++
+              \item Seating Problem
+              \item Segment Problems
+              \item Exponentiation
+              \item Searching two-dimensional sorted array
+              \item Initial bounded searcheable region
+              \item Hamming Problem
+              \item Constant Time Range Query
+              \item Linear Time Sorting
+              \item Writing a Value as the Sum of Squares
+              \item The Celebrity Problem
+              \item Transport Problem
+              \item Find Length of the rope
+              \item Switch Bulb Problem
+              \item In, On or Out
+              \item The problem of the balanced segments
+              \item The problem of the most isolated villages
+            \end{enumerate}  
+      \item Arrays
+          %\begin{enumerate}[label=\arabic{enumii}.\arabic*.]
+          \begin{enumerate}[label*=\arabic*.]
+              \item The Plateau Problem
+              \item Searching in Two Dimensional Sequence
+              \item The Welfare Crook Problem
+              \item 2D Array Rotation
+              \item A Queuing Problem in A Post Office
+              \item Interpolation Search
+              \item Robot Walk
+              \item Linear Time Sorting
+              \item Write as sum of consecutive positive numbers
+              \item Print 2D Array in Spiral Order
+              \item The Problem of the Circular Racecourse
+              \item Sparse Array Trick
+              \item Bulterman'{}s Reshuffling Problem
+              \item Finding the majority
+              \item Mode of a Multiset
+              \item Circular Array
+              \item Find Median of two sorted arrays
+              \item Finding the missing integer
+              \item Finding the missing number with sorted columns
+              \item Re-arranging an array
+              \item Switch and Bulb Problem
+              \item Compute sum of sub-array
+              \item Find a number not sum of subsets of array
+              \item $K^{th}$ Smallest Element in Two Sorted Arrays
+              \item Sort a sequence of sub-sequences
+              \item Find missing integer
+              \item Inplace Reversing
+              \item Find the number not occurring twice in an array
+            \end{enumerate}  
+        \item Trees
+          %\begin{enumerate}[label=\arabic{enumiii}.\arabic*.]
+          \begin{enumerate}[label*=\arabic*.]
+              \item Lowest Common Ancestor(LCA) Problem
+              \item Path Number
+              \item Spying Campaign
+            \end{enumerate}  
+        \item Dynamic Programming
+          %\begin{enumerate}[label=\arabic{enumiv}.\arabic*.]
+          \begin{enumerate}[label*=\arabic*.]
+              \item Stage Coach Problem
+              \item Matrix Multiplication
+              \item TSP Problem
+              \item A Simple Path Problem
+              \item String Edit Distance
+              \item Music recognition
+              \item Max Sub-Array Problem
+            \end{enumerate}  
+        \item Graphs
+          \begin{enumerate}[label*=\arabic*.]
+              \item Reliable distribution
+              \item Independent Set
+              \item Party Problem
+            \end{enumerate}    
+        \item Miscellaneous
+          \begin{enumerate}[label*=\arabic*.]
+              \item Compute Next Higher Number
+              \item Searching in Possibly Empty Two Dimensional Sequence
+              \item Matching Nuts and Bolts Optimally
+              \item Random-number generation
+              \item Weighted Median
+              \item Compute $a^{n}$
+              \item Compute $a^{n}$ revisited
+              \item Compute the product $a \times b$
+              \item Compute the quotient and remainder
+              \item Compute GCD
+              \item Computed Constrained GCD
+              \item Alternative Euclid'{} Algorithm
+              \item Revisit Constrained GCD
+              \item Compute Square using only addition and subtraction
+              \item Factorization
+              \item Factorization Revisited
+              \item Decimal Representation
+              \item Reverse Decimal Representation
+              \item Solve Inequality
+              \item Solve Inequality Revisited
+              \item Print Decimal Representation
+              \item Decimal Period Length
+              \item Sequence Periodicity Problem
+              \item Compute Function
+              \item Emulate Division and Modulus Operations
+              \item Sorting Array of Strings : Linear Time
+              \item LRU data structure
+              \item Exchange Prefix and Suffix
+            \end{enumerate}    
+        \item Parallel Algorithms
+          \begin{enumerate}[label*=\arabic*.]
+              \item Parallel Addition
+              \item Find Maximum
+              \item The Parallel Prefix Problem
+              \item Finding Ranks in Linked Lists
+              \item Finding the $k^{th}$ Smallest Element on a Tree
+            \end{enumerate}    
+        \item Low Level Algorithms
+          \begin{enumerate}[label*=\arabic*.]
+              \item Introduction
+              \item Bit Counting Algorithms
+              \item Rearranging Algorithms
+              \item Computing Functions
+              \item Miscellaneous
+            \end{enumerate}    
+        \end{enumerate}    
+\item C++
+    \begin{enumerate}[label=\arabic*]
+      \item General
+      \item Constant Expression
+      \item Type Specifier
+      \item Namespaces
+      \item Misc
+      \item Classes
+      \item Templates
+      \item Standard Library
+    \end{enumerate}   
+\end{enumerate} 
+
+    
+
+\hrulefill
+
+\underline{\textbf{\textcolor{BurntOrange}{Excerpt from the Chapter} \textcolor{Sepia}{1:}}}
+
+\section{Select Kth Smallest Element}\index{Select Kth Smallest Element}
+\subsection*{Problem}
+Design and implement an efficient algorithm to select the $K^{th}$ Smallest Element of an array.
+\subsection*{Basic Analysis}
+\subsubsection*{Simultaneous Min-Max Algorithm}
+Before embarking on this selection problem, let us work out a general scheme of finding maximum and minimum of the input sequence. Min-max algorithms are ubiquitous in various applications specially geometric ones. In this section we will revisit several versions with primary focus being finding the most efficient one.
+
+\vspace{1mm}
+
+\emph{Design an efficient algorithm to find the minimum and maximum of an integer sequence simultaneously.}
+
+\vspace{1mm}
+
+Let us revisit a typical set-up for finding the maximum of an integer sequence where we end up examine each element of the sequence in turn along with keeping track of the largest element seen so far.
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Maximum of a sequence}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{maxval}{a, l, r}
+    \State $0\le n$
+    \State $a[k] \ge a[0..n - 1]$
+    \State $i\gets 1$
+    \State $k\gets 0$
+ 
+    \While{$0\le n$}
+        \If{$a[i] \le a[k]$}
+            \State \emph{do nothing}
+        \ElsIf{$a[i] \ge a[k]$}
+            \State $k\gets i$
+        \EndIf
+        \State $i\gets i + 1$
+    \EndWhile
+    \State \textbf{return} $k$
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\lstinputlisting[caption=Finding Maximum in an integer array]{cracking/minmax/maxvalarray.cpp}
+As can be seen that this doesn\rq{}t address the scenario in presence of multiple occurrences. Let us put forth obvious solutions.
+\lstinputlisting[caption=Finding First Maximum in an integer array]{cracking/minmax/firstmax.cpp}
+\lstinputlisting[caption=Finding First Maximum Satisfying Predicate]{cracking/minmax/firstmax_if.cpp}
+\lstinputlisting[caption=Finding First Minimum in an integer array]{cracking/minmax/firstmin.cpp}
+Please note that :\\
+\lstinputlisting[caption=Ordering Equivalence]{cracking/minmax/note1.hpp}
+\lstinputlisting[caption=Finding Last Maximum in an integer array]{cracking/minmax/lastmax.cpp}
+\lstinputlisting[caption=Finding Last Minimum in an integer array]{cracking/minmax/lastmin.cpp}
+Please note that:\\
+\lstinputlisting[caption=Another Ordering Equivalence]{cracking/minmax/note2.hpp}
+\vspace{1mm}
+All of these algorithms work in similar way requiring \emph{n - 1} comparisons in worst case.
+
+\vspace{1mm}
+
+How about simultaneously finding maximum and minimum of the sequence? 
+
+Naively, we can get this done in two passes : once for finding maximum and another for finding minimum : total of \emph{2n - 2} comparisons. But we can definitely do better if we confine ourselves to a single pass and reply on maintaining maximum and minimum elements seen so far. Instead of picking one element and probing it against the current maximum or minimum, we can rather examine two elements at a time treating them as pairs. The process goes like this:
+\begin{enumerate}
+    \item Maintain the minimum and maximum of elements seen so far.
+    \item Don\rq{}t compare each element to the minimum and maximum separately, which requires two comparisons per element.
+    \item Pick up the elements in pairs.
+    \item Compare the elements of a pair to each other.
+    \item Then compare the larger element to the maximum so far, and compare the
+smaller element to the minimum so far. 
+\end{enumerate}
+The above requires only three comparisons per two elements. Setting up the initial values for the min and max depends on whether n is odd or even.
+\begin{itemize}
+    \item If n is even, compare the first two elements and assign the larger to max and the smaller to min. \vspace{1mm}\\This needs one initial comparison and then $\frac{3(n - 2)}{2}$ more comparisons. Thus total number of comparisons = \vspace{1mm}\\ 1 + $\frac{3(n - 2)}{2}$\\ = 1 + $\frac{3n - 6}{2}$\\ = 1 + $\frac{3n}{2}$ - 3\\ =  $\frac{3n}{2}$ - 2. \vspace{1mm}\\Then process the rest of the elements in pairs. 
+    \item If n is odd, set both min and max to the first element. Then process the rest of the elements in pairs. This needs a total of $\frac{3(n - 1)}{2}$ comparisons.
+\end{itemize}
+
+\lstinputlisting[caption=C++ Implementation of first min and first max]{cracking/minmax/firstmin_firstmax.cpp}
+Please note that only one comparison is required for first two elements(aka first pair). The above requires at most three comparisons per pair.
+
+\vspace{1mm}
+
+In similar spirit, there are multiple combinations possible like:
+\begin{itemize}
+    \item first\_min\_first\_max\_element
+    \item first\_min\_last\_max\_element
+    \item last\_min\_first\_max\_element
+    \item last\_min\_last\_max\_element
+\end{itemize}
+Let us look at the implementation of \\first\_min\_last\_max\_element as inspiration.
+\lstinputlisting[caption=first\_min\_last\_max\_element]{cracking/minmax/firstmin_lastmax.cpp}
+
+\subsubsection*{Generic Select}
+Selection can be reduced to sorting by sorting the sequence and then extracting the sought after element. This method is more efficient when many selections need to be made from a sequence, in which case only one initial, so-called expensive sort is needed, followed by many relatively less expensive extraction operations, usually in amortized constant time. In general, this method requires $O(n \log n)$ time, where \emph{n} is the length of the sequence.
+
+\vspace{1mm}
+
+Let us try using similar ideas as in finding minimum and maximum of a given sequence for finding the $k^{th}$ smallest or $k^{th}$ largest element in a sequence.
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Generic Kth Select Minimum}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{generic-kth-min-select}{a, l, r, k}
+    \State $numElements \gets r - l + 1$
+    \For{$i \gets 1$, $k$}
+        \State $minIndex \gets i$
+        \State $minVal \gets a[i]$
+        \For{$j \gets i + 1, numElements$}
+            \If{$a[j] < minVal$}
+                \State $minIndex \gets j$
+                \State $minVal \gets a[j]$
+            \EndIf
+        \EndFor
+            \State $swap(a[i], a[minIndex])$
+        \EndFor
+    \State \textbf{return} $a[k]$
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\lstinputlisting[caption=Generic Kth Select Minimum]{cracking/select/generic_minselect.cpp}
+As can be seen  that time complexity of this inefficient selection algorithm is $O(kn)$, where n is the length of the sequence, which is acceptable when \emph{k} is small enough. It works by simply finding the most minimum element and moving it to the beginning until we reach our desired index, i.e., \emph{k}. It resembles a \emph{partial selection sort}.
+
+\subsection*{Randomized Quick Select Algorithm}\index{randomized quick select}
+Let us recall \emph{\textsc{randomized-partition}} and \emph{\textsc{randomized-quicksort}} algorithms to help us build an efficient selection algorithm. 
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Partitioning a sequence}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{partition}{a, l, r}
+    \State $p\gets a[r]$
+    \State $i \gets l - 1$
+    \For{$j \gets l$, $r - 1$}
+        \If{$a[j] \le p$}
+            \State $i \gets i + 1$
+            \State $swap(a[i], a[j])$
+        \EndIf
+    \EndFor
+    \State \textbf{return} $i + 1$
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Randomized Partition Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{randomized-partition}{a, l, r}
+    \State $i \gets random(l, r)$
+    \State $swap(a[r], a[i])$  
+  \State \textbf{return} \textsc{partition}$(a, l, r)$
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Randomized Quicksort Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{randomized-quicksort}{a, l, r}
+    \State $p \gets$ \textsc{randomized-partition}$(a, l, r)$
+    \State \textsc{randomized-quicksort}$(a, l, p - 1)$
+    \State \textsc{randomized-quicksort}$(a, p + 1, r)$  
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+Let us model the algorithm \emph{randomized-select} based on \emph{randomized-quicksort}, but unlike quicksort, which involves partitioning the input array followed by processing both sides of the partition recursively, \emph{randomized-select} works on only one side of the partition, thus throwing away the other partition.
+
+\subsection*{Algorithm}
+
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Randomized Kth Min Select Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{randomized-kth-min-select}{a, l, r, k}
+    \State $p \gets$ \textsc{randomized-partition}$(a, l, r)$
+    \State $pdist \gets p - l + 1$
+    \If{k == mid}
+        \State \textbf{return} $a[p]$
+    \ElsIf{k < pdist}
+        \State \textbf{return} \textsc{randomized-kth-min-select}$(a, l, p - 1, k)$
+    \ElsIf{k > pdist}
+        \State \textbf{return} \textsc{randomized-kth-min-select}$(a, p + 1, r, k - pdist)$  
+    \EndIf
+\EndFunction
+\end{algorithmic}
+\end{figure}
+
+And it is not that difficult to see that average case time complexity of the algorithm \emph{\textsc{randomized-kth-min-select}} is $\Theta(n)$ and worst case time complexity is $\Theta(n^{2})$, assuming that the elements are distinct.
+
+\subsection*{C++11 Implementation}
+\lstinputlisting[caption=Randomized version of Kth Select Minimum]{cracking/select/randomized_select.cpp}
+
+\emph{\textsc{randomized-kth-min-select}} differs from\\ \emph{\textsc{randomized-quicksort}} because it recurses on one side of the partition only. After the call to \emph{\textsc{randomized-partition}}, the sequence $a[l..r]$ is partitioned into two sub-sequences $a[l..p - 1]$ and $a[p + 1..r]$, along with a pivot element $a[p]$.
+\begin{itemize}
+    \item The elements of sub-sequence $a[l..p - 1]$ are all $ \le a[p]$.
+    \item The elements of sub-sequence $a[p + 1.. r]$ are all $ > a[p]$.
+    \item The pivot element is the $pdist^{th}$ element of the sub-sequence $a[l..r]$, where $pdist = p − l + 1$.
+    \item If the pivot element is the $k^{th}$ smallest element (i.e., k = pdist), return A[p].
+    \item Otherwise, recurse on the sub-sequence containing the $k^{th}$ smallest element.
+    \begin{itemize}
+        \item If $k < pdist$, this sub-sequence is $a[l..p - 1]$ and we want the  $k^{th}$ smallest element.
+        \item If $k > pdist$, this sub-sequence is $a[p + 1.. r]$ and, since there are \emph{pdist} elements in $a[l..r]$ that precede $a[p + 1.. r]$, we want the $(k - pdist)^{th}$ smallest element of this sub-sequence.
+    \end{itemize}
+\end{itemize}
+It resembles a \emph{partial quicksort}\index{partial quicksort}, generating and partitioning only $O(\log n)$ of its $O(n)$ partitions. This simple algorithm has expected linear performance, and, like quicksort, has quite good performance in practice. It is also an \emph{in-place} algorithm, requiring only constant memory overhead, since the tail recursion can be eliminated with an equivalent iterative version as shown in the next section. In a \emph{tail recursion}, the call is always the last action in an algorithm. A tail-recursive algorithm can always be transformed into an equivalent iterative algorithm with a \emph{while} loop as shown ahead.
+
+\subsection*{Iterative Version of Quick Select Algorithm}\index{quick select iterative}
+\begin{figure}[H]
+\begin{center}
+\fbox{\hlbt{Iterative Version of Quick Select Algorithm}}
+\end{center}
+\begin{algorithmic}[1]
+\Function{randomized-kth-min-select}{a, l, r, k}
+    \While{l < r}
+        \State $p \gets$ \textsc{randomized-partition}$(a, l, r)$
+        \State $pdist \gets p - l + 1$
+        \If{k == mid}
+            \State \textbf{return} $a[p]$
+        \ElsIf{k < pdist}
+            \State $r \gets p - 1$
+        \ElsIf{k > pdist}
+            \State $l \gets p + 1$
+            \State $k \gets k - pdist$  
+        \EndIf
+    \EndWhile
+\EndFunction 
+\end{algorithmic}
+\end{figure}
+
+
+
+

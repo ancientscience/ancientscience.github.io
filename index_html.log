@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  21 MAR 2022 12:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  22 MAR 2022 01:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4550,48 +4550,82 @@ File: "lwarp_mathjax.txt"  (verbatim)
  [268] (./index_html.sidetoc) [269]
 File: "lwarp_mathjax.txt"  (verbatim)
  [270]
-(./index_html.sidetoc) [271]
-File: "lwarp_mathjax.txt"  (verbatim)
- [272] (./index_html.sidetoc) (./top20/top20.tex
-[273] [274] [275] [276] [277] [278] [279] [280] [281] [282] [283] [284]
-[285] [286] [287] [288] [289] [290] [291] [292] [293] [294] [295] [296]
+(./index_html.sidetoc) (./cracking/cracking.tex [271] [272] [273] [274]
+[275] [276] [277] [278] [279] [280] (./cracking/minmax/maxvalarray.cpp)
+[281] (./cracking/minmax/firstmax.cpp) [282] (./cracking/minmax/firstmax_if.cpp
+) [283] (./cracking/minmax/firstmin.cpp) [284] (./cracking/minmax/note1.hpp)
+[285] (./cracking/minmax/lastmax.cpp) [286] (./cracking/minmax/lastmin.cpp)
+[287] (./cracking/minmax/note2.hpp) [288]
+(./cracking/minmax/firstmin_firstmax.cpp) [289]
+(./cracking/minmax/firstmin_lastmax.cpp) [290] [291] [292]
+(./cracking/select/generic_minselect.cpp) [293]
 
-LaTeX Warning: Citation `gries' on page 297 undefined on input line 217.
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/sc' instead on input line 289.
 
-[297] [298] [299] [300] [301] (./top20/saddle/saddleback_search.hpp) [302]
-(./top20/saddle/saddleback_search_test1.cpp) [303] [304] [305] [306] [307]
-[308] (./top20/saddleback_count/saddleback_search_first.hpp) [309]
-(./top20/saddleback_count/saddleback_search_first_test1.cpp) [310] [311]
-[312] [313] (./top20/saddleback_count/saddleback_findall.hpp) [314]
-(./top20/saddleback_count/saddleback_findall_test1.cpp) [315] [316]
-(./top20/saddleback_count/saddleback_findall_test2.cpp) [317] [318]
-(./top20/saddleback_count/saddleback_findall_test3.cpp) [319] [320] [321]
-[322] [323] (./top20/saddleback_count/saddleback_count.hpp) [324]
-(./top20/saddleback_count/saddleback_count_test1.cpp) [325]
-(./top20/saddleback_count/saddleback_count_test2.cpp) [326] [327]
-(./top20/saddleback_count/saddleback_count_correct.hpp) [328]
-(./top20/saddleback_count/saddleback_count_correct_test1.cpp) [329] [330]
-(./top20/saddleback_count/saddleback_count_correct_test3.cpp) [331] [332])
-[333]
-File: "lwarp_mathjax.txt"  (verbatim)
- [334] (./index_html.sidetoc) (./top10/top10.tex [335] [336] [337]
-[338] [339] [340] [341] [342] [343] [344] (./top10/kadane/kadane1d.hpp)
-[345] [346] (./top10/kadane/kadane1d.cpp) [347] [348] [349] [350] [351]
-[352] (./top10/kadane/kadane1d_indices.hpp) [353] [354]
-(./top10/kadane/kadane1d_indices.cpp) [355] [356] [357] [358] [359]
-(./top10/kadane/closest_zero.cpp) [360] [361] [362] [363] [364]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/sc' instead on input line 289.
+
+[294] [295] [296] [297] [298]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/sc' instead on input line 358.
+
+[299] [300] (./cracking/select/randomized_select.cpp)
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/sc' instead on input line 363.
+
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/sc' instead on input line 363.
+
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/m/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/m/sc' instead on input line 363.
+
 LaTeX Font Info:    Font shape `TU/LinLibertine(5)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 257.
+(Font)              scaled to size 10.0pt on input line 371.
 Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_MB.otf
- [365] [366]
-[367] [368]) [369]
+[301] [302]) [303]
 File: "lwarp_mathjax.txt"  (verbatim)
- [370] (./index_html.sidetoc) [371]
+ [304] (./index_html.sidetoc) (./top20/top20.tex [305]
+[306] [307] [308] [309] [310] [311] [312] [313] [314] [315] [316] [317]
+[318] [319] [320] [321] [322] [323] [324] [325] [326] [327] [328]
+
+LaTeX Warning: Citation `gries' on page 329 undefined on input line 217.
+
+[329] [330] [331] [332] [333] (./top20/saddle/saddleback_search.hpp) [334]
+(./top20/saddle/saddleback_search_test1.cpp) [335] [336] [337] [338] [339]
+[340] (./top20/saddleback_count/saddleback_search_first.hpp) [341]
+(./top20/saddleback_count/saddleback_search_first_test1.cpp) [342] [343]
+[344] [345] (./top20/saddleback_count/saddleback_findall.hpp) [346]
+(./top20/saddleback_count/saddleback_findall_test1.cpp) [347] [348]
+(./top20/saddleback_count/saddleback_findall_test2.cpp) [349] [350]
+(./top20/saddleback_count/saddleback_findall_test3.cpp) [351] [352] [353]
+[354] [355] (./top20/saddleback_count/saddleback_count.hpp) [356]
+(./top20/saddleback_count/saddleback_count_test1.cpp) [357]
+(./top20/saddleback_count/saddleback_count_test2.cpp) [358] [359]
+(./top20/saddleback_count/saddleback_count_correct.hpp) [360]
+(./top20/saddleback_count/saddleback_count_correct_test1.cpp) [361] [362]
+(./top20/saddleback_count/saddleback_count_correct_test3.cpp) [363] [364])
+[365]
 File: "lwarp_mathjax.txt"  (verbatim)
- [372]
-(./index_html.sidetoc) [373] (./index_html.aux)
+ [366] (./index_html.sidetoc) (./top10/top10.tex [367] [368] [369]
+[370] [371] [372] [373] [374] [375] [376] (./top10/kadane/kadane1d.hpp)
+[377] [378] (./top10/kadane/kadane1d.cpp) [379] [380] [381] [382] [383]
+[384] (./top10/kadane/kadane1d_indices.hpp) [385] [386]
+(./top10/kadane/kadane1d_indices.cpp) [387] [388] [389] [390] [391]
+(./top10/kadane/closest_zero.cpp) [392] [393] [394] [395] [396] [397] [398]
+[399] [400]) [401]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [402] (./index_html.sidetoc) [403]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [404]
+(./index_html.sidetoc) [405] (./index_html.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -4600,12 +4634,12 @@ LaTeX Warning: There were undefined references.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 70827 strings out of 476180
- 1731536 string characters out of 5809555
- 2553404 words of memory out of 5000000
- 89415 multiletter control sequences out of 15000+600000
+ 71004 strings out of 476180
+ 1735559 string characters out of 5809555
+ 2553403 words of memory out of 5000000
+ 89550 multiletter control sequences out of 15000+600000
  538421 words of font info for 187 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  153i,17n,166p,4854b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index_html.pdf (373 pages).
+Output written on index_html.pdf (405 pages).
