@@ -89,3 +89,6 @@
 \contentsline {subsection}{K-Maximum Sub-array problem}{398}{}%
 \contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{403}{}%
 \contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{405}{}%
+\contentsline {chapter}{\numberline {33}{\ignorespaces Concepts, Problems \& Solutions in School Calculus : A Dialogue Approach\relax }}{406}{}%
+\contentsline {section}{Table of Contents}{412}{}%
+\contentsline {section}{More on The Limit of Function}{413}{}%

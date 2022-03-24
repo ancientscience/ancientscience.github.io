@@ -463,6 +463,12 @@ morekeywords={std, iterator_traits, final, max, tuple, make_tuple, assert, casse
 \maxtocdepth{chapter}
 \settocdepth{chapter}
 
+% defined a new counter rul for Rule
+\newtheorem{thm}{\S {} Theorem}%[chapter]  % Comment out [chapter] to remove chapter number dependence
+
+% Roman counter for Theorem
+\renewcommand{\thethm}{\Roman{thm}} 
+
 
 
 
@@ -687,6 +693,11 @@ morekeywords={std, iterator_traits, final, max, tuple, make_tuple, assert, casse
 PHY
 
 \part{Mathematics}
-MATH
+
+\chapter{Concepts, Problems \& Solutions in School Calculus : A Dialogue Approach}
+\input{tarasov-cal/tc}
 
 \end{document}
+
+
+
