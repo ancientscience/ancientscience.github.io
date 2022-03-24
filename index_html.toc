@@ -88,7 +88,12 @@
 \contentsline {subsection}{Maximum 2D subarray problem}{396}{}%
 \contentsline {subsection}{K-Maximum Sub-array problem}{398}{}%
 \contentsline {part}{\numberline {II}{\ignorespaces Physics\relax }}{403}{}%
-\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{405}{}%
-\contentsline {chapter}{\numberline {33}{\ignorespaces Concepts, Problems \& Solutions in School Calculus : A Dialogue Approach\relax }}{406}{}%
-\contentsline {section}{Table of Contents}{412}{}%
-\contentsline {section}{More on The Limit of Function}{413}{}%
+\contentsline {chapter}{\numberline {33}{\ignorespaces Questions and Problems in School Physics\relax }}{404}{}%
+\contentsline {section}{Foreword}{407}{}%
+\contentsline {section}{Preface}{408}{}%
+\contentsline {section}{Table of Contents}{410}{}%
+\contentsline {section}{How Well Do You Know Newton's Laws Of Motion ?}{411}{}%
+\contentsline {part}{\numberline {III}{\ignorespaces Mathematics\relax }}{469}{}%
+\contentsline {chapter}{\numberline {34}{\ignorespaces Concepts, Problems \& Solutions in School Calculus : A Dialogue Approach\relax }}{470}{}%
+\contentsline {section}{Table of Contents}{476}{}%
+\contentsline {section}{More on The Limit of Function}{477}{}%

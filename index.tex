@@ -469,6 +469,35 @@ morekeywords={std, iterator_traits, final, max, tuple, make_tuple, assert, casse
 % Roman counter for Theorem
 \renewcommand{\thethm}{\Roman{thm}} 
 
+\usepackage{esvect}
+
+\colorlet{plotptcolor}{BurntOrange}
+\colorlet{xptcolor}{Fuchsia}
+\colorlet{yptcolor}{Fuchsia}
+\colorlet{dashcolor}{Teal}
+\colorlet{xaxiscolor}{Olive}
+\colorlet{yaxiscolor}{Olive}
+\colorlet{xaxislinecolor}{Sepia}
+\colorlet{yaxislinecolor}{Sepia}
+\colorlet{xlabelcolor}{Red}
+\colorlet{ylabelcolor}{Red}
+\colorlet{horzlinecolor}{Sepia}
+\colorlet{verlinecolor}{Fuchsia}
+\colorlet{ballcolor}{LimeGreen}
+\colorlet{labelcolor}{Snow}
+\colorlet{masscolor}{green}
+\colorlet{horsecolor}{Brown}
+\colorlet{ballpoint}{Snow}
+
+\newcommand{\notimplies}{%
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{=}$\hidewidth\cr$\implies$}}}}
+
+\newcommand{\ddx}{\dfrac{d}{dx}}
+\newcommand{\ddy}{\dfrac{d}{dy}}
+\newcommand{\lmts}[2]{\lim\limits_{#1 \to #2}}
+\CustomizeMathJax{\newcommand{\lmts}[2]{\lim\limits_{#1 \to #2}}}
+
+
 
 
 
@@ -689,8 +718,12 @@ morekeywords={std, iterator_traits, final, max, tuple, make_tuple, assert, casse
 \input{top10/top10}
 
 
+
 \part{Physics}
-PHY
+
+\chapter{Questions and Problems in School Physics}
+\input{tarasov-phy/tp}
+
 
 \part{Mathematics}
 

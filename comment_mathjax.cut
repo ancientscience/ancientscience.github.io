@@ -1,2 +1,3 @@
-\PackageNoteNoLine{lwarp, physics}{The MathJax v3 extension will be used}
-\CustomizeMathJax{\require{physics}}
+\CustomizeMathJax{\newcommand{\LWResvectvv}[1]{\overrightarrow{#1}}}
+\CustomizeMathJax{\newcommand{\LWResvectvvstar}[2]{\overrightarrow{#1}\!_{#2}}}
+\CustomizeMathJax{\newcommand{\vv}{\ifstar\LWResvectvvstar\LWResvectvv}}

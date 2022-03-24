@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  24 MAR 2022 13:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.3.1)  24 MAR 2022 18:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3847,6 +3847,22 @@ Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
 \@savedmathindent=\skip363
 )
 \c@thm=\count528
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-esvect.sty
+Package lwarp Info: Using package `esvect',
+(lwarp)             and adding lwarp modifications, including options,
+(lwarp)              on input line 19.
+Package: lwarp-esvect 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/esvect/esvect.sty
+Package: esvect 
+\symesvector=\mathgroup6
+)
+Including 'warpMathJax' comment.
+\openout4 = `comment_mathjax.cut'.
+
+ Straight input of comment_mathjax.cut.
+(./comment_mathjax.cut))
 \LWR@userspaperwidth=\skip364
 \LWR@userspaperheight=\skip365
 \LWR@usersmarginparwidth=\skip366
@@ -3860,27 +3876,27 @@ LaTeX Warning: Unused global option(s):
 (./index_html.aux)
 \openout1 = `index_html.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 476.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 505.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+05.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 476.
-LaTeX Font Info:    ... okay on input line 476.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 505.
+LaTeX Font Info:    ... okay on input line 505.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lwarp/lwarp-geometry.sty
 Package lwarp Info: Replacing package `geometry' with the lwarp version,
 (lwarp)             and discarding options, on input line 20.
@@ -3931,21 +3947,21 @@ Package lwarp Warning: Lwarp provides emulation for MathJax when used
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 476.
+ on input line 505.
 
 \c@lstlisting=\count529
-Package lwarp Info: Removing background hook on input line 476.
+Package lwarp Info: Removing background hook on input line 505.
 Requested font "Avant Garde/OT:language=dflt;mapping=tex-text;" at 10.0pt
  -> /home/babaji/.local/share/fonts/Avant_Garde_Regular.ttf
 \openout6 = `index-images.txt'.
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 476.
+(Font)              scaled to size 10.0pt on input line 505.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 476.
+(Font)              scaled to size 9.0pt on input line 505.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 9.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
@@ -4043,14 +4059,14 @@ Requested font "Nakula/OT:script=deva;language=dflt;" at 20.74pt
 
 
 LaTeX Font Warning: Font shape `T1/calligra/b/n' undefined
-(Font)              using `T1/calligra/m/n' instead on input line 538.
+(Font)              using `T1/calligra/m/n' instead on input line 567.
 
 LaTeX Font Info:    Font shape `T1/calligra/b/n' will be
-(Font)              scaled to size 43.20007pt on input line 556.
+(Font)              scaled to size 43.20007pt on input line 585.
 Requested font "callig15" at 43.20007pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-80.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+09.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -4060,8 +4076,8 @@ Requested font "rm-lmr7" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 Requested font "rm-lmr5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-80.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+09.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -4073,7 +4089,7 @@ Requested font "lmmi7" at 7.0pt
 Requested font "lmmi5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-580.
+609.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -4085,20 +4101,20 @@ Requested font "lmsy7" at 7.0pt
 Requested font "lmsy5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-580.
+609.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 580.
+(Font)              <10> on input line 609.
 Requested font "lmex10" scaled 1000
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 580.
+(Font)              <7> on input line 609.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 580.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 580
+(Font)              <5> on input line 609.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 609
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -4113,7 +4129,7 @@ tfm
 Requested font "msam5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.
 tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 580
+LaTeX Font Info:    Trying to load font information for U+msb on input line 609
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -4128,6 +4144,18 @@ tfm
 Requested font "msbm5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
 tfm
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 
+609.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
+)
+Requested font "vect10" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
+Requested font "vect7" at 7.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect7.tfm
+Requested font "vect5" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
  [3] [4]
 [5]
 \openout7 = `index_html.sidetoc'.
@@ -4331,6 +4359,20 @@ fm
 Requested font "eusm10" at 14.22636pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.t
 fm
+
+LaTeX Font Warning: Font shape `U/esvect/m/n' in size <28.45274> not available
+(Font)              size <24.88> substituted on input line 40.
+
+Requested font "vect10" at 24.88pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
+
+LaTeX Font Warning: Font shape `U/esvect/m/n' in size <19.91682> not available
+(Font)              size <20.74> substituted on input line 40.
+
+Requested font "vect10" at 20.74pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
+Requested font "vect10" at 14.4pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
 Requested font "rm-lmr12" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 Requested font "rm-lmr8" at 8.0pt
@@ -4382,6 +4424,12 @@ fm
 Requested font "eusm7" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tf
 m
+Requested font "vect10" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
+Requested font "vect8" at 8.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect8.tfm
+Requested font "vect6" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esvect/vect6.tfm
 [26] [27]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
@@ -4623,140 +4671,282 @@ File: "lwarp_mathjax.txt"  (verbatim)
 (./top10/kadane/closest_zero.cpp) [392] [393] [394] [395] [396] [397] [398]
 [399] [400]) [401]
 File: "lwarp_mathjax.txt"  (verbatim)
- [402] (./index_html.sidetoc) [403]
-File: "lwarp_mathjax.txt"  (verbatim)
- [404]
-(./index_html.sidetoc) [405] (./tarasov-cal/tc.tex [406] [407] [408] [409]
-[410] [411]
+ [402] (./index_html.sidetoc) [403] (./tarasov-phy/tp.tex
+[404] [405] [406] [407] [408] [409]
 \c@probl=\count531
- [412] [413]
+ [410] [411] [412]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 103.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 147.
 
-[414] [415]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 112.
-
-[416] [417]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 123.
-
-[418]
+[413] [414]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
 (Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 158.
 
+[415] [416]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 168.
+
+[417] [418]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 183.
+
 [419] [420]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 166.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 195.
 
 [421] [422]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 176.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 208.
 
-[423] [424] [425] [426] [427] Excluding 'comment' comment. [428]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 285.
-
-[429] [430]
+[423] [424]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 293.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 232.
 
-[431] [432]
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 305.
+LaTeX Warning: Reference `ch2' on page 1 undefined on input line 233.
 
-[433] [434] [435]
+[425] [426] [427] [428]
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[][]
+ []
 
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 318.
-
-[436] [437]
+[429]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 326.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 271.
 
-[438] [439]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 354.
-
-[440] [441]
+[430] [431]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 364.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 283.
 
-[442] [443] [444]
+[432] [433] [434] [435] [436]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 391.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 337.
 
+[437] [438] [439]
+Missing character: There is no ; ("3B) in font nullfont!
+[440]
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[][]
+ []
+
+[441]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 380.
+
+[442]
+
+LaTeX Warning: Reference `fig:8c' on page 1 undefined on input line 386.
+
+
+LaTeX Warning: Reference `fig:8d' on page 1 undefined on input line 386.
+
+[443] [444]
+Missing character: There is no ; ("3B) in font nullfont!
 [445] [446]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 407.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 412.
 
-[447] [448]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 416.
-
-[449] [450]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 424.
+[447] [448] [449]
+Missing character: There is no ; ("3B) in font nullfont!
+[450]
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
+[][]
+ []
 
 [451] [452]
+Missing character: There is no ; ("3B) in font nullfont!
+[453]
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+[][]
+ []
+
+[454]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 438.
-
-[453] [454]
-
-LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 446.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 529.
 
 [455] [456]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 504.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 543.
 
-[457] [458]
+[457] [458] [459]
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+[460]
+Underfull \hbox (badness 10000) in paragraph at lines 653--653
+[][]
+ []
+
+[461]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 514.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 663.
 
-[459] [460]
+[462] [463]
 
 LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
-(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 528.
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 674.
 
-[461]) [462] (./index_html.aux)
+[464] [465]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 694.
+
+[466]) [467]
+File: "lwarp_mathjax.txt"  (verbatim)
+ [468] (./index_html.sidetoc) [469] (./tarasov-cal/tc.tex [470]
+[471] [472] [473] [474] [475] Excluding 'comment' comment. [476] [477]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 105.
+
+[478] [479]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 114.
+
+[480] [481]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 125.
+
+[482]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 160.
+
+[483] [484]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 168.
+
+[485] [486]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 178.
+
+[487] [488] [489] [490] [491] Excluding 'comment' comment. [492]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 287.
+
+[493] [494]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 295.
+
+[495] [496]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 307.
+
+[497] [498] [499]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 320.
+
+[500] [501]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 328.
+
+[502] [503]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 356.
+
+[504] [505]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 366.
+
+[506] [507] [508]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 393.
+
+[509] [510]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 409.
+
+[511] [512]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 418.
+
+[513] [514]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 426.
+
+[515] [516]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 440.
+
+[517] [518]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 448.
+
+[519] [520]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 506.
+
+[521] [522]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 516.
+
+[523] [524]
+
+LaTeX Font Warning: Font shape `TU/DejaVuSerif(0)/b/scit' undefined
+(Font)              using `TU/DejaVuSerif(0)/b/sc' instead on input line 530.
+
+[525]) [526] (./index_html.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.57274pt have occurred.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) ) 
 Here is how much of TeX's memory you used:
- 71369 strings out of 476180
- 1743148 string characters out of 5809555
+ 73790 strings out of 476180
+ 1793711 string characters out of 5809555
  2553404 words of memory out of 5000000
- 89911 multiletter control sequences out of 15000+600000
- 538421 words of font info for 187 fonts, out of 8000000 for 9000
+ 92311 multiletter control sequences out of 15000+600000
+ 539186 words of font info for 196 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 153i,17n,166p,4854b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 153i,17n,166p,4854b,1735s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index_html.pdf (462 pages).
+Output written on index_html.pdf (526 pages).
